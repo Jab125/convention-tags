@@ -934,103 +934,143 @@ TAG	minecraft:item	c:obsidians
 	ARCHITECTURY	dev/architectury/tags/ItemTags	OBSIDIANS
 TAG	minecraft:item	c:ore_bearing_ground/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_DEEPSLATE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DEEPSLATE_ORE_BEARING_GROUND
 TAG	minecraft:item	c:ore_bearing_ground/netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_NETHERRACK
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHERRACK_ORE_BEARING_GROUND
 TAG	minecraft:item	c:ore_bearing_ground/stone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_STONE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	STONE_ORE_BEARING_GROUND
 TAG	minecraft:item	c:ore_rates/dense
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_DENSE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DENSE_ORE_RATES
 TAG	minecraft:item	c:ore_rates/singular
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_SINGULAR
+	ARCHITECTURY	dev/architectury/tags/ItemTags	SINGULAR_ORE_RATES
 TAG	minecraft:item	c:ore_rates/sparse
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_SPARSE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	SPARSE_ORE_RATES
 TAG	minecraft:item	c:ores
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ORES
 TAG	minecraft:item	c:ores/coal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_COAL
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COAL_ORES
 TAG	minecraft:item	c:ores/copper
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_COPPER
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COPPER_ORES
 TAG	minecraft:item	c:ores/diamond
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_DIAMOND
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DIAMOND_ORES
 TAG	minecraft:item	c:ores/emerald
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_EMERALD
+	ARCHITECTURY	dev/architectury/tags/ItemTags	EMERALD_ORES
 TAG	minecraft:item	c:ores/gold
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_GOLD
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GOLD_ORES
 TAG	minecraft:item	c:ores/iron
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IRON
+	ARCHITECTURY	dev/architectury/tags/ItemTags	IRON_ORES
 TAG	minecraft:item	c:ores/lapis
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_LAPIS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LAPIS_ORES
 TAG	minecraft:item	c:ores/netherite_scrap
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHERITE_SCRAP_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_NETHERITE_SCRAP
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHERITE_SCRAP_ORES
 TAG	minecraft:item	c:ores/quartz
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	QUARTZ_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_QUARTZ
+	ARCHITECTURY	dev/architectury/tags/ItemTags	QUARTZ_ORES
 TAG	minecraft:item	c:ores/redstone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_REDSTONE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	REDSTONE_ORES
 TAG	minecraft:item	c:ores_in_ground/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_DEEPSLATE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DEEPSLATE_ORES_IN_GROUND
 TAG	minecraft:item	c:ores_in_ground/netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_NETHERRACK
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHERRACK_ORES_IN_GROUND
 TAG	minecraft:item	c:ores_in_ground/stone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_STONE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	STONE_ORES_IN_GROUND
 TAG	minecraft:item	c:player_workstations/crafting_tables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 TAG	minecraft:item	c:player_workstations/furnaces
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PLAYER_WORKSTATIONS_FURNACES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	PLAYER_WORKSTATIONS_FURNACES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	PLAYER_WORKSTATIONS_FURNACES
 TAG	minecraft:item	c:potions
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	POTIONS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	POTIONS
 TAG	minecraft:item	c:raw_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RAW_BLOCKS
 TAG	minecraft:item	c:raw_blocks/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_COPPER
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COPPER_RAW_BLOCKS
 TAG	minecraft:item	c:raw_blocks/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_GOLD
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GOLD_RAW_BLOCKS
 TAG	minecraft:item	c:raw_blocks/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_IRON
+	ARCHITECTURY	dev/architectury/tags/ItemTags	IRON_RAW_BLOCKS
 TAG	minecraft:item	c:raw_materials
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RAW_MATERIALS
 TAG	minecraft:item	c:raw_materials/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_COPPER
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COPPER_RAW_MATERIALS
 TAG	minecraft:item	c:raw_materials/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_GOLD
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GOLD_RAW_MATERIALS
 TAG	minecraft:item	c:raw_materials/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_IRON
+	ARCHITECTURY	dev/architectury/tags/ItemTags	IRON_RAW_MATERIALS
 TAG	minecraft:item	c:rods
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RODS
 TAG	minecraft:item	c:rods/blaze
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLAZE_RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_BLAZE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BLAZE_RODS
 TAG	minecraft:item	c:rods/breeze
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BREEZE_RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_BREEZE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BREEZE_RODS
 TAG	minecraft:item	c:rods/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_WOODEN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WOODEN_RODS
 TAG	minecraft:item	c:ropes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ROPES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ROPES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ROPES
 TAG	minecraft:item	c:sands
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	SANDS
 TAG	minecraft:item	c:sands/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_COLORLESS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COLORESS_SANDS
 TAG	minecraft:item	c:sands/red
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_RED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RED_SANDS
 TAG	minecraft:item	c:sandstone/blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	SANDSTONE_BLOCKS
 TAG	minecraft:item	c:sandstone/red_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_RED_BLOCKS
