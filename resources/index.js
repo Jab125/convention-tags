@@ -14,7 +14,9 @@ for (i in tagElements) {
 	    const neoforge = element.getElementById("NeoForge-class").innerText;
 	    if ((!fabric || fabric == "ConventionalBlockTags") && (!neoforge || neoforge == "Blocks")) {
 	    	element.getElementById("architectury-class").value = "dev.architectury.tags.BlockTags";
-	    } else if ((!fabric || fabric == "ConventionalEntityTypeTags") && (!neoforge || neoforge == "EntityTypes")) {
+	    } else if ((!fabric || fabric == "ConventionalEnchantmentTags") && (!neoforge || neoforge == "Enchantments")) {
+            element.getElementById("architectury-class").value = "dev.architectury.tags.EnchantmentTags";
+        } else if ((!fabric || fabric == "ConventionalEntityTypeTags") && (!neoforge || neoforge == "EntityTypes")) {
             element.getElementById("architectury-class").value = "dev.architectury.tags.EntityTypeTags";
         } else if ((!fabric || fabric == "ConventionalFluidTags") && (!neoforge || neoforge == "Fluids")) {
             element.getElementById("architectury-class").value = "dev.architectury.tags.FluidTags";
