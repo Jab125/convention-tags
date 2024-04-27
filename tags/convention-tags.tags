@@ -1252,220 +1252,299 @@ TAG	minecraft:worldgen/biome	c:hidden_from_locator_selection
 TAG	minecraft:worldgen/biome	c:is_aquatic
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_AQUATIC
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_AQUATIC
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_AQUATIC
 TAG	minecraft:worldgen/biome	c:is_aquatic_icy
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_AQUATIC_ICY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_AQUATIC_ICY
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_AQUATIC_ICY
 TAG	minecraft:worldgen/biome	c:is_badlands
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BADLANDS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BADLANDS
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_BADLANDS
 TAG	minecraft:worldgen/biome	c:is_beach
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BEACH
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BEACH
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_BEACH
 TAG	minecraft:worldgen/biome	c:is_birch_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BIRCH_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BIRCH_FOREST
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_BIRCH_FOREST
 TAG	minecraft:worldgen/biome	c:is_cave
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_CAVE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_CAVE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_CAVE
 TAG	minecraft:worldgen/biome	c:is_cold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_COLD
 TAG	minecraft:worldgen/biome	c:is_cold/end
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD_END
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_END
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_COLD_END
 TAG	minecraft:worldgen/biome	c:is_cold/nether
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_NETHER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_COLD_NETHER
 TAG	minecraft:worldgen/biome	c:is_cold/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_COLD_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_dead
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DEAD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DEAD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DEAD
 TAG	minecraft:worldgen/biome	c:is_deep_ocean
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DEEP_OCEAN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DEEP_OCEAN
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DEEP_OCEAN
 TAG	minecraft:worldgen/biome	c:is_dense_vegetation
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_DENSE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DENSE_VEGETATION
 TAG	minecraft:worldgen/biome	c:is_dense_vegetation/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_END
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DENSE_VEGETATION_END
 TAG	minecraft:worldgen/biome	c:is_dense_vegetation/nether
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_NETHER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DENSE_VEGETATION_NETHER
 TAG	minecraft:worldgen/biome	c:is_dense_vegetation/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_DENSE_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DENSE_VEGETATION_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_desert
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DESERT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DESERT
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DESERT
 TAG	minecraft:worldgen/biome	c:is_dry
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DRY
 TAG	minecraft:worldgen/biome	c:is_dry/end
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_END
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_END
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DRY_END
 TAG	minecraft:worldgen/biome	c:is_dry/nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_NETHER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_NETHER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DRY_NETHER
 TAG	minecraft:worldgen/biome	c:is_dry/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DRY_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_end
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_END
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_END
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_END
 TAG	minecraft:worldgen/biome	c:is_floral
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FLORAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FLORAL
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_FLORAL
 TAG	minecraft:worldgen/biome	c:is_flower_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FLOWER_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FLOWER_FOREST
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_FLOWER_FOREST
 TAG	minecraft:worldgen/biome	c:is_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FOREST
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_FOREST
 TAG	minecraft:worldgen/biome	c:is_hill
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HILL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HILL
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_HILL
 TAG	minecraft:worldgen/biome	c:is_hot
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_HOT
 TAG	minecraft:worldgen/biome	c:is_hot/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_END
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_HOT_END
 TAG	minecraft:worldgen/biome	c:is_hot/nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT_NETHER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_NETHER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_HOT_NETHER
 TAG	minecraft:worldgen/biome	c:is_hot/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_HOT_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_icy
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_ICY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_ICY
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_ICY
 TAG	minecraft:worldgen/biome	c:is_jungle
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_JUNGLE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_JUNGLE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_JUNGLE
 TAG	minecraft:worldgen/biome	c:is_lush
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_LUSH
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_LUSH
 TAG	minecraft:worldgen/biome	c:is_magical
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MAGICAL
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_MAGICAL
 TAG	minecraft:worldgen/biome	c:is_modified
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MODIFIED
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_MODIFIED
 TAG	minecraft:worldgen/biome	c:is_mountain
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_MOUNTAIN
 TAG	minecraft:worldgen/biome	c:is_mountain/peak
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN_PEAK
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN_PEAK
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_MOUNTAIN_PEAK
 TAG	minecraft:worldgen/biome	c:is_mountain/slope
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN_SLOPE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN_SLOPE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_MOUNTAIN_SLOPE
 TAG	minecraft:worldgen/biome	c:is_mushroom
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MUSHROOM
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MUSHROOM
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_MUSHROOM
 TAG	minecraft:worldgen/biome	c:is_nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_NETHER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_NETHER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_NETHER
 TAG	minecraft:worldgen/biome	c:is_nether_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_NETHER_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_NETHER_FOREST
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_NETHER_FOREST
 TAG	minecraft:worldgen/biome	c:is_ocean
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OCEAN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OCEAN
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_OCEAN
 TAG	minecraft:worldgen/biome	c:is_old_growth
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OLD_GROWTH
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OLD_GROWTH
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_OLD_GROWTH
 TAG	minecraft:worldgen/biome	c:is_outer_end_island
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OUTER_END_ISLAND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OUTER_END_ISLAND
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_OUTER_END_ISLAND
 TAG	minecraft:worldgen/biome	c:is_overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_plains
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_PLAINS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_PLAINS
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_PLAINS
 TAG	minecraft:worldgen/biome	c:is_plateau
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_PLATEAU
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_PLATEAU
 TAG	minecraft:worldgen/biome	c:is_rare
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_RARE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_RARE
 TAG	minecraft:worldgen/biome	c:is_river
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_RIVER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_RIVER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_RIVER
 TAG	minecraft:worldgen/biome	c:is_sandy
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SANDY
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SANDY
 TAG	minecraft:worldgen/biome	c:is_savanna
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SAVANNA
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SAVANNA
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SAVANNA
 TAG	minecraft:worldgen/biome	c:is_shallow_ocean
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SHALLOW_OCEAN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SHALLOW_OCEAN
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SHALLOW_OCEAN
 TAG	minecraft:worldgen/biome	c:is_snowy
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SNOWY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SNOWY
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SNOWY
 TAG	minecraft:worldgen/biome	c:is_snowy_plains
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SNOWY_PLAINS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SNOWY_PLAINS
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SNOWY_PLAINS
 TAG	minecraft:worldgen/biome	c:is_sparse_vegetation
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_SPARSE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SPARSE_VEGETATION
 TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_END
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SPARSE_VEGETATION_END
 TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/nether
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_NETHER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SPARSE_VEGETATION_NETHER
 TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_SPARSE_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SPARSE_VEGETATION_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_spooky
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPOOKY
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SPOOKY
 TAG	minecraft:worldgen/biome	c:is_stony_shores
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_STONY_SHORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_STONY_SHORES
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_STONY_SHORES
 TAG	minecraft:worldgen/biome	c:is_swamp
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SWAMP
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SWAMP
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SWAMP
 TAG	minecraft:worldgen/biome	c:is_taiga
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TAIGA
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_TAIGA
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_TAIGA
 TAG	minecraft:worldgen/biome	c:is_temperate
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TEMPERATE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_TEMPERATE
 TAG	minecraft:worldgen/biome	c:is_temperate/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TEMPERATE_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_TEMPERATE_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_tree/coniferous
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_CONIFEROUS_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_CONIFEROUS_TREE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_CONIFEROUS_TREE
 TAG	minecraft:worldgen/biome	c:is_tree/deciduous
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DECIDUOUS_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DECIDUOUS_TREE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_DECIDUOUS_TREE
 TAG	minecraft:worldgen/biome	c:is_tree/jungle
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_JUNGLE_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_JUNGLE_TREE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_JUNGLE_TREE
 TAG	minecraft:worldgen/biome	c:is_tree/savanna
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SAVANNA_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SAVANNA_TREE
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_SAVANNA_TREE
 TAG	minecraft:worldgen/biome	c:is_underground
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_UNDERGROUND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_UNDERGROUND
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_UNDERGROUND
 TAG	minecraft:worldgen/biome	c:is_void
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VOID
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_VOID
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_VOID
 TAG	minecraft:worldgen/biome	c:is_wasteland
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WASTELAND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WASTELAND
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_WASTELAND
 TAG	minecraft:worldgen/biome	c:is_wet
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WET
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_WET
 TAG	minecraft:worldgen/biome	c:is_wet/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_END
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_WET_END
 TAG	minecraft:worldgen/biome	c:is_wet/nether
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_NETHER
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_WET_NETHER
 TAG	minecraft:worldgen/biome	c:is_wet/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WET_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_OVERWORLD
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_WET_OVERWORLD
 TAG	minecraft:worldgen/biome	c:is_windswept
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WINDSWEPT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WINDSWEPT
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	IS_WINDSWEPT
 TAG	minecraft:worldgen/biome	c:no_default_monsters
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	NO_DEFAULT_MONSTERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	NO_DEFAULT_MONSTERS
+	ARCHITECTURY	dev/architectury/tags/BiomeTags	NO_DEFAULT_MONSTERS
 TAG	minecraft:worldgen/structure	c:hidden_from_displayers
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalStructureTags	HIDDEN_FROM_DISPLAYERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Structures	HIDDEN_FROM_DISPLAYERS
+	ARCHITECTURY	dev/architectury/tags/StructureTags	HIDDEN_FROM_DISPLAYERS
 TAG	minecraft:worldgen/structure	c:hidden_from_locator_selection
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalStructureTags	HIDDEN_FROM_LOCATOR_SELECTION
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Structures	HIDDEN_FROM_LOCATOR_SELECTION
+	ARCHITECTURY	dev/architectury/tags/StructureTags	HIDDEN_FROM_LOCATOR_SELECTION
