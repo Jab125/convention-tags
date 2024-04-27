@@ -52,6 +52,8 @@ public class Main {
 					}
 				}
 				Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));
+				exchange.sendResponseHeaders(200, 0);
+				exchange.close();
 			}
 		});
 		server.createContext("/", exchange -> {

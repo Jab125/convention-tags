@@ -18,6 +18,12 @@ for (i in tagElements) {
             element.getElementById("architectury-class").value = "dev.architectury.tags.EntityTypeTags";
         } else if ((!fabric || fabric == "ConventionalFluidTags") && (!neoforge || neoforge == "Fluids")) {
             element.getElementById("architectury-class").value = "dev.architectury.tags.FluidTags";
+        } else if ((!fabric || fabric == "ConventionalItemTags") && (!neoforge || neoforge == "Items")) {
+            element.getElementById("architectury-class").value = "dev.architectury.tags.ItemTags";
+        } else if ((!fabric || fabric == "ConventionalBiomeTags") && (!neoforge || neoforge == "Biomes")) {
+            element.getElementById("architectury-class").value = "dev.architectury.tags.BiomeTags";
+        } else if ((!fabric || fabric == "ConventionalStructureTags") && (!neoforge || neoforge == "Structures")) {
+            element.getElementById("architectury-class").value = "dev.architectury.tags.StructureTags";
         }
 	}
 
@@ -45,6 +51,6 @@ document.getElementById("save").onclick = () => {
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(json)
     }).then(res => {
-        console.log("Saved! ", res);
+        alert("Saved!");
     });
 }
