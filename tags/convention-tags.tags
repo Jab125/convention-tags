@@ -57,6 +57,7 @@ TAG	minecraft:block	c:cobblestones/normal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_NORMAL
 	ARCHITECTURY	dev/architectury/tags/BlockTags	NORMAL_COBBLESTONES
 TAG	minecraft:block	c:dyed
+	COMMENT	Contains all other dyed tags.
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED
 	ARCHITECTURY	dev/architectury/tags/BlockTags	DYED
@@ -126,21 +127,30 @@ TAG	minecraft:block	c:dyed/yellow
 	ARCHITECTURY	dev/architectury/tags/BlockTags	YELLOW_DYED
 TAG	minecraft:block	c:end_stones
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	END_STONES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	END_STONES
 TAG	minecraft:block	c:fence_gates
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCE_GATES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	FENCE_GATES
 TAG	minecraft:block	c:fence_gates/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCE_GATES_WOODEN
+	ARCHITECTURY	dev/architectury/tags/BlockTags	WOODEN_FENCE_GATES
 TAG	minecraft:block	c:fences
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	FENCES
 TAG	minecraft:block	c:fences/nether_brick
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES_NETHER_BRICK
+	ARCHITECTURY	dev/architectury/tags/BlockTags	NETHER_BRICK_FENCES
 TAG	minecraft:block	c:fences/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES_WOODEN
+	ARCHITECTURY	dev/architectury/tags/BlockTags	WOODEN_FENCES
 TAG	minecraft:block	c:glass_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GLASS_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	GRASS_BLOCKS
 TAG	minecraft:block	c:glass_blocks/cheap
+	COMMENT	Glass which is made from cheap resources like sand and only minor additional ingredients like dyes.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_CHEAP
+	ARCHITECTURY	dev/architectury/tags/BlockTags	CHEAP_GLASS_BLOCKS
 TAG	minecraft:block	c:glass_blocks/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_COLORLESS
 TAG	minecraft:block	c:glass_blocks/tinted
