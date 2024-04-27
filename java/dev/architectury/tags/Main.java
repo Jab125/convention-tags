@@ -28,6 +28,32 @@ public class Main {
 		String tagTemplate = new String(Main.class.getResourceAsStream("/tag-template.html").readAllBytes());
 		String loaderTemplate = new String(Main.class.getResourceAsStream("/loader-template.html").readAllBytes());
 		String architecturyTemplate = new String(Main.class.getResourceAsStream("/arch-template.html").readAllBytes());
+		String script = new String(Main.class.getResourceAsStream("/index.js").readAllBytes());
+		server.createContext("/index.js", exchange -> {
+			String string = script;
+			byte[] bytes = string.getBytes(StandardCharsets.UTF_8);
+			int length = bytes.length;
+			exchange.sendResponseHeaders(200, length);
+			exchange.getResponseBody().write(bytes);
+			exchange.close();
+		});
+		server.createContext("/save", exchange -> {
+			if (exchange.getRequestMethod().equals("POST")) {
+				byte[] bytes = exchange.getRequestBody().readAllBytes();
+				Gson gson = new Gson();
+				JsonObject object = gson.fromJson(new String(bytes), JsonObject.class);
+				for (Map.Entry<String, JsonElement> stringJsonElementEntry : object.entrySet()) {
+					Map.Entry<String, JsonObject> stringJsonElementEnt = (Map.Entry<String, JsonObject>) (Object) stringJsonElementEntry;
+					for (Map.Entry<String, JsonElement> jsonElementEntry : stringJsonElementEnt.getValue().entrySet()) {
+						Map.Entry<String, JsonObject> d = (Map.Entry<String, JsonObject>) (Object) jsonElementEntry;
+						Optional<Tag> first = tags.stream().filter(a -> stringJsonElementEnt.getKey().equals(a.registryKey()) && d.getKey().equals(a.name())).findFirst();
+						Tag tag = first.orElseThrow();
+						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), tag.fabric(), tag.neoForge(), new Tag.Method(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString())));
+					}
+				}
+				Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));
+			}
+		});
 		server.createContext("/", exchange -> {
 			String string = null;
 			try {
@@ -48,22 +74,6 @@ public class Main {
 			exchange.sendResponseHeaders(200, length);
 			exchange.getResponseBody().write(bytes);
 			exchange.close();
-		});
-		server.createContext("/save/", exchange -> {
-			if (exchange.getRequestMethod().equals("POST")) {
-				byte[] bytes = exchange.getRequestBody().readAllBytes();
-				Gson gson = new Gson();
-				JsonObject object = gson.fromJson(new String(bytes), JsonObject.class);
-				for (Map.Entry<String, JsonElement> stringJsonElementEntry : object.entrySet()) {
-					Map.Entry<String, JsonObject> stringJsonElementEnt = (Map.Entry<String, JsonObject>) (Object) stringJsonElementEntry;
-					for (Map.Entry<String, JsonElement> jsonElementEntry : stringJsonElementEnt.getValue().entrySet()) {
-						Map.Entry<String, JsonObject> d = (Map.Entry<String, JsonObject>) (Object) jsonElementEntry;
-						Optional<Tag> first = tags.stream().filter(a -> stringJsonElementEnt.getKey().equals(a.registryKey()) && d.getKey().equals(a.name())).findFirst();
-						Tag tag = first.orElseThrow();
-						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), tag.fabric(), tag.neoForge(), new Tag.Method(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString())));
-					}
-				}
-			}
 		});
 		System.out.println("Server started at http://localhost:1290");
 	}
