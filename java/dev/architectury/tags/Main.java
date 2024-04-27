@@ -29,8 +29,17 @@ public class Main {
 		String loaderTemplate = new String(Main.class.getResourceAsStream("/loader-template.html").readAllBytes());
 		String architecturyTemplate = new String(Main.class.getResourceAsStream("/arch-template.html").readAllBytes());
 		String script = new String(Main.class.getResourceAsStream("/index.js").readAllBytes());
+		String styles = new String(Main.class.getResourceAsStream("/style.css").readAllBytes());
 		server.createContext("/index.js", exchange -> {
 			String string = script;
+			byte[] bytes = string.getBytes(StandardCharsets.UTF_8);
+			int length = bytes.length;
+			exchange.sendResponseHeaders(200, length);
+			exchange.getResponseBody().write(bytes);
+			exchange.close();
+		});
+		server.createContext("/style.css", exchange -> {
+			String string = styles;
 			byte[] bytes = string.getBytes(StandardCharsets.UTF_8);
 			int length = bytes.length;
 			exchange.sendResponseHeaders(200, length);
