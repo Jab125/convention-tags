@@ -1,7 +1,9 @@
 package dev.architectury.tags;
 
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonPrimitive;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
@@ -9,15 +11,16 @@ import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class Main {
+
+	private static List<Tag> tags;
+
 	public static void main(String[] args) throws IOException {
 		//archGen();
 		String s = Files.readString(Path.of("tags/convention-tags.tags"));
-		List<Tag> deserialize = Tag.deserialize(s);
+		Main.tags = Tag.deserialize(s);
 		HttpServer server = HttpServer.create();
 		server.bind(new InetSocketAddress(1290), 0);
 		server.start();
@@ -28,7 +31,7 @@ public class Main {
 		server.createContext("/", exchange -> {
 			String string = null;
 			try {
-				string = indexHtml(deserialize, indexTemplate, tagTemplate, loaderTemplate, architecturyTemplate);
+				string = indexHtml(tags, indexTemplate, tagTemplate, loaderTemplate, architecturyTemplate);
 			} catch (Exception e) {
 				e.printStackTrace();
 				string = "<h1>Internal Server Error</h1>";
@@ -46,10 +49,35 @@ public class Main {
 			exchange.getResponseBody().write(bytes);
 			exchange.close();
 		});
+		server.createContext("/save/", exchange -> {
+			if (exchange.getRequestMethod().equals("POST")) {
+				byte[] bytes = exchange.getRequestBody().readAllBytes();
+				Gson gson = new Gson();
+				JsonObject object = gson.fromJson(new String(bytes), JsonObject.class);
+				for (Map.Entry<String, JsonElement> stringJsonElementEntry : object.entrySet()) {
+					Map.Entry<String, JsonObject> stringJsonElementEnt = (Map.Entry<String, JsonObject>) (Object) stringJsonElementEntry;
+					for (Map.Entry<String, JsonElement> jsonElementEntry : stringJsonElementEnt.getValue().entrySet()) {
+						Map.Entry<String, JsonObject> d = (Map.Entry<String, JsonObject>) (Object) jsonElementEntry;
+						Optional<Tag> first = tags.stream().filter(a -> stringJsonElementEnt.getKey().equals(a.registryKey()) && d.getKey().equals(a.name())).findFirst();
+						Tag tag = first.orElseThrow();
+						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), tag.fabric(), tag.neoForge(), new Tag.Method(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString())));
+					}
+				}
+			}
+		});
 		System.out.println("Server started at http://localhost:1290");
 	}
 
 	private static String indexHtml(List<Tag> deserialize, String indexTemplate, String tagTemplate, String loaderTemplate, String architecturyTemplate) {
+		String[] architecturyClasses = new String[]{
+				"dev.architectury.tags.BiomeTags",
+				"dev.architectury.tags.BlockTags",
+				"dev.architectury.tags.EnchantmentTags",
+				"dev.architectury.tags.EntityTypeTags",
+				"dev.architectury.tags.FluidTags",
+				"dev.architectury.tags.ItemTags",
+				"dev.architectury.tags.StructureTags",
+		};
 		String string = indexTemplate;
 		String f = "";
 		for (Tag tag : deserialize) {
@@ -64,9 +92,24 @@ public class Main {
 			if (architectury == null) architectury = new Tag.Method("", "");
 			String archClass = architectury.clazz();
 			String archMethod = architectury.method();
-			g += architecturyTemplate.formatted(prettyClass(archClass), archMethod);
+			String selectOptions = "";
+			boolean r = false;
+			for (String architecturyClass : architecturyClasses) {
+				String pretty = prettyClass(architecturyClass);
+				if (archClass.replaceAll("/", ".").equals(architecturyClass)) {
+					selectOptions += "<option selected value=\"" + architecturyClass + "\">" + pretty + "</option>";
+					r = true;
+				} else {
+					selectOptions += "<option value=\"" + architecturyClass + "\">" + pretty + "</option>";
+				}
+			}
+			if (!r) {
+				selectOptions += "<option disabled hidden selected></option>";
+			}
+			g += architecturyTemplate.formatted(selectOptions, archMethod);
 			f += tagTemplate.formatted(
 					(tag.registryKey() + "-" + tag.name()).replaceAll("/", "-").replaceAll(":", "-"),
+					tag.name(), tag.registryKey(),
 					tag.registryKey() + ": " + tag.name(),
 					g,
 					String.join("\n", tag.comments())
