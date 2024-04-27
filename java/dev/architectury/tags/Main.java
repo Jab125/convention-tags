@@ -31,6 +31,13 @@ public class Main {
 				string = indexHtml(deserialize, indexTemplate, tagTemplate, loaderTemplate, architecturyTemplate);
 			} catch (Exception e) {
 				e.printStackTrace();
+				string = "<h1>Internal Server Error</h1>";
+				byte[] bytes = string.getBytes(StandardCharsets.UTF_8);
+				int length = bytes.length;
+				exchange.sendResponseHeaders(500, length);
+				exchange.getResponseBody().write(bytes);
+				exchange.close();
+				throw e;
 			}
 
 			byte[] bytes = string.getBytes(StandardCharsets.UTF_8);
@@ -47,13 +54,17 @@ public class Main {
 		String f = "";
 		for (Tag tag : deserialize) {
 			String g = "";
-			if (tag.fabric() != null) {
-				g += loaderTemplate.formatted("Fabric", prettyClass(tag.fabric().clazz()), tag.fabric().method());
-			}
-			if (tag.neoForge() != null) {
-				g += loaderTemplate.formatted("NeoForge", prettyClass(tag.neoForge().clazz()), tag.neoForge().method());
-			}
-			//g += architecturyTemplate.formatted("Architectury", "", tag.neoForge().method());
+			Tag.Method fabric = tag.fabric();
+			if (fabric == null) fabric = new Tag.Method("", "");
+			g += loaderTemplate.formatted("Fabric", prettyClass(fabric.clazz()), fabric.method());
+			Tag.Method neoforge = tag.neoForge();
+			if (neoforge == null) neoforge = new Tag.Method("", "");
+			g += loaderTemplate.formatted("NeoForge", prettyClass(neoforge.clazz()), neoforge.method());
+			Tag.Method architectury = tag.architectury();
+			if (architectury == null) architectury = new Tag.Method("", "");
+			String archClass = architectury.clazz();
+			String archMethod = architectury.method();
+			g += architecturyTemplate.formatted(prettyClass(archClass), archMethod);
 			f += tagTemplate.formatted(
 					(tag.registryKey() + "-" + tag.name()).replaceAll("/", "-").replaceAll(":", "-"),
 					tag.registryKey() + ": " + tag.name(),
