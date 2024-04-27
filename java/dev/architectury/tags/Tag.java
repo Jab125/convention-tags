@@ -137,6 +137,7 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 					}
 				}
 			});
+			if (tagBuilder != null) tags.add(tagBuilder.build());
 			Collections.sort(tags);
 			return tags;
 		}
