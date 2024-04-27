@@ -404,389 +404,534 @@ TAG	minecraft:enchantment	c:entity_defense_enhancements
 TAG	minecraft:enchantment	c:entity_speed_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_SPEED_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_SPEED_ENHANCEMENTS
+	ARCHITECTURY	dev/architectury/tags/EnchantmentTags	ENTITY_SPEED_ENHANCEMENTS
 TAG	minecraft:enchantment	c:increase_block_drops
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	INCREASE_BLOCK_DROPS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	INCREASE_BLOCK_DROPS
+	ARCHITECTURY	dev/architectury/tags/EnchantmentTags	INCREASE_BLOCK_DROPS
 TAG	minecraft:enchantment	c:increase_entity_drops
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	INCREASE_ENTITY_DROPS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	INCREASE_ENTITY_DROPS
+	ARCHITECTURY	dev/architectury/tags/EnchantmentTags	INCREASE_ENTITY_DROPS
 TAG	minecraft:enchantment	c:weapon_damage_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	WEAPON_DAMAGE_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	WEAPON_DAMAGE_ENHANCEMENTS
+	ARCHITECTURY	dev/architectury/tags/EnchantmentTags	WEAPON_DAMAGE_ENHANCEMENTS
 TAG	minecraft:entity_type	c:boats
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	BOATS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	BOATS
+	ARCHITECTURY	dev/architectury/tags/EntityTypeTags	BOATS
 TAG	minecraft:entity_type	c:bosses
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	BOSSES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	BOSSES
+	ARCHITECTURY	dev/architectury/tags/EntityTypeTags	BOSSES
 TAG	minecraft:entity_type	c:capturing_not_supported
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	CAPTURING_NOT_SUPPORTED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	CAPTURING_NOT_SUPPORTED
+	ARCHITECTURY	dev/architectury/tags/EntityTypeTags	CAPTURING_NOT_SUPPORTED
 TAG	minecraft:entity_type	c:minecarts
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	MINECARTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	MINECARTS
+	ARCHITECTURY	dev/architectury/tags/EntityTypeTags	MINECARTS
 TAG	minecraft:entity_type	c:teleporting_not_supported
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	TELEPORTING_NOT_SUPPORTED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	TELEPORTING_NOT_SUPPORTED
+	ARCHITECTURY	dev/architectury/tags/EntityTypeTags	TELEPORTING_NOT_SUPPORTED
 TAG	minecraft:fluid	c:beetroot_soup
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	BEETROOT_SOUP
+	ARCHITECTURY	dev/architectury/tags/FluidTags	BEETROOT_SOUP
 TAG	minecraft:fluid	c:gaseous
+	COMMENT	Liquids that flow up, instead of down.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	GASEOUS
+	ARCHITECTURY	dev/architectury/tags/FluidTags	GASEOUS
 TAG	minecraft:fluid	c:hidden_from_recipe_viewers
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	HIDDEN_FROM_RECIPE_VIEWERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	HIDDEN_FROM_RECIPE_VIEWERS
+	ARCHITECTURY	dev/architectury/tags/FluidTags	HIDDEN_FROM_RECIPE_VIEWERS
 TAG	minecraft:fluid	c:honey
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	HONEY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	HONEY
+	ARCHITECTURY	dev/architectury/tags/FluidTags	HONEY
 TAG	minecraft:fluid	c:lava
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	LAVA
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	LAVA
+	ARCHITECTURY	dev/architectury/tags/FluidTags	LAVA
 TAG	minecraft:fluid	c:milk
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	MILK
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	MILK
+	ARCHITECTURY	dev/architectury/tags/FluidTags	MILK
 TAG	minecraft:fluid	c:mushroom_stew
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	MUSHROOM_STEW
+	ARCHITECTURY	dev/architectury/tags/FluidTags	MUSHROOM_STEW
 TAG	minecraft:fluid	c:potion
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	POTION
+	ARCHITECTURY	dev/architectury/tags/FluidTags	POTION
 TAG	minecraft:fluid	c:rabbit_stew
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	RABBIT_STEW
+	ARCHITECTURY	dev/architectury/tags/FluidTags	RABBIT_STEW
 TAG	minecraft:fluid	c:suspicious_stew
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	SUSPICIOUS_STEW
+	ARCHITECTURY	dev/architectury/tags/FluidTags	SUSPICIOUS_STEW
 TAG	minecraft:fluid	c:water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	WATER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	WATER
+	ARCHITECTURY	dev/architectury/tags/FluidTags	WATER
 TAG	minecraft:item	c:armors
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ARMORS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ARMORS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ARMORS
 TAG	minecraft:item	c:barrels
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BARRELS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BARRELS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BARRELS
 TAG	minecraft:item	c:barrels/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_BARRELS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BARRELS_WOODEN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WOODEN_BARRELS
 TAG	minecraft:item	c:bones
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BONES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BONES
 TAG	minecraft:item	c:bookshelves
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BOOKSHELVES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BOOKSHELVES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BOOKSHELVES
 TAG	minecraft:item	c:bricks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BRICKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BRICKS
 TAG	minecraft:item	c:bricks/nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHER_BRICKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS_NETHER
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHER_BRICKS
 TAG	minecraft:item	c:bricks/normal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NORMAL_BRICKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS_NORMAL
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NORMAL_BRICKS
 TAG	minecraft:item	c:buckets
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUCKETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BUCKETS
 TAG	minecraft:item	c:buckets/empty
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EMPTY_BUCKETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	EMPTY_BUCKETS
 TAG	minecraft:item	c:buckets/entity_water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ENTITY_WATER_BUCKETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ENTITY_WATER_BUCKETS
 TAG	minecraft:item	c:buckets/lava
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LAVA_BUCKETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LAVA_BUCKETS
 TAG	minecraft:item	c:buckets/milk
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MILK_BUCKETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	MILK_BUCKETS
 TAG	minecraft:item	c:buckets/powder_snow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	POWDER_SNOW_BUCKETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	POWDER_SNOW_BUCKETS
 TAG	minecraft:item	c:buckets/water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WATER_BUCKETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WATER_BUCKETS
 TAG	minecraft:item	c:budding_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUDDING_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUDDING_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BUDDING_BLOCKS
 TAG	minecraft:item	c:buds
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUDS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUDS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BUDS
 TAG	minecraft:item	c:chains
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CHAINS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHAINS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CHAINS
 TAG	minecraft:item	c:chests
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CHESTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CHESTS
 TAG	minecraft:item	c:chests/ender
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_ENDER
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ENDER_CHESTS
 TAG	minecraft:item	c:chests/trapped
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_TRAPPED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	TRAPPED_CHESTS
 TAG	minecraft:item	c:chests/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_CHESTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_WOODEN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WOODEN_CHESTS
 TAG	minecraft:item	c:clusters
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CLUSTERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CLUSTERS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CLUSTERS
 TAG	minecraft:item	c:coal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COAL
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COAL
 TAG	minecraft:item	c:cobblestones
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COBBLESTONES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COBBLESTONES
 TAG	minecraft:item	c:cobblestones/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_DEEPSLATE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DEEPSLATE_COBBLESTONES
 TAG	minecraft:item	c:cobblestones/infested
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_INFESTED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	INFESTED_COBBLESTONES
 TAG	minecraft:item	c:cobblestones/mossy
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_MOSSY
 TAG	minecraft:item	c:cobblestones/normal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_NORMAL
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NORMAL_COBBLESTONES
 TAG	minecraft:item	c:crops
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CROPS
 TAG	minecraft:item	c:crops/beetroot
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_BEETROOT
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BEETROOT_CROPS
 TAG	minecraft:item	c:crops/carrot
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_CARROT
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CARROT_CROPS
 TAG	minecraft:item	c:crops/nether_wart
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_NETHER_WART
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHER_WART_CROPS
 TAG	minecraft:item	c:crops/potato
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_POTATO
+	ARCHITECTURY	dev/architectury/tags/ItemTags	POTATO_CROPS
 TAG	minecraft:item	c:crops/wheat
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_WHEAT
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WHEAT_CROPS
 TAG	minecraft:item	c:dusts
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DUSTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DUSTS
 TAG	minecraft:item	c:dusts/glowstone
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLOWSTONE_DUSTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS_GLOWSTONE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GLOWSTONE_DUSTS
 TAG	minecraft:item	c:dusts/redstone
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	REDSTONE_DUSTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS_REDSTONE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	REDSTONE_DUSTS
 TAG	minecraft:item	c:dyed
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DYED
 TAG	minecraft:item	c:dyed/black
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLACK_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BLACK
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BLACK_DYED
 TAG	minecraft:item	c:dyed/blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLUE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BLUE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BLUE_DYED
 TAG	minecraft:item	c:dyed/brown
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BROWN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BROWN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BROWN_DYED
 TAG	minecraft:item	c:dyed/cyan
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CYAN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_CYAN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CYAN_DYED
 TAG	minecraft:item	c:dyed/gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GRAY_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_GRAY
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GRAY_DYED
 TAG	minecraft:item	c:dyed/green
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GREEN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_GREEN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GREEN_DYED
 TAG	minecraft:item	c:dyed/light_blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_BLUE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIGHT_BLUE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LIGHT_BLUE_DYED
 TAG	minecraft:item	c:dyed/light_gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_GRAY_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIGHT_GRAY
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LIGHT_GRAY_DYED
 TAG	minecraft:item	c:dyed/lime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIME_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIME
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LIME_DYED
 TAG	minecraft:item	c:dyed/magenta
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MAGENTA_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_MAGENTA
+	ARCHITECTURY	dev/architectury/tags/ItemTags	MAGENTA_DYED
 TAG	minecraft:item	c:dyed/orange
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORANGE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_ORANGE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ORANGE_DYED
 TAG	minecraft:item	c:dyed/pink
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PINK_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_PINK
+	ARCHITECTURY	dev/architectury/tags/ItemTags	PINK_DYED
 TAG	minecraft:item	c:dyed/purple
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PURPLE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_PURPLE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	PURPLE_DYED
 TAG	minecraft:item	c:dyed/red
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_RED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RED_DYED
 TAG	minecraft:item	c:dyed/white
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WHITE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_WHITE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WHITE_DYED
 TAG	minecraft:item	c:dyed/yellow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	YELLOW_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_YELLOW
+	ARCHITECTURY	dev/architectury/tags/ItemTags	YELLOW_DYED
 TAG	minecraft:item	c:dyes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DYES
 TAG	minecraft:item	c:dyes/black
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLACK_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BLACK
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BLACK_DYES
 TAG	minecraft:item	c:dyes/blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLUE_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BLUE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BLUE_DYES
 TAG	minecraft:item	c:dyes/brown
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BROWN_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BROWN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BROWN_DYES
 TAG	minecraft:item	c:dyes/cyan
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CYAN_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_CYAN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CYAN_DYES
 TAG	minecraft:item	c:dyes/gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GRAY_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_GRAY
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GRAY_DYES
 TAG	minecraft:item	c:dyes/green
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GREEN_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_GREEN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GREEN_DYES
 TAG	minecraft:item	c:dyes/light_blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_BLUE_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIGHT_BLUE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LIGHT_BLUE_DYES
 TAG	minecraft:item	c:dyes/light_gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_GRAY_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIGHT_GRAY
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LIGHT_GRAY_DYES
 TAG	minecraft:item	c:dyes/lime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIME_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIME
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LIME_DYES
 TAG	minecraft:item	c:dyes/magenta
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MAGENTA_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_MAGENTA
+	ARCHITECTURY	dev/architectury/tags/ItemTags	MAGENTA_DYES
 TAG	minecraft:item	c:dyes/orange
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORANGE_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_ORANGE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ORANGE_DYES
 TAG	minecraft:item	c:dyes/pink
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PINK_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_PINK
+	ARCHITECTURY	dev/architectury/tags/ItemTags	PINK_DYES
 TAG	minecraft:item	c:dyes/purple
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PURPLE_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_PURPLE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	PURPLE_DYES
 TAG	minecraft:item	c:dyes/red
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_RED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RED_DYES
 TAG	minecraft:item	c:dyes/white
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WHITE_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_WHITE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WHITE_DYES
 TAG	minecraft:item	c:dyes/yellow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	YELLOW_DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_YELLOW
+	ARCHITECTURY	dev/architectury/tags/ItemTags	YELLOW_DYES
 TAG	minecraft:item	c:eggs
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	EGGS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	EGGS
 TAG	minecraft:item	c:enchantables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ENCHANTABLES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ENCHANTABLES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ENCHANTABLES
 TAG	minecraft:item	c:end_stones
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	END_STONES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	END_STONES
 TAG	minecraft:item	c:ender_pearls
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ENDER_PEARLS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	ENDER_PEARLS
 TAG	minecraft:item	c:feathers
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FEATHERS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	FEATHERS
 TAG	minecraft:item	c:fence_gates
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCE_GATES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	FENCE_GATES
 TAG	minecraft:item	c:fence_gates/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCE_GATES_WOODEN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	FENCE_GATES_WOODEN
 TAG	minecraft:item	c:fences
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	FENCES
 TAG	minecraft:item	c:fences/nether_brick
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES_NETHER_BRICK
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHER_BRICK_FENCES
 TAG	minecraft:item	c:fences/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES_WOODEN
+	ARCHITECTURY	dev/architectury/tags/ItemTags	WOODEN_FENCES
 TAG	minecraft:item	c:foods
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	FOODS
 TAG	minecraft:item	c:foods/berries
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BERRIES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_BERRIES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BERRY_FOODS
 TAG	minecraft:item	c:foods/breads
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BREADS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_BREADS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	BREAD_FOODS
 TAG	minecraft:item	c:foods/candies
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CANDIES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_CANDIES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CANDY_FOODS
 TAG	minecraft:item	c:foods/cooked_fishes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKED_FISHES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKED_FISHES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COOKED_FISH_FOODS
 TAG	minecraft:item	c:foods/cooked_meats
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKED_MEATS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKED_MEATS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COOKED_MEAT_FOODS
 TAG	minecraft:item	c:foods/cookies
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKIES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKIES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COOKIE_FOODS
 TAG	minecraft:item	c:foods/edible_when_placed
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EDIBLE_WHEN_PLACED_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_EDIBLE_WHEN_PLACED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	EDIBLE_WHEN_PLACED_FOODS
 TAG	minecraft:item	c:foods/food_poisoning
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FOOD_POISONING_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_FOOD_POISONING
+	ARCHITECTURY	dev/architectury/tags/ItemTags	FOOD_POISONING_FOODS
 TAG	minecraft:item	c:foods/fruits
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FRUITS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_FRUITS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	FRUIT_FOODS
 TAG	minecraft:item	c:foods/raw_fishes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_FISHES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_RAW_FISHES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RAW_FISH_FOODS
 TAG	minecraft:item	c:foods/raw_meats
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_MEATS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_RAW_MEATS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	RAW_MEAT_FOODS
 TAG	minecraft:item	c:foods/soups
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SOUPS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_SOUPS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	SOUP_FOODS
 TAG	minecraft:item	c:foods/vegetables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	VEGETABLES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_VEGETABLES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	VEGETABLE_FOODS
 TAG	minecraft:item	c:gems
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GEMS
 TAG	minecraft:item	c:gems/amethyst
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	AMETHYST_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_AMETHYST
+	ARCHITECTURY	dev/architectury/tags/ItemTags	AMETHYST_GEMS
 TAG	minecraft:item	c:gems/diamond
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DIAMOND_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_DIAMOND
+	ARCHITECTURY	dev/architectury/tags/ItemTags	DIAMOND_GEMS
 TAG	minecraft:item	c:gems/emerald
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EMERALD_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_EMERALD
+	ARCHITECTURY	dev/architectury/tags/ItemTags	EMERALD_GEMS
 TAG	minecraft:item	c:gems/lapis
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LAPIS_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_LAPIS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LAPIS_GEMS
 TAG	minecraft:item	c:gems/prismarine
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PRISMARINE_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_PRISMARINE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	PRISMARINE_GEMS
 TAG	minecraft:item	c:gems/quartz
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	QUARTZ_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_QUARTZ
+	ARCHITECTURY	dev/architectury/tags/ItemTags	QUARTZ_GEMS
 TAG	minecraft:item	c:glass_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLASS_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GLASS_BLOCKS
 TAG	minecraft:item	c:glass_blocks/cheap
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_CHEAP
+	ARCHITECTURY	dev/architectury/tags/ItemTags	CHEAP_GLASS_BLOCKS
 TAG	minecraft:item	c:glass_blocks/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_COLORLESS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COLORLESS_GLASS_BLOCKS
 TAG	minecraft:item	c:glass_blocks/tinted
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_TINTED
+	ARCHITECTURY	dev/architectury/tags/ItemTags	TINTED_GLASS_BLOCKS
 TAG	minecraft:item	c:glass_panes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLASS_PANES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GLASS_PANES
 TAG	minecraft:item	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES_COLORLESS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COLORESS_GLASS_PANES
 TAG	minecraft:item	c:gravel
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GRAVELS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GRAVELS
 TAG	minecraft:item	c:gunpowder
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GUNPOWDERS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GUNPOWDERS
 TAG	minecraft:item	c:hidden_from_recipe_viewers
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	HIDDEN_FROM_RECIPE_VIEWERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	HIDDEN_FROM_RECIPE_VIEWERS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	HIDDEN_FROM_RECIPE_VIEWERS
 TAG	minecraft:item	c:ingots
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	INGOTS
 TAG	minecraft:item	c:ingots/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_COPPER
+	ARCHITECTURY	dev/architectury/tags/ItemTags	COPPER_INGOTS
 TAG	minecraft:item	c:ingots/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_GOLD
+	ARCHITECTURY	dev/architectury/tags/ItemTags	GOLD_INGOTS
 TAG	minecraft:item	c:ingots/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_IRON
+	ARCHITECTURY	dev/architectury/tags/ItemTags	IRON_INGOTS
 TAG	minecraft:item	c:ingots/netherite
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHERITE_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_NETHERITE
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHERITE_INGOTS
 TAG	minecraft:item	c:leather
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	LEATHERS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	LEATHERS
 TAG	minecraft:item	c:mushrooms
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	MUSHROOMS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	MUSHROOMS
 TAG	minecraft:item	c:nether_stars
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHER_STARS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHER_STARS
 TAG	minecraft:item	c:netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHERRACKS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NETHERRACKS
 TAG	minecraft:item	c:nuggets
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NUGGETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NUGGETS
 TAG	minecraft:item	c:nuggets/gold
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS_GOLD
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NUGGETS_GOLD
 TAG	minecraft:item	c:nuggets/iron
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS_IRON
+	ARCHITECTURY	dev/architectury/tags/ItemTags	NUGGETS_IRON
 TAG	minecraft:item	c:obsidians
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	OBSIDIANS
+	ARCHITECTURY	dev/architectury/tags/ItemTags	OBSIDIANS
 TAG	minecraft:item	c:ore_bearing_ground/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_DEEPSLATE
 TAG	minecraft:item	c:ore_bearing_ground/netherrack
