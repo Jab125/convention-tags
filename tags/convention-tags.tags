@@ -201,7 +201,7 @@ TAG	minecraft:block	c:ore_rates/singular
 TAG	minecraft:block	c:ore_rates/sparse
 	COMMENT	Ores that usually drop less than one resource when mined.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_SPARSE
-	ARCHITECTURY	dev/architectury/tags/BlockTags	SPARCE_ORE_RATES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SPARSE_ORE_RATES
 TAG	minecraft:block	c:ores
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES
