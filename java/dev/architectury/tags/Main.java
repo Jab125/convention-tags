@@ -30,6 +30,23 @@ public class Main {
 		String architecturyTemplate = new String(Main.class.getResourceAsStream("/arch-template.html").readAllBytes());
 		String script = new String(Main.class.getResourceAsStream("/index.js").readAllBytes());
 		String styles = new String(Main.class.getResourceAsStream("/style.css").readAllBytes());
+		String manifest = new String(Main.class.getResourceAsStream("/manifest.json").readAllBytes());
+		byte[] x512 = Main.class.getResourceAsStream("/512x.png").readAllBytes();
+		server.createContext("/icons/512.png", exchange -> {
+			byte[] bytes = x512;
+			int length = bytes.length;
+			exchange.sendResponseHeaders(200, length);
+			exchange.getResponseBody().write(bytes);
+			exchange.close();
+		});
+		server.createContext("/manifest.json", exchange -> {
+			String string = manifest;
+			byte[] bytes = string.getBytes(StandardCharsets.UTF_8);
+			int length = bytes.length;
+			exchange.sendResponseHeaders(200, length);
+			exchange.getResponseBody().write(bytes);
+			exchange.close();
+		});
 		server.createContext("/index.js", exchange -> {
 			String string = script;
 			byte[] bytes = string.getBytes(StandardCharsets.UTF_8);

@@ -45,6 +45,10 @@ fieldset > h2:first-of-type, h3:first-of-type {
     margin-top: 0;
 }
 
+select {
+    -webkit-appearance: none;
+}
+
 input[type = "text"], input[type = "search"], textarea {
     display: block;
     width: 24em;
