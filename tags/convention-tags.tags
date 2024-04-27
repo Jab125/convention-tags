@@ -153,28 +153,43 @@ TAG	minecraft:block	c:glass_blocks/cheap
 	ARCHITECTURY	dev/architectury/tags/BlockTags	CHEAP_GLASS_BLOCKS
 TAG	minecraft:block	c:glass_blocks/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_COLORLESS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	COLORLESS_GLASS_BLOCKS
 TAG	minecraft:block	c:glass_blocks/tinted
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_TINTED
+	ARCHITECTURY	dev/architectury/tags/BlockTags	TINTED_GLASS_BLOCKS
 TAG	minecraft:block	c:glass_panes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GLASS_PANES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	GLASS_PANES
 TAG	minecraft:block	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES_COLORLESS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	COLORESS_GLASS_PANES
 TAG	minecraft:block	c:gravel
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GRAVELS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	GRAVELS
 TAG	minecraft:block	c:hidden_from_recipe_viewers
+	COMMENT	This tag holds all blocks that should be hidden from recipe viewers.
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	HIDDEN_FROM_RECIPE_VIEWERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	HIDDEN_FROM_RECIPE_VIEWERS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	HIDDEN_FROM_RECIPE_VIEWERS
 TAG	minecraft:block	c:netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	NETHERRACKS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	NETHERRACKS
 TAG	minecraft:block	c:obsidians
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	OBSIDIANS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	OBSIDIANS
 TAG	minecraft:block	c:ore_bearing_ground/deepslate
+	COMMENT	Blocks in this tag are treated as Deepslate for ore generation purposes.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_DEEPSLATE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	DEEPSLATE_ORE_BEARING_GROUND
 TAG	minecraft:block	c:ore_bearing_ground/netherrack
+	COMMENT	Blocks in this tag are treated as Netherrack for ore generation purposes.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_NETHERRACK
+	ARCHITECTURY	dev/architectury/tags/BlockTags	NETHERRACK_ORE_BEARING_GROUND
 TAG	minecraft:block	c:ore_bearing_ground/stone
+	COMMENT	Blocks in this tag are treated as Stone for ore generation purposes.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_STONE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	STONE_ORE_BEARING_GROUND
 TAG	minecraft:block	c:ore_rates/dense
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_DENSE
 TAG	minecraft:block	c:ore_rates/singular
