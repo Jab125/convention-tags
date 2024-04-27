@@ -1,0 +1,1120 @@
+TAG	minecraft:block	c:barrels
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BARRELS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BARRELS
+TAG	minecraft:block	c:barrels/wooden
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	WOODEN_BARRELS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BARRELS_WOODEN
+TAG	minecraft:block	c:bookshelves
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BOOKSHELVES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BOOKSHELVES
+TAG	minecraft:block	c:budding_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BUDDING_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BUDDING_BLOCKS
+TAG	minecraft:block	c:buds
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BUDS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BUDS
+TAG	minecraft:block	c:chains
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CHAINS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHAINS
+TAG	minecraft:block	c:chests
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CHESTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS
+TAG	minecraft:block	c:chests/ender
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS_ENDER
+TAG	minecraft:block	c:chests/trapped
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS_TRAPPED
+TAG	minecraft:block	c:chests/wooden
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	WOODEN_CHESTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS_WOODEN
+TAG	minecraft:block	c:clusters
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CLUSTERS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CLUSTERS
+TAG	minecraft:block	c:cobblestones
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	COBBLESTONES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES
+TAG	minecraft:block	c:cobblestones/deepslate
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_DEEPSLATE
+TAG	minecraft:block	c:cobblestones/infested
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_INFESTED
+TAG	minecraft:block	c:cobblestones/mossy
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_MOSSY
+TAG	minecraft:block	c:cobblestones/normal
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_NORMAL
+TAG	minecraft:block	c:dyed
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED
+TAG	minecraft:block	c:dyed/black
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BLACK_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_BLACK
+TAG	minecraft:block	c:dyed/blue
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BLUE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_BLUE
+TAG	minecraft:block	c:dyed/brown
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BROWN_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_BROWN
+TAG	minecraft:block	c:dyed/cyan
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CYAN_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_CYAN
+TAG	minecraft:block	c:dyed/gray
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GRAY_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_GRAY
+TAG	minecraft:block	c:dyed/green
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GREEN_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_GREEN
+TAG	minecraft:block	c:dyed/light_blue
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	LIGHT_BLUE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_LIGHT_BLUE
+TAG	minecraft:block	c:dyed/light_gray
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	LIGHT_GRAY_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_LIGHT_GRAY
+TAG	minecraft:block	c:dyed/lime
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	LIME_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_LIME
+TAG	minecraft:block	c:dyed/magenta
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	MAGENTA_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_MAGENTA
+TAG	minecraft:block	c:dyed/orange
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ORANGE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_ORANGE
+TAG	minecraft:block	c:dyed/pink
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PINK_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_PINK
+TAG	minecraft:block	c:dyed/purple
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PURPLE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_PURPLE
+TAG	minecraft:block	c:dyed/red
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_RED
+TAG	minecraft:block	c:dyed/white
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	WHITE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_WHITE
+TAG	minecraft:block	c:dyed/yellow
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	YELLOW_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_YELLOW
+TAG	minecraft:block	c:end_stones
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	END_STONES
+TAG	minecraft:block	c:fence_gates
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCE_GATES
+TAG	minecraft:block	c:fence_gates/wooden
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCE_GATES_WOODEN
+TAG	minecraft:block	c:fences
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES
+TAG	minecraft:block	c:fences/nether_brick
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES_NETHER_BRICK
+TAG	minecraft:block	c:fences/wooden
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES_WOODEN
+TAG	minecraft:block	c:glass_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GLASS_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS
+TAG	minecraft:block	c:glass_blocks/cheap
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_CHEAP
+TAG	minecraft:block	c:glass_blocks/colorless
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_COLORLESS
+TAG	minecraft:block	c:glass_blocks/tinted
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_TINTED
+TAG	minecraft:block	c:glass_panes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GLASS_PANES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES
+TAG	minecraft:block	c:glass_panes/colorless
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES_COLORLESS
+TAG	minecraft:block	c:gravel
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GRAVELS
+TAG	minecraft:block	c:hidden_from_recipe_viewers
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	HIDDEN_FROM_RECIPE_VIEWERS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	HIDDEN_FROM_RECIPE_VIEWERS
+TAG	minecraft:block	c:netherrack
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	NETHERRACKS
+TAG	minecraft:block	c:obsidians
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	OBSIDIANS
+TAG	minecraft:block	c:ore_bearing_ground/deepslate
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_DEEPSLATE
+TAG	minecraft:block	c:ore_bearing_ground/netherrack
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_NETHERRACK
+TAG	minecraft:block	c:ore_bearing_ground/stone
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_STONE
+TAG	minecraft:block	c:ore_rates/dense
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_DENSE
+TAG	minecraft:block	c:ore_rates/singular
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_SINGULAR
+TAG	minecraft:block	c:ore_rates/sparse
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_SPARSE
+TAG	minecraft:block	c:ores
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ORES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES
+TAG	minecraft:block	c:ores/coal
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_COAL
+TAG	minecraft:block	c:ores/copper
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_COPPER
+TAG	minecraft:block	c:ores/diamond
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_DIAMOND
+TAG	minecraft:block	c:ores/emerald
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_EMERALD
+TAG	minecraft:block	c:ores/gold
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_GOLD
+TAG	minecraft:block	c:ores/iron
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IRON
+TAG	minecraft:block	c:ores/lapis
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_LAPIS
+TAG	minecraft:block	c:ores/netherite_scrap
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	NETHERITE_SCRAP_ORES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_NETHERITE_SCRAP
+TAG	minecraft:block	c:ores/quartz
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	QUARTZ_ORES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_QUARTZ
+TAG	minecraft:block	c:ores/redstone
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_REDSTONE
+TAG	minecraft:block	c:ores_in_ground/deepslate
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_DEEPSLATE
+TAG	minecraft:block	c:ores_in_ground/netherrack
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_NETHERRACK
+TAG	minecraft:block	c:ores_in_ground/stone
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_STONE
+TAG	minecraft:block	c:player_workstations/crafting_tables
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+TAG	minecraft:block	c:player_workstations/furnaces
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PLAYER_WORKSTATIONS_FURNACES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	PLAYER_WORKSTATIONS_FURNACES
+TAG	minecraft:block	c:relocation_not_supported
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RELOCATION_NOT_SUPPORTED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	RELOCATION_NOT_SUPPORTED
+TAG	minecraft:block	c:ropes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ROPES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ROPES
+TAG	minecraft:block	c:sands
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS
+TAG	minecraft:block	c:sands/colorless
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS_COLORLESS
+TAG	minecraft:block	c:sands/red
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS_RED
+TAG	minecraft:block	c:sandstone/blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_BLOCKS
+TAG	minecraft:block	c:sandstone/red_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_BLOCKS
+TAG	minecraft:block	c:sandstone/red_slabs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_SLABS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_SLABS
+TAG	minecraft:block	c:sandstone/red_stairs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_STAIRS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_STAIRS
+TAG	minecraft:block	c:sandstone/slabs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_SLABS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_SLABS
+TAG	minecraft:block	c:sandstone/stairs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_STAIRS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_STAIRS
+TAG	minecraft:block	c:sandstone/uncolored_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_BLOCKS
+TAG	minecraft:block	c:sandstone/uncolored_slabs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_SLABS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_SLABS
+TAG	minecraft:block	c:sandstone/uncolored_stairs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_STAIRS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_STAIRS
+TAG	minecraft:block	c:shulker_boxes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SHULKER_BOXES
+TAG	minecraft:block	c:skulls
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SKULLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SKULLS
+TAG	minecraft:block	c:stones
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STONES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STONES
+TAG	minecraft:block	c:storage_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/bone_meal
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_BONE_MEAL
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_BONE_MEAL
+TAG	minecraft:block	c:storage_blocks/coal
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_COAL
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_COAL
+TAG	minecraft:block	c:storage_blocks/copper
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_COPPER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_COPPER
+TAG	minecraft:block	c:storage_blocks/diamond
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_DIAMOND
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_DIAMOND
+TAG	minecraft:block	c:storage_blocks/dried_kelp
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_DRIED_KELP
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_DRIED_KELP
+TAG	minecraft:block	c:storage_blocks/emerald
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_EMERALD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_EMERALD
+TAG	minecraft:block	c:storage_blocks/gold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_GOLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_GOLD
+TAG	minecraft:block	c:storage_blocks/iron
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_IRON
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_IRON
+TAG	minecraft:block	c:storage_blocks/lapis
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_LAPIS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_LAPIS
+TAG	minecraft:block	c:storage_blocks/netherite
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_NETHERITE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_NETHERITE
+TAG	minecraft:block	c:storage_blocks/raw_copper
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_COPPER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_COPPER
+TAG	minecraft:block	c:storage_blocks/raw_gold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_GOLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_GOLD
+TAG	minecraft:block	c:storage_blocks/raw_iron
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_IRON
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_IRON
+TAG	minecraft:block	c:storage_blocks/redstone
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_REDSTONE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_REDSTONE
+TAG	minecraft:block	c:storage_blocks/slime
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_SLIME
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_SLIME
+TAG	minecraft:block	c:storage_blocks/wheat
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_WHEAT
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_WHEAT
+TAG	minecraft:block	c:villager_job_sites
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	VILLAGER_JOB_SITES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	VILLAGER_JOB_SITES
+TAG	minecraft:enchantment	c:entity_auxiliary_movement_enhancements
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
+TAG	minecraft:enchantment	c:entity_defense_enhancements
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_DEFENSE_ENHANCEMENTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_DEFENSE_ENHANCEMENTS
+TAG	minecraft:enchantment	c:entity_speed_enhancements
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_SPEED_ENHANCEMENTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_SPEED_ENHANCEMENTS
+TAG	minecraft:enchantment	c:increase_block_drops
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	INCREASE_BLOCK_DROPS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	INCREASE_BLOCK_DROPS
+TAG	minecraft:enchantment	c:increase_entity_drops
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	INCREASE_ENTITY_DROPS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	INCREASE_ENTITY_DROPS
+TAG	minecraft:enchantment	c:weapon_damage_enhancements
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	WEAPON_DAMAGE_ENHANCEMENTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	WEAPON_DAMAGE_ENHANCEMENTS
+TAG	minecraft:entity_type	c:boats
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	BOATS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	BOATS
+TAG	minecraft:entity_type	c:bosses
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	BOSSES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	BOSSES
+TAG	minecraft:entity_type	c:capturing_not_supported
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	CAPTURING_NOT_SUPPORTED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	CAPTURING_NOT_SUPPORTED
+TAG	minecraft:entity_type	c:minecarts
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	MINECARTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	MINECARTS
+TAG	minecraft:entity_type	c:teleporting_not_supported
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	TELEPORTING_NOT_SUPPORTED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	TELEPORTING_NOT_SUPPORTED
+TAG	minecraft:fluid	c:beetroot_soup
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	BEETROOT_SOUP
+TAG	minecraft:fluid	c:gaseous
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	GASEOUS
+TAG	minecraft:fluid	c:hidden_from_recipe_viewers
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	HIDDEN_FROM_RECIPE_VIEWERS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	HIDDEN_FROM_RECIPE_VIEWERS
+TAG	minecraft:fluid	c:honey
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	HONEY
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	HONEY
+TAG	minecraft:fluid	c:lava
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	LAVA
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	LAVA
+TAG	minecraft:fluid	c:milk
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	MILK
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	MILK
+TAG	minecraft:fluid	c:mushroom_stew
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	MUSHROOM_STEW
+TAG	minecraft:fluid	c:potion
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	POTION
+TAG	minecraft:fluid	c:rabbit_stew
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	RABBIT_STEW
+TAG	minecraft:fluid	c:suspicious_stew
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	SUSPICIOUS_STEW
+TAG	minecraft:fluid	c:water
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	WATER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	WATER
+TAG	minecraft:item	c:armors
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ARMORS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ARMORS
+TAG	minecraft:item	c:barrels
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BARRELS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BARRELS
+TAG	minecraft:item	c:barrels/wooden
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_BARRELS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BARRELS_WOODEN
+TAG	minecraft:item	c:bones
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BONES
+TAG	minecraft:item	c:bookshelves
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BOOKSHELVES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BOOKSHELVES
+TAG	minecraft:item	c:bricks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BRICKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS
+TAG	minecraft:item	c:bricks/nether
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHER_BRICKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS_NETHER
+TAG	minecraft:item	c:bricks/normal
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NORMAL_BRICKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS_NORMAL
+TAG	minecraft:item	c:buckets
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUCKETS
+TAG	minecraft:item	c:buckets/empty
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EMPTY_BUCKETS
+TAG	minecraft:item	c:buckets/entity_water
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ENTITY_WATER_BUCKETS
+TAG	minecraft:item	c:buckets/lava
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LAVA_BUCKETS
+TAG	minecraft:item	c:buckets/milk
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MILK_BUCKETS
+TAG	minecraft:item	c:buckets/powder_snow
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	POWDER_SNOW_BUCKETS
+TAG	minecraft:item	c:buckets/water
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WATER_BUCKETS
+TAG	minecraft:item	c:budding_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUDDING_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUDDING_BLOCKS
+TAG	minecraft:item	c:buds
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUDS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUDS
+TAG	minecraft:item	c:chains
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CHAINS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHAINS
+TAG	minecraft:item	c:chests
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CHESTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS
+TAG	minecraft:item	c:chests/ender
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_ENDER
+TAG	minecraft:item	c:chests/trapped
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_TRAPPED
+TAG	minecraft:item	c:chests/wooden
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_CHESTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_WOODEN
+TAG	minecraft:item	c:clusters
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CLUSTERS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CLUSTERS
+TAG	minecraft:item	c:coal
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COAL
+TAG	minecraft:item	c:cobblestones
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COBBLESTONES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES
+TAG	minecraft:item	c:cobblestones/deepslate
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_DEEPSLATE
+TAG	minecraft:item	c:cobblestones/infested
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_INFESTED
+TAG	minecraft:item	c:cobblestones/mossy
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_MOSSY
+TAG	minecraft:item	c:cobblestones/normal
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_NORMAL
+TAG	minecraft:item	c:crops
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS
+TAG	minecraft:item	c:crops/beetroot
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_BEETROOT
+TAG	minecraft:item	c:crops/carrot
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_CARROT
+TAG	minecraft:item	c:crops/nether_wart
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_NETHER_WART
+TAG	minecraft:item	c:crops/potato
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_POTATO
+TAG	minecraft:item	c:crops/wheat
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_WHEAT
+TAG	minecraft:item	c:dusts
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DUSTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS
+TAG	minecraft:item	c:dusts/glowstone
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLOWSTONE_DUSTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS_GLOWSTONE
+TAG	minecraft:item	c:dusts/redstone
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	REDSTONE_DUSTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS_REDSTONE
+TAG	minecraft:item	c:dyed
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED
+TAG	minecraft:item	c:dyed/black
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLACK_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BLACK
+TAG	minecraft:item	c:dyed/blue
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLUE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BLUE
+TAG	minecraft:item	c:dyed/brown
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BROWN_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BROWN
+TAG	minecraft:item	c:dyed/cyan
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CYAN_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_CYAN
+TAG	minecraft:item	c:dyed/gray
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GRAY_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_GRAY
+TAG	minecraft:item	c:dyed/green
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GREEN_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_GREEN
+TAG	minecraft:item	c:dyed/light_blue
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_BLUE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIGHT_BLUE
+TAG	minecraft:item	c:dyed/light_gray
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_GRAY_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIGHT_GRAY
+TAG	minecraft:item	c:dyed/lime
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIME_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIME
+TAG	minecraft:item	c:dyed/magenta
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MAGENTA_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_MAGENTA
+TAG	minecraft:item	c:dyed/orange
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORANGE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_ORANGE
+TAG	minecraft:item	c:dyed/pink
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PINK_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_PINK
+TAG	minecraft:item	c:dyed/purple
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PURPLE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_PURPLE
+TAG	minecraft:item	c:dyed/red
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_RED
+TAG	minecraft:item	c:dyed/white
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WHITE_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_WHITE
+TAG	minecraft:item	c:dyed/yellow
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	YELLOW_DYED
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_YELLOW
+TAG	minecraft:item	c:dyes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES
+TAG	minecraft:item	c:dyes/black
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLACK_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BLACK
+TAG	minecraft:item	c:dyes/blue
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLUE_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BLUE
+TAG	minecraft:item	c:dyes/brown
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BROWN_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BROWN
+TAG	minecraft:item	c:dyes/cyan
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CYAN_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_CYAN
+TAG	minecraft:item	c:dyes/gray
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GRAY_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_GRAY
+TAG	minecraft:item	c:dyes/green
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GREEN_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_GREEN
+TAG	minecraft:item	c:dyes/light_blue
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_BLUE_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIGHT_BLUE
+TAG	minecraft:item	c:dyes/light_gray
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_GRAY_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIGHT_GRAY
+TAG	minecraft:item	c:dyes/lime
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIME_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIME
+TAG	minecraft:item	c:dyes/magenta
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MAGENTA_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_MAGENTA
+TAG	minecraft:item	c:dyes/orange
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORANGE_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_ORANGE
+TAG	minecraft:item	c:dyes/pink
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PINK_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_PINK
+TAG	minecraft:item	c:dyes/purple
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PURPLE_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_PURPLE
+TAG	minecraft:item	c:dyes/red
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_RED
+TAG	minecraft:item	c:dyes/white
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WHITE_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_WHITE
+TAG	minecraft:item	c:dyes/yellow
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	YELLOW_DYES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_YELLOW
+TAG	minecraft:item	c:eggs
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	EGGS
+TAG	minecraft:item	c:enchantables
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ENCHANTABLES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ENCHANTABLES
+TAG	minecraft:item	c:end_stones
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	END_STONES
+TAG	minecraft:item	c:ender_pearls
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ENDER_PEARLS
+TAG	minecraft:item	c:feathers
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FEATHERS
+TAG	minecraft:item	c:fence_gates
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCE_GATES
+TAG	minecraft:item	c:fence_gates/wooden
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCE_GATES_WOODEN
+TAG	minecraft:item	c:fences
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES
+TAG	minecraft:item	c:fences/nether_brick
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES_NETHER_BRICK
+TAG	minecraft:item	c:fences/wooden
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES_WOODEN
+TAG	minecraft:item	c:foods
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS
+TAG	minecraft:item	c:foods/berries
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BERRIES_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_BERRIES
+TAG	minecraft:item	c:foods/breads
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BREADS_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_BREADS
+TAG	minecraft:item	c:foods/candies
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CANDIES_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_CANDIES
+TAG	minecraft:item	c:foods/cooked_fishes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKED_FISHES_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKED_FISHES
+TAG	minecraft:item	c:foods/cooked_meats
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKED_MEATS_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKED_MEATS
+TAG	minecraft:item	c:foods/cookies
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKIES_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKIES
+TAG	minecraft:item	c:foods/edible_when_placed
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EDIBLE_WHEN_PLACED_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_EDIBLE_WHEN_PLACED
+TAG	minecraft:item	c:foods/food_poisoning
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FOOD_POISONING_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_FOOD_POISONING
+TAG	minecraft:item	c:foods/fruits
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FRUITS_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_FRUITS
+TAG	minecraft:item	c:foods/raw_fishes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_FISHES_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_RAW_FISHES
+TAG	minecraft:item	c:foods/raw_meats
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_MEATS_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_RAW_MEATS
+TAG	minecraft:item	c:foods/soups
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SOUPS_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_SOUPS
+TAG	minecraft:item	c:foods/vegetables
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	VEGETABLES_FOODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_VEGETABLES
+TAG	minecraft:item	c:gems
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GEMS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS
+TAG	minecraft:item	c:gems/amethyst
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	AMETHYST_GEMS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_AMETHYST
+TAG	minecraft:item	c:gems/diamond
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DIAMOND_GEMS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_DIAMOND
+TAG	minecraft:item	c:gems/emerald
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EMERALD_GEMS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_EMERALD
+TAG	minecraft:item	c:gems/lapis
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LAPIS_GEMS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_LAPIS
+TAG	minecraft:item	c:gems/prismarine
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PRISMARINE_GEMS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_PRISMARINE
+TAG	minecraft:item	c:gems/quartz
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	QUARTZ_GEMS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_QUARTZ
+TAG	minecraft:item	c:glass_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLASS_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS
+TAG	minecraft:item	c:glass_blocks/cheap
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_CHEAP
+TAG	minecraft:item	c:glass_blocks/colorless
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_COLORLESS
+TAG	minecraft:item	c:glass_blocks/tinted
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_TINTED
+TAG	minecraft:item	c:glass_panes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLASS_PANES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES
+TAG	minecraft:item	c:glass_panes/colorless
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES_COLORLESS
+TAG	minecraft:item	c:gravel
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GRAVELS
+TAG	minecraft:item	c:gunpowder
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GUNPOWDERS
+TAG	minecraft:item	c:hidden_from_recipe_viewers
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	HIDDEN_FROM_RECIPE_VIEWERS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	HIDDEN_FROM_RECIPE_VIEWERS
+TAG	minecraft:item	c:ingots
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	INGOTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS
+TAG	minecraft:item	c:ingots/copper
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_INGOTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_COPPER
+TAG	minecraft:item	c:ingots/gold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_INGOTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_GOLD
+TAG	minecraft:item	c:ingots/iron
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_INGOTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_IRON
+TAG	minecraft:item	c:ingots/netherite
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHERITE_INGOTS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_NETHERITE
+TAG	minecraft:item	c:leather
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	LEATHERS
+TAG	minecraft:item	c:mushrooms
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	MUSHROOMS
+TAG	minecraft:item	c:nether_stars
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHER_STARS
+TAG	minecraft:item	c:netherrack
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHERRACKS
+TAG	minecraft:item	c:nuggets
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NUGGETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS
+TAG	minecraft:item	c:nuggets/gold
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS_GOLD
+TAG	minecraft:item	c:nuggets/iron
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS_IRON
+TAG	minecraft:item	c:obsidians
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	OBSIDIANS
+TAG	minecraft:item	c:ore_bearing_ground/deepslate
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_DEEPSLATE
+TAG	minecraft:item	c:ore_bearing_ground/netherrack
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_NETHERRACK
+TAG	minecraft:item	c:ore_bearing_ground/stone
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_STONE
+TAG	minecraft:item	c:ore_rates/dense
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_DENSE
+TAG	minecraft:item	c:ore_rates/singular
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_SINGULAR
+TAG	minecraft:item	c:ore_rates/sparse
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_SPARSE
+TAG	minecraft:item	c:ores
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES
+TAG	minecraft:item	c:ores/coal
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_COAL
+TAG	minecraft:item	c:ores/copper
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_COPPER
+TAG	minecraft:item	c:ores/diamond
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_DIAMOND
+TAG	minecraft:item	c:ores/emerald
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_EMERALD
+TAG	minecraft:item	c:ores/gold
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_GOLD
+TAG	minecraft:item	c:ores/iron
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IRON
+TAG	minecraft:item	c:ores/lapis
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_LAPIS
+TAG	minecraft:item	c:ores/netherite_scrap
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHERITE_SCRAP_ORES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_NETHERITE_SCRAP
+TAG	minecraft:item	c:ores/quartz
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	QUARTZ_ORES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_QUARTZ
+TAG	minecraft:item	c:ores/redstone
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_REDSTONE
+TAG	minecraft:item	c:ores_in_ground/deepslate
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_DEEPSLATE
+TAG	minecraft:item	c:ores_in_ground/netherrack
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_NETHERRACK
+TAG	minecraft:item	c:ores_in_ground/stone
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_STONE
+TAG	minecraft:item	c:player_workstations/crafting_tables
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+TAG	minecraft:item	c:player_workstations/furnaces
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PLAYER_WORKSTATIONS_FURNACES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	PLAYER_WORKSTATIONS_FURNACES
+TAG	minecraft:item	c:potions
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	POTIONS
+TAG	minecraft:item	c:raw_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS
+TAG	minecraft:item	c:raw_blocks/copper
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_RAW_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_COPPER
+TAG	minecraft:item	c:raw_blocks/gold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_RAW_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_GOLD
+TAG	minecraft:item	c:raw_blocks/iron
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_RAW_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_IRON
+TAG	minecraft:item	c:raw_materials
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_MATERIALS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS
+TAG	minecraft:item	c:raw_materials/copper
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_RAW_MATERIALS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_COPPER
+TAG	minecraft:item	c:raw_materials/gold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_RAW_MATERIALS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_GOLD
+TAG	minecraft:item	c:raw_materials/iron
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_RAW_MATERIALS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_IRON
+TAG	minecraft:item	c:rods
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS
+TAG	minecraft:item	c:rods/blaze
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLAZE_RODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_BLAZE
+TAG	minecraft:item	c:rods/breeze
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BREEZE_RODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_BREEZE
+TAG	minecraft:item	c:rods/wooden
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_RODS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_WOODEN
+TAG	minecraft:item	c:ropes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ROPES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ROPES
+TAG	minecraft:item	c:sands
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS
+TAG	minecraft:item	c:sands/colorless
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_COLORLESS
+TAG	minecraft:item	c:sands/red
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_RED
+TAG	minecraft:item	c:sandstone/blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SANDSTONE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_BLOCKS
+TAG	minecraft:item	c:sandstone/red_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_SANDSTONE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_RED_BLOCKS
+TAG	minecraft:item	c:sandstone/red_slabs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_SANDSTONE_SLABS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_RED_SLABS
+TAG	minecraft:item	c:sandstone/red_stairs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_SANDSTONE_STAIRS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_RED_STAIRS
+TAG	minecraft:item	c:sandstone/slabs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SANDSTONE_SLABS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_SLABS
+TAG	minecraft:item	c:sandstone/stairs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SANDSTONE_STAIRS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_STAIRS
+TAG	minecraft:item	c:sandstone/uncolored_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	UNCOLORED_SANDSTONE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_UNCOLORED_BLOCKS
+TAG	minecraft:item	c:sandstone/uncolored_slabs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	UNCOLORED_SANDSTONE_SLABS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_UNCOLORED_SLABS
+TAG	minecraft:item	c:sandstone/uncolored_stairs
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	UNCOLORED_SANDSTONE_STAIRS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_UNCOLORED_STAIRS
+TAG	minecraft:item	c:seeds
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS
+TAG	minecraft:item	c:seeds/beetroot
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_BEETROOT
+TAG	minecraft:item	c:seeds/melon
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_MELON
+TAG	minecraft:item	c:seeds/pumpkin
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_PUMPKIN
+TAG	minecraft:item	c:seeds/wheat
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_WHEAT
+TAG	minecraft:item	c:shulker_boxes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SHULKER_BOXES
+TAG	minecraft:item	c:slimeballs
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SLIMEBALLS
+TAG	minecraft:item	c:stones
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STONES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STONES
+TAG	minecraft:item	c:storage_blocks
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/bone_meal
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_BONE_MEAL
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_BONE_MEAL
+TAG	minecraft:item	c:storage_blocks/coal
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_COAL
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_COAL
+TAG	minecraft:item	c:storage_blocks/copper
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_COPPER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_COPPER
+TAG	minecraft:item	c:storage_blocks/diamond
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_DIAMOND
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_DIAMOND
+TAG	minecraft:item	c:storage_blocks/dried_kelp
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_DRIED_KELP
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_DRIED_KELP
+TAG	minecraft:item	c:storage_blocks/emerald
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_EMERALD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_EMERALD
+TAG	minecraft:item	c:storage_blocks/gold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_GOLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_GOLD
+TAG	minecraft:item	c:storage_blocks/iron
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_IRON
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_IRON
+TAG	minecraft:item	c:storage_blocks/lapis
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_LAPIS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_LAPIS
+TAG	minecraft:item	c:storage_blocks/netherite
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_NETHERITE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_NETHERITE
+TAG	minecraft:item	c:storage_blocks/raw_copper
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_RAW_COPPER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_RAW_COPPER
+TAG	minecraft:item	c:storage_blocks/raw_gold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_RAW_GOLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_RAW_GOLD
+TAG	minecraft:item	c:storage_blocks/raw_iron
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_RAW_IRON
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_RAW_IRON
+TAG	minecraft:item	c:storage_blocks/redstone
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_REDSTONE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_REDSTONE
+TAG	minecraft:item	c:storage_blocks/slime
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_SLIME
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_SLIME
+TAG	minecraft:item	c:storage_blocks/wheat
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_WHEAT
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_WHEAT
+TAG	minecraft:item	c:strings
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STRINGS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STRINGS
+TAG	minecraft:item	c:tools
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS
+TAG	minecraft:item	c:tools/bows
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BOWS_TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_BOWS
+TAG	minecraft:item	c:tools/brushes
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BRUSHES_TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_BRUSHES
+TAG	minecraft:item	c:tools/crossbows
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CROSSBOWS_TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_CROSSBOWS
+TAG	minecraft:item	c:tools/fishing_rods
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FISHING_RODS_TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_FISHING_RODS
+TAG	minecraft:item	c:tools/melee_weapons
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MELEE_WEAPONS_TOOLS
+TAG	minecraft:item	c:tools/mining_tools
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MINING_TOOLS
+TAG	minecraft:item	c:tools/ranged_weapons
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RANGED_WEAPONS_TOOLS
+TAG	minecraft:item	c:tools/shears
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SHEARS_TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_SHEARS
+TAG	minecraft:item	c:tools/shields
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SHIELDS_TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_SHIELDS
+TAG	minecraft:item	c:tools/spears
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SPEARS_TOOLS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_SPEARS
+TAG	minecraft:item	c:villager_job_sites
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	VILLAGER_JOB_SITES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	VILLAGER_JOB_SITES
+TAG	minecraft:worldgen/biome	c:hidden_from_locator_selection
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	HIDDEN_FROM_LOCATOR_SELECTION
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	HIDDEN_FROM_LOCATOR_SELECTION
+TAG	minecraft:worldgen/biome	c:is_aquatic
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_AQUATIC
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_AQUATIC
+TAG	minecraft:worldgen/biome	c:is_aquatic_icy
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_AQUATIC_ICY
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_AQUATIC_ICY
+TAG	minecraft:worldgen/biome	c:is_badlands
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BADLANDS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BADLANDS
+TAG	minecraft:worldgen/biome	c:is_beach
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BEACH
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BEACH
+TAG	minecraft:worldgen/biome	c:is_birch_forest
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BIRCH_FOREST
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BIRCH_FOREST
+TAG	minecraft:worldgen/biome	c:is_cave
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_CAVE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_CAVE
+TAG	minecraft:worldgen/biome	c:is_cold
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD
+TAG	minecraft:worldgen/biome	c:is_cold/end
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD_END
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_END
+TAG	minecraft:worldgen/biome	c:is_cold/nether
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_NETHER
+TAG	minecraft:worldgen/biome	c:is_cold/overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD_OVERWORLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_dead
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DEAD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DEAD
+TAG	minecraft:worldgen/biome	c:is_deep_ocean
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DEEP_OCEAN
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DEEP_OCEAN
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_DENSE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation/end
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_END
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation/nether
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_NETHER
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation/overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_DENSE_OVERWORLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_desert
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DESERT
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DESERT
+TAG	minecraft:worldgen/biome	c:is_dry
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY
+TAG	minecraft:worldgen/biome	c:is_dry/end
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_END
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_END
+TAG	minecraft:worldgen/biome	c:is_dry/nether
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_NETHER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_NETHER
+TAG	minecraft:worldgen/biome	c:is_dry/overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_OVERWORLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_end
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_END
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_END
+TAG	minecraft:worldgen/biome	c:is_floral
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FLORAL
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FLORAL
+TAG	minecraft:worldgen/biome	c:is_flower_forest
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FLOWER_FOREST
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FLOWER_FOREST
+TAG	minecraft:worldgen/biome	c:is_forest
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FOREST
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FOREST
+TAG	minecraft:worldgen/biome	c:is_hill
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HILL
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HILL
+TAG	minecraft:worldgen/biome	c:is_hot
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT
+TAG	minecraft:worldgen/biome	c:is_hot/end
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_END
+TAG	minecraft:worldgen/biome	c:is_hot/nether
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT_NETHER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_NETHER
+TAG	minecraft:worldgen/biome	c:is_hot/overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT_OVERWORLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_icy
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_ICY
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_ICY
+TAG	minecraft:worldgen/biome	c:is_jungle
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_JUNGLE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_JUNGLE
+TAG	minecraft:worldgen/biome	c:is_lush
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_LUSH
+TAG	minecraft:worldgen/biome	c:is_magical
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MAGICAL
+TAG	minecraft:worldgen/biome	c:is_modified
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MODIFIED
+TAG	minecraft:worldgen/biome	c:is_mountain
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN
+TAG	minecraft:worldgen/biome	c:is_mountain/peak
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN_PEAK
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN_PEAK
+TAG	minecraft:worldgen/biome	c:is_mountain/slope
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN_SLOPE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN_SLOPE
+TAG	minecraft:worldgen/biome	c:is_mushroom
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MUSHROOM
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MUSHROOM
+TAG	minecraft:worldgen/biome	c:is_nether
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_NETHER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_NETHER
+TAG	minecraft:worldgen/biome	c:is_nether_forest
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_NETHER_FOREST
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_NETHER_FOREST
+TAG	minecraft:worldgen/biome	c:is_ocean
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OCEAN
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OCEAN
+TAG	minecraft:worldgen/biome	c:is_old_growth
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OLD_GROWTH
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OLD_GROWTH
+TAG	minecraft:worldgen/biome	c:is_outer_end_island
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OUTER_END_ISLAND
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OUTER_END_ISLAND
+TAG	minecraft:worldgen/biome	c:is_overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OVERWORLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_plains
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_PLAINS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_PLAINS
+TAG	minecraft:worldgen/biome	c:is_plateau
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_PLATEAU
+TAG	minecraft:worldgen/biome	c:is_rare
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_RARE
+TAG	minecraft:worldgen/biome	c:is_river
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_RIVER
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_RIVER
+TAG	minecraft:worldgen/biome	c:is_sandy
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SANDY
+TAG	minecraft:worldgen/biome	c:is_savanna
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SAVANNA
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SAVANNA
+TAG	minecraft:worldgen/biome	c:is_shallow_ocean
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SHALLOW_OCEAN
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SHALLOW_OCEAN
+TAG	minecraft:worldgen/biome	c:is_snowy
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SNOWY
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SNOWY
+TAG	minecraft:worldgen/biome	c:is_snowy_plains
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SNOWY_PLAINS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SNOWY_PLAINS
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_SPARSE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/end
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_END
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/nether
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_NETHER
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_SPARSE_OVERWORLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_spooky
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPOOKY
+TAG	minecraft:worldgen/biome	c:is_stony_shores
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_STONY_SHORES
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_STONY_SHORES
+TAG	minecraft:worldgen/biome	c:is_swamp
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SWAMP
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SWAMP
+TAG	minecraft:worldgen/biome	c:is_taiga
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TAIGA
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_TAIGA
+TAG	minecraft:worldgen/biome	c:is_temperate
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TEMPERATE
+TAG	minecraft:worldgen/biome	c:is_temperate/overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TEMPERATE_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_tree/coniferous
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_CONIFEROUS_TREE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_CONIFEROUS_TREE
+TAG	minecraft:worldgen/biome	c:is_tree/deciduous
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DECIDUOUS_TREE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DECIDUOUS_TREE
+TAG	minecraft:worldgen/biome	c:is_tree/jungle
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_JUNGLE_TREE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_JUNGLE_TREE
+TAG	minecraft:worldgen/biome	c:is_tree/savanna
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SAVANNA_TREE
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SAVANNA_TREE
+TAG	minecraft:worldgen/biome	c:is_underground
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_UNDERGROUND
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_UNDERGROUND
+TAG	minecraft:worldgen/biome	c:is_void
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VOID
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_VOID
+TAG	minecraft:worldgen/biome	c:is_wasteland
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WASTELAND
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WASTELAND
+TAG	minecraft:worldgen/biome	c:is_wet
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WET
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET
+TAG	minecraft:worldgen/biome	c:is_wet/end
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_END
+TAG	minecraft:worldgen/biome	c:is_wet/nether
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_NETHER
+TAG	minecraft:worldgen/biome	c:is_wet/overworld
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WET_OVERWORLD
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_windswept
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WINDSWEPT
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WINDSWEPT
+TAG	minecraft:worldgen/biome	c:no_default_monsters
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	NO_DEFAULT_MONSTERS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	NO_DEFAULT_MONSTERS
+TAG	minecraft:worldgen/structure	c:hidden_from_displayers
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalStructureTags	HIDDEN_FROM_DISPLAYERS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Structures	HIDDEN_FROM_DISPLAYERS
+TAG	minecraft:worldgen/structure	c:hidden_from_locator_selection
+	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalStructureTags	HIDDEN_FROM_LOCATOR_SELECTION
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Structures	HIDDEN_FROM_LOCATOR_SELECTION
