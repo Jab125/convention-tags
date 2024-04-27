@@ -179,167 +179,228 @@ TAG	minecraft:block	c:obsidians
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	OBSIDIANS
 	ARCHITECTURY	dev/architectury/tags/BlockTags	OBSIDIANS
 TAG	minecraft:block	c:ore_bearing_ground/deepslate
-	COMMENT	Blocks in this tag are treated as Deepslate for ore generation purposes.
+	COMMENT	Blocks that are treated like Deepslate during ore generation.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_DEEPSLATE
 	ARCHITECTURY	dev/architectury/tags/BlockTags	DEEPSLATE_ORE_BEARING_GROUND
 TAG	minecraft:block	c:ore_bearing_ground/netherrack
-	COMMENT	Blocks in this tag are treated as Netherrack for ore generation purposes.
+	COMMENT	Blocks that are treated like Netherrack during ore generation.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_NETHERRACK
 	ARCHITECTURY	dev/architectury/tags/BlockTags	NETHERRACK_ORE_BEARING_GROUND
 TAG	minecraft:block	c:ore_bearing_ground/stone
-	COMMENT	Blocks in this tag are treated as Stone for ore generation purposes.
+	COMMENT	Blocks that are treated like Stone during ore generation.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_STONE
 	ARCHITECTURY	dev/architectury/tags/BlockTags	STONE_ORE_BEARING_GROUND
 TAG	minecraft:block	c:ore_rates/dense
+	COMMENT	Ores that usually drop more than one resource when mined.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_DENSE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	DENSE_ORE_RATES
 TAG	minecraft:block	c:ore_rates/singular
+	COMMENT	Ores that usually drop a single resource when mined.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_SINGULAR
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SINGULAR_ORE_RATES
 TAG	minecraft:block	c:ore_rates/sparse
+	COMMENT	Ores that usually drop less than one resource when mined.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_SPARSE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SPARCE_ORE_RATES
 TAG	minecraft:block	c:ores
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	ORES
 TAG	minecraft:block	c:ores/coal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_COAL
+	ARCHITECTURY	dev/architectury/tags/BlockTags	COAL_ORES
 TAG	minecraft:block	c:ores/copper
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_COPPER
+	ARCHITECTURY	dev/architectury/tags/BlockTags	COPPER_ORES
 TAG	minecraft:block	c:ores/diamond
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_DIAMOND
+	ARCHITECTURY	dev/architectury/tags/BlockTags	DIAMOND_ORES
 TAG	minecraft:block	c:ores/emerald
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_EMERALD
+	ARCHITECTURY	dev/architectury/tags/BlockTags	EMERALD_ORES
 TAG	minecraft:block	c:ores/gold
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_GOLD
+	ARCHITECTURY	dev/architectury/tags/BlockTags	GOLD_ORES
 TAG	minecraft:block	c:ores/iron
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IRON
+	ARCHITECTURY	dev/architectury/tags/BlockTags	IRON_ORES
 TAG	minecraft:block	c:ores/lapis
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_LAPIS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	LAPIS_ORES
 TAG	minecraft:block	c:ores/netherite_scrap
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	NETHERITE_SCRAP_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_NETHERITE_SCRAP
+	ARCHITECTURY	dev/architectury/tags/BlockTags	NETHERITE_SCRAP_ORES
 TAG	minecraft:block	c:ores/quartz
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	QUARTZ_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_QUARTZ
+	ARCHITECTURY	dev/architectury/tags/BlockTags	QUARTZ_ORES
 TAG	minecraft:block	c:ores/redstone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_REDSTONE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	REDSTONE_ORES
 TAG	minecraft:block	c:ores_in_ground/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_DEEPSLATE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	DEEPSLATE_ORES_IN_GROUND
 TAG	minecraft:block	c:ores_in_ground/netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_NETHERRACK
+	ARCHITECTURY	dev/architectury/tags/BlockTags	NETHERRACK_ORES_IN_GROUND
 TAG	minecraft:block	c:ores_in_ground/stone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_STONE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	STONE_ORES_IN_GROUND
 TAG	minecraft:block	c:player_workstations/crafting_tables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 TAG	minecraft:block	c:player_workstations/furnaces
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PLAYER_WORKSTATIONS_FURNACES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	PLAYER_WORKSTATIONS_FURNACES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	PLAYER_WORKSTATIONS_FURNACES
 TAG	minecraft:block	c:relocation_not_supported
+	COMMENT	Blocks should be included in this tag if their movement can cause 
+	COMMENT	serious issues such as world corruption or for balance reasons.
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RELOCATION_NOT_SUPPORTED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	RELOCATION_NOT_SUPPORTED
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RELOCATION_NOT_SUPPORTED
 TAG	minecraft:block	c:ropes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ROPES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ROPES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	ROPES
 TAG	minecraft:block	c:sands
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SANDS
 TAG	minecraft:block	c:sands/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS_COLORLESS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	COLORLESS_SANDS
 TAG	minecraft:block	c:sands/red
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS_RED
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RED_SANDS
 TAG	minecraft:block	c:sandstone/blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SANDSTONE_BLOCKS
 TAG	minecraft:block	c:sandstone/red_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RED_SANDSTONE_BLOCKS
 TAG	minecraft:block	c:sandstone/red_slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_SLABS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RED_SANDSTONE_SLABS
 TAG	minecraft:block	c:sandstone/red_stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_STAIRS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RED_SANDSTONE_STAIRS
 TAG	minecraft:block	c:sandstone/slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_SLABS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SANDSTONE_SLABS
 TAG	minecraft:block	c:sandstone/stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_STAIRS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SANDSTONE_STAIRS
 TAG	minecraft:block	c:sandstone/uncolored_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	UNCOLORED_SANDSTONE_BLOCKS
 TAG	minecraft:block	c:sandstone/uncolored_slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_SLABS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	UNCOLORED_SANDSTONE_SLABS
 TAG	minecraft:block	c:sandstone/uncolored_stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_STAIRS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	UNCOLORED_SANDSTONE_STAIRS
 TAG	minecraft:block	c:shulker_boxes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SHULKER_BOXES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SHULKER_BOXES
 TAG	minecraft:block	c:skulls
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SKULLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SKULLS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SKULLS
 TAG	minecraft:block	c:stones
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STONES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STONES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	STONES
 TAG	minecraft:block	c:storage_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/bone_meal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_BONE_MEAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_BONE_MEAL
+	ARCHITECTURY	dev/architectury/tags/BlockTags	BONE_MEAL_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/coal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_COAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_COAL
+	ARCHITECTURY	dev/architectury/tags/BlockTags	COAL_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_COPPER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_COPPER
+	ARCHITECTURY	dev/architectury/tags/BlockTags	COPPER_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/diamond
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_DIAMOND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_DIAMOND
+	ARCHITECTURY	dev/architectury/tags/BlockTags	DIAMOND_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/dried_kelp
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_DRIED_KELP
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_DRIED_KELP
+	ARCHITECTURY	dev/architectury/tags/BlockTags	DRIED_KELP_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/emerald
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_EMERALD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_EMERALD
+	ARCHITECTURY	dev/architectury/tags/BlockTags	EMERALD_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_GOLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_GOLD
+	ARCHITECTURY	dev/architectury/tags/BlockTags	GOLD_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_IRON
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_IRON
+	ARCHITECTURY	dev/architectury/tags/BlockTags	IRON_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/lapis
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_LAPIS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_LAPIS
+	ARCHITECTURY	dev/architectury/tags/BlockTags	LAPIS_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/netherite
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_NETHERITE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_NETHERITE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	NETHERITE_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/raw_copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_COPPER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_COPPER
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RAW_COPPER_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/raw_gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_GOLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_GOLD
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RAW_GOLD_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/raw_iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_IRON
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_IRON
+	ARCHITECTURY	dev/architectury/tags/BlockTags	RAW_IRON_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/redstone
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_REDSTONE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_REDSTONE
+	ARCHITECTURY	dev/architectury/tags/BlockTags	REDSTONE_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/slime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_SLIME
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_SLIME
+	ARCHITECTURY	dev/architectury/tags/BlockTags	SLIME_STORAGE_BLOCKS
 TAG	minecraft:block	c:storage_blocks/wheat
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_WHEAT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_WHEAT
+	ARCHITECTURY	dev/architectury/tags/BlockTags	WHEAT_STORAGE_BLOCKS
 TAG	minecraft:block	c:villager_job_sites
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	VILLAGER_JOB_SITES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	VILLAGER_JOB_SITES
+	ARCHITECTURY	dev/architectury/tags/BlockTags	VILLAGER_JOB_SITES
 TAG	minecraft:enchantment	c:entity_auxiliary_movement_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
+	ARCHITECTURY	dev/architectury/tags/EnchantmentTags	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
 TAG	minecraft:enchantment	c:entity_defense_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_DEFENSE_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_DEFENSE_ENHANCEMENTS
+	ARCHITECTURY	dev/architectury/tags/EnchantmentTags	ENTITY_DEFENSE_ENHANCEMENTS
 TAG	minecraft:enchantment	c:entity_speed_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_SPEED_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_SPEED_ENHANCEMENTS
