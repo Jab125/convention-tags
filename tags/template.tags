@@ -1,7 +1,0 @@
-TAG minecraft:worldgen/biome    c:no_default_monsters
-    COMMENT For biomes that should not spawn monsters over time the normal way.
-    COMMENT In other words, their Spawners and Spawn Cost entries have the monster category empty.
-    COMMENT Example: Mushroom Biomes not having Zombies, Creepers, Skeleton, nor any other normal monsters.
-    FABRIC net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags  NO_DEFAULT_MONSTERS
-    NEOFORGE net/neoforged/neoforge/common/Tags$Biomes  NO_DEFAULT_MONSTERS
-    ARCHITECTURY dev/architectury/api/tags/BiomeTags    NO_DEFAULT_MONSTERS
