@@ -1,8 +1,8 @@
-package dev.architectury.tags;
+package dev.jab125.convention.tags;
 
 import java.util.*;
 
-public record Tag(String registryKey, String name, String[] comments, Method fabric, Method neoForge, Method architectury) implements Comparable<Tag> {
+public record Tag(String registryKey, String name, String[] comments, Method fabric, Method neoForge, Method convention) implements Comparable<Tag> {
 	public String serialise() {
 		ArrayList<String> strs = new ArrayList<>();
 		strs.add("TAG\t" + registryKey + "\t" + name);
@@ -11,7 +11,7 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 		}
 		if (notBlank(fabric)) strs.add("\tFABRIC\t" + fabric);
 		if (notBlank(neoForge)) strs.add("\tNEOFORGE\t" + neoForge);
-		if (notBlank(architectury)) strs.add("\tARCHITECTURY\t" + architectury);
+		if (notBlank(convention)) strs.add("\tCOMMON\t" + convention);
 		return String.join("\n", strs);
 	}
 
@@ -35,7 +35,7 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 		private ArrayList<String> comments = new ArrayList<>();
 		private Method fabric;
 		private Method neoforge;
-		private Method architectury;
+		private Method convention;
 
 		public TagBuilder name(String registryKey, String name) {
 			this.registryKey = registryKey;
@@ -50,8 +50,8 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 			this.neoforge = new Method(clazz, method);
 			return this;
 		}
-		public TagBuilder architectury(String clazz, String method) {
-			this.architectury = new Method(clazz, method);
+		public TagBuilder convention(String clazz, String method) {
+			this.convention = new Method(clazz, method);
 			return this;
 		}
 		public TagBuilder comment(String comment) {
@@ -60,7 +60,7 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 		}
 
 		public Tag build() {
-			return new Tag(registryKey, name, comments.toArray(new String[0]), fabric, neoforge, architectury);
+			return new Tag(registryKey, name, comments.toArray(new String[0]), fabric, neoforge, convention);
 		}
 	}
 
@@ -87,7 +87,7 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 			   ", comments=" + Arrays.toString(comments) +
 			   ", fabric=" + fabric +
 			   ", neoForge=" + neoForge +
-			   ", architectury=" + architectury +
+			   ", convention=" + convention +
 			   '}';
 	}
 
@@ -129,11 +129,11 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 						int i = s.indexOf("\t");
 						if (i == -1) throw new RuntimeException();
 						tagBuilder.neoforge(s.substring(0, i), s.substring(i + 1));
-					} else if (s.startsWith("ARCHITECTURY\t")) {
+					} else if (s.startsWith("COMMON\t")) {
 						s = s.substring(13);
 						int i = s.indexOf("\t");
 						if (i == -1) throw new RuntimeException();
-						tagBuilder.architectury(s.substring(0, i), s.substring(i + 1));
+						tagBuilder.convention(s.substring(0, i), s.substring(i + 1));
 					}
 				}
 			});

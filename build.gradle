@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'dev.architectury'
+group 'dev.jab125'
 version '1.0-SNAPSHOT'
 
 repositories {

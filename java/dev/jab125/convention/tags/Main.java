@@ -1,9 +1,8 @@
-package dev.architectury.tags;
+package dev.jab125.convention.tags;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
@@ -27,7 +26,7 @@ public class Main {
 		String indexTemplate = new String(Main.class.getResourceAsStream("/index-template.html").readAllBytes());
 		String tagTemplate = new String(Main.class.getResourceAsStream("/tag-template.html").readAllBytes());
 		String loaderTemplate = new String(Main.class.getResourceAsStream("/loader-template.html").readAllBytes());
-		String architecturyTemplate = new String(Main.class.getResourceAsStream("/arch-template.html").readAllBytes());
+		String conventionTemplate = new String(Main.class.getResourceAsStream("/arch-template.html").readAllBytes());
 		String script = new String(Main.class.getResourceAsStream("/index.js").readAllBytes());
 		String styles = new String(Main.class.getResourceAsStream("/style.css").readAllBytes());
 		String manifest = new String(Main.class.getResourceAsStream("/manifest.json").readAllBytes());
@@ -85,7 +84,7 @@ public class Main {
 		server.createContext("/", exchange -> {
 			String string = null;
 			try {
-				string = indexHtml(tags, indexTemplate, tagTemplate, loaderTemplate, architecturyTemplate);
+				string = indexHtml(tags, indexTemplate, tagTemplate, loaderTemplate, conventionTemplate);
 			} catch (Exception e) {
 				e.printStackTrace();
 				string = "<h1>Internal Server Error</h1>";
@@ -106,15 +105,15 @@ public class Main {
 		System.out.println("Server started at http://localhost:1290");
 	}
 
-	private static String indexHtml(List<Tag> deserialize, String indexTemplate, String tagTemplate, String loaderTemplate, String architecturyTemplate) {
-		String[] architecturyClasses = new String[]{
-				"dev.architectury.tags.BiomeTags",
-				"dev.architectury.tags.BlockTags",
-				"dev.architectury.tags.EnchantmentTags",
-				"dev.architectury.tags.EntityTypeTags",
-				"dev.architectury.tags.FluidTags",
-				"dev.architectury.tags.ItemTags",
-				"dev.architectury.tags.StructureTags",
+	private static String indexHtml(List<Tag> deserialize, String indexTemplate, String tagTemplate, String loaderTemplate, String conventionTemplate) {
+		String[] conventionClasses = new String[]{
+				"dev.jab125.tags.BiomeTags",
+				"dev.jab125.tags.BlockTags",
+				"dev.jab125.tags.EnchantmentTags",
+				"dev.jab125.tags.EntityTypeTags",
+				"dev.jab125.tags.FluidTags",
+				"dev.jab125.tags.ItemTags",
+				"dev.jab125.tags.StructureTags",
 		};
 		String string = indexTemplate;
 		String f = "";
@@ -126,25 +125,25 @@ public class Main {
 			Tag.Method neoforge = tag.neoForge();
 			if (neoforge == null) neoforge = new Tag.Method("", "");
 			g += loaderTemplate.formatted("NeoForge", prettyClass(neoforge.clazz()), neoforge.method());
-			Tag.Method architectury = tag.architectury();
-			if (architectury == null) architectury = new Tag.Method("", "");
-			String archClass = architectury.clazz();
-			String archMethod = architectury.method();
+			Tag.Method convention = tag.convention();
+			if (convention == null) convention = new Tag.Method("", "");
+			String archClass = convention.clazz();
+			String archMethod = convention.method();
 			String selectOptions = "";
 			boolean r = false;
-			for (String architecturyClass : architecturyClasses) {
-				String pretty = prettyClass(architecturyClass);
-				if (archClass.replaceAll("/", ".").equals(architecturyClass)) {
-					selectOptions += "<option selected value=\"" + architecturyClass + "\">" + pretty + "</option>";
+			for (String conventionClass : conventionClasses) {
+				String pretty = prettyClass(conventionClass);
+				if (archClass.replaceAll("/", ".").equals(conventionClass)) {
+					selectOptions += "<option selected value=\"" + conventionClass + "\">" + pretty + "</option>";
 					r = true;
 				} else {
-					selectOptions += "<option value=\"" + architecturyClass + "\">" + pretty + "</option>";
+					selectOptions += "<option value=\"" + conventionClass + "\">" + pretty + "</option>";
 				}
 			}
 			if (!r) {
 				selectOptions += "<option disabled hidden selected></option>";
 			}
-			g += architecturyTemplate.formatted(selectOptions, archMethod);
+			g += conventionTemplate.formatted(selectOptions, archMethod);
 			f += tagTemplate.formatted(
 					(tag.registryKey() + "-" + tag.name()).replaceAll("/", "-").replaceAll(":", "-"),
 					tag.name(), tag.registryKey(),
@@ -163,33 +162,7 @@ public class Main {
 		return split[split.length - 1];
 	}
 
-	public static void archGen() throws IOException {
-		HashMap<String, Tag.TagBuilder> tagHashMap = new HashMap<>();
-		String s = Files.readString(Path.of("archgen/fabric.txt"));
-		extract(tagHashMap, s, "fabric");
-		s = Files.readString(Path.of("archgen/neoforge.txt"));
-		extract(tagHashMap, s, "neoforge");
+	public static void generate() throws IOException {
 
-		Collection<Tag.TagBuilder> values = tagHashMap.values();
-		List<Tag> tags = values.stream().map(Tag.TagBuilder::build).toList();
-		Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));
-	}
-
-	private static void extract(HashMap<String, Tag.TagBuilder> tagHashMap, String s, String loader) {
-		String[] split = s.split("\n");
-		for (String s1 : split) {
-			String[] split1 = s1.split("\\|");
-			String type = split1[0];
-			String clazz = split1[1];
-			String method = split1[2];
-			String tag = split1[3];
-			tagHashMap.computeIfAbsent(type + "/" + tag, f -> new Tag.TagBuilder());
-			Tag.TagBuilder tagBuilder = tagHashMap.get(type + "/" + tag);
-			tagBuilder.name(type, tag);
-			switch (loader) {
-				case "fabric" -> tagBuilder.fabric(clazz.replaceAll("\\.", "/"), method);
-				case "neoforge" -> tagBuilder.neoforge(clazz.replaceAll("\\.", "/"), method);
-			}
-		}
 	}
 }
