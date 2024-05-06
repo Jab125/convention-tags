@@ -17,7 +17,7 @@ public class Main {
 	private static List<Tag> tags;
 
 	public static void main(String[] args) throws IOException {
-		//archGen();
+		//cGen();
 		String s = Files.readString(Path.of("tags/convention-tags.tags"));
 		Main.tags = Tag.deserialize(s);
 		HttpServer server = HttpServer.create();
@@ -102,7 +102,7 @@ public class Main {
 			exchange.getResponseBody().write(bytes);
 			exchange.close();
 		});
-		System.out.println("Server started at http://localhost:1290");
+		System.out.println("Server started at http://localhost:1291");
 	}
 
 	private static String indexHtml(List<Tag> deserialize, String indexTemplate, String tagTemplate, String loaderTemplate, String conventionTemplate) {
@@ -127,13 +127,13 @@ public class Main {
 			g += loaderTemplate.formatted("NeoForge", prettyClass(neoforge.clazz()), neoforge.method());
 			Tag.Method convention = tag.convention();
 			if (convention == null) convention = new Tag.Method("", "");
-			String archClass = convention.clazz();
-			String archMethod = convention.method();
+			String cClass = convention.clazz();
+			String cMethod = convention.method();
 			String selectOptions = "";
 			boolean r = false;
 			for (String conventionClass : conventionClasses) {
 				String pretty = prettyClass(conventionClass);
-				if (archClass.replaceAll("/", ".").equals(conventionClass)) {
+				if (cClass.replaceAll("/", ".").equals(conventionClass)) {
 					selectOptions += "<option selected value=\"" + conventionClass + "\">" + pretty + "</option>";
 					r = true;
 				} else {
@@ -143,7 +143,7 @@ public class Main {
 			if (!r) {
 				selectOptions += "<option disabled hidden selected></option>";
 			}
-			g += conventionTemplate.formatted(selectOptions, archMethod);
+			g += conventionTemplate.formatted(selectOptions, cMethod);
 			f += tagTemplate.formatted(
 					(tag.registryKey() + "-" + tag.name()).replaceAll("/", "-").replaceAll(":", "-"),
 					tag.name(), tag.registryKey(),
