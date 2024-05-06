@@ -21,12 +21,12 @@ public class Main {
 		String s = Files.readString(Path.of("tags/convention-tags.tags"));
 		Main.tags = Tag.deserialize(s);
 		HttpServer server = HttpServer.create();
-		server.bind(new InetSocketAddress(1290), 0);
+		server.bind(new InetSocketAddress(1291), 0);
 		server.start();
 		String indexTemplate = new String(Main.class.getResourceAsStream("/index-template.html").readAllBytes());
 		String tagTemplate = new String(Main.class.getResourceAsStream("/tag-template.html").readAllBytes());
 		String loaderTemplate = new String(Main.class.getResourceAsStream("/loader-template.html").readAllBytes());
-		String conventionTemplate = new String(Main.class.getResourceAsStream("/arch-template.html").readAllBytes());
+		String conventionTemplate = new String(Main.class.getResourceAsStream("/convention-template.html").readAllBytes());
 		String script = new String(Main.class.getResourceAsStream("/index.js").readAllBytes());
 		String styles = new String(Main.class.getResourceAsStream("/style.css").readAllBytes());
 		String manifest = new String(Main.class.getResourceAsStream("/manifest.json").readAllBytes());
