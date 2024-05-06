@@ -15,10 +15,32 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 		return String.join("\n", strs);
 	}
 
+	public String getRegistryAndName() {
+		return registryKey + "|" + name;
+	}
+
 	public record Method(String clazz, String method) {
 		@Override
 		public String toString() {
 			return clazz + "\t" + method;
+		}
+
+		@Override
+		public boolean equals(Object o) {
+			if (this == o) return true;
+			if (o == null || getClass() != o.getClass()) return false;
+
+			Method method1 = (Method) o;
+
+			if (!Objects.equals(clazz, method1.clazz)) return false;
+			return Objects.equals(method, method1.method);
+		}
+
+		@Override
+		public int hashCode() {
+			int result = clazz != null ? clazz.hashCode() : 0;
+			result = 31 * result + (method != null ? method.hashCode() : 0);
+			return result;
 		}
 	}
 
@@ -61,6 +83,30 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 
 		public Tag build() {
 			return new Tag(registryKey, name, comments.toArray(new String[0]), fabric, neoforge, convention);
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public String getRegistryKey() {
+			return registryKey;
+		}
+
+		public ArrayList<String> getComments() {
+			return comments;
+		}
+
+		public Method getFabric() {
+			return fabric;
+		}
+
+		public Method getNeoForge() {
+			return neoforge;
+		}
+
+		public Method getConvention() {
+			return convention;
 		}
 	}
 
