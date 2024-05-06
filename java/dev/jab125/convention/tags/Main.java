@@ -26,7 +26,9 @@ public class Main {
 		for (Tag.TagBuilder mutableTag : TagGeneration.mutableTags) {
 			z.add(mutableTag.build());
 		}
-		TagMerger.merge(z, Main.tags);
+		Collection<Tag> merge = TagMerger.merge(z, Main.tags);
+		Main.tags = new ArrayList<>(merge);
+		Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));
 		HttpServer server = HttpServer.create();
 		server.bind(new InetSocketAddress(1291), 0);
 		server.start();
