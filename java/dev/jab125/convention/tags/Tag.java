@@ -130,7 +130,7 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 						if (i == -1) throw new RuntimeException();
 						tagBuilder.neoforge(s.substring(0, i), s.substring(i + 1));
 					} else if (s.startsWith("COMMON\t")) {
-						s = s.substring(13);
+						s = s.substring(7);
 						int i = s.indexOf("\t");
 						if (i == -1) throw new RuntimeException();
 						tagBuilder.convention(s.substring(0, i), s.substring(i + 1));
