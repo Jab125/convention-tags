@@ -163,7 +163,7 @@ TAG	minecraft:block	c:glass_panes
 	COMMON	dev/jab125/tags/BlockTags	GLASS_PANES
 TAG	minecraft:block	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES_COLORLESS
-	COMMON	dev/jab125/tags/BlockTags	COLORESS_GLASS_PANES
+	COMMON	dev/jab125/tags/BlockTags	COLORLESS_GLASS_PANES
 TAG	minecraft:block	c:gravels
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GRAVELS
 	COMMON	dev/jab125/tags/BlockTags	GRAVELS
@@ -867,7 +867,7 @@ TAG	minecraft:item	c:glass_panes
 	COMMON	dev/jab125/tags/ItemTags	GLASS_PANES
 TAG	minecraft:item	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES_COLORLESS
-	COMMON	dev/jab125/tags/ItemTags	COLORESS_GLASS_PANES
+	COMMON	dev/jab125/tags/ItemTags	COLORLESS_GLASS_PANES
 TAG	minecraft:item	c:gravels
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GRAVELS
 	COMMON	dev/jab125/tags/ItemTags	GRAVELS
@@ -1054,7 +1054,7 @@ TAG	minecraft:item	c:sands
 	COMMON	dev/jab125/tags/ItemTags	SANDS
 TAG	minecraft:item	c:sands/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_COLORLESS
-	COMMON	dev/jab125/tags/ItemTags	COLORESS_SANDS
+	COMMON	dev/jab125/tags/ItemTags	COLORLESS_SANDS
 TAG	minecraft:item	c:sands/red
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_RED
 	COMMON	dev/jab125/tags/ItemTags	RED_SANDS

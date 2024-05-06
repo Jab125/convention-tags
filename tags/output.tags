@@ -89,7 +89,7 @@ TAG	minecraft:block	c:glass_blocks/tinted
 TAG	minecraft:block	c:glass_panes
 	COMMON	dev/jab125/tags/BlockTags	GLASS_PANES
 TAG	minecraft:block	c:glass_panes/colorless
-	COMMON	dev/jab125/tags/BlockTags	COLORESS_GLASS_PANES
+	COMMON	dev/jab125/tags/BlockTags	COLORLESS_GLASS_PANES
 TAG	minecraft:block	c:gravels
 	COMMON	dev/jab125/tags/BlockTags	GRAVELS
 TAG	minecraft:block	c:hidden_from_recipe_viewers
@@ -481,7 +481,7 @@ TAG	minecraft:item	c:glass_blocks/tinted
 TAG	minecraft:item	c:glass_panes
 	COMMON	dev/jab125/tags/ItemTags	GLASS_PANES
 TAG	minecraft:item	c:glass_panes/colorless
-	COMMON	dev/jab125/tags/ItemTags	COLORESS_GLASS_PANES
+	COMMON	dev/jab125/tags/ItemTags	COLORLESS_GLASS_PANES
 TAG	minecraft:item	c:gravels
 	COMMON	dev/jab125/tags/ItemTags	GRAVELS
 TAG	minecraft:item	c:gunpowders
@@ -589,7 +589,7 @@ TAG	minecraft:item	c:ropes
 TAG	minecraft:item	c:sands
 	COMMON	dev/jab125/tags/ItemTags	SANDS
 TAG	minecraft:item	c:sands/colorless
-	COMMON	dev/jab125/tags/ItemTags	COLORESS_SANDS
+	COMMON	dev/jab125/tags/ItemTags	COLORLESS_SANDS
 TAG	minecraft:item	c:sands/red
 	COMMON	dev/jab125/tags/ItemTags	RED_SANDS
 TAG	minecraft:item	c:sandstone/blocks
