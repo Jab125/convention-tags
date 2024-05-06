@@ -35,6 +35,11 @@ public class TagMerger {
 				if (old.isPresent()) {
 					Tag tag = old.get();
 					if (tag.convention() != null) tagBuilder.convention(tag.convention().clazz(), tag.convention().method());
+					if (tag.comments() != null) {
+						for (String comment : tag.comments()) {
+							tagBuilder.comment(comment);
+						}
+					}
 				}
 				combinedTagBuilders.add(tagBuilder);
 			}
