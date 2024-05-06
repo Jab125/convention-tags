@@ -21,14 +21,6 @@ public class Main {
 		//cGen();
 		String s = Files.readString(Path.of("tags/convention-tags.tags"));
 		Main.tags = Tag.deserialize(s);
-		TagGeneration.main(args);
-		List<Tag> z = new ArrayList<>();
-		for (Tag.TagBuilder mutableTag : TagGeneration.mutableTags) {
-			z.add(mutableTag.build());
-		}
-		Collection<Tag> merge = TagMerger.merge(z, Main.tags);
-		Main.tags = new ArrayList<>(merge);
-		Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));
 		HttpServer server = HttpServer.create();
 		server.bind(new InetSocketAddress(1291), 0);
 		server.start();
