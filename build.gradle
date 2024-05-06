@@ -1,5 +1,10 @@
-plugins {
-    id 'java'
+allprojects {
+    apply plugin: "java"
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+        options.release = 21
+    }
 }
 
 group 'dev.jab125'
@@ -14,6 +19,7 @@ dependencies {
     implementation "org.ow2.asm:asm:9.6"
     implementation "org.ow2.asm:asm-tree:9.6"
 }
+
 
 sourceSets {
     main {
