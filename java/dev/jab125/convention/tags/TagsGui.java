@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.sun.net.httpserver.HttpServer;
-import dev.jab125.convention.tags.util.TagMerger;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -13,25 +12,25 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
-public class Main {
+public class TagsGui {
 
 	private static List<Tag> tags;
 
 	public static void main(String[] args) throws IOException {
 		//cGen();
 		String s = Files.readString(Path.of("tags/convention-tags.tags"));
-		Main.tags = Tag.deserialize(s);
+		TagsGui.tags = Tag.deserialize(s);
 		HttpServer server = HttpServer.create();
 		server.bind(new InetSocketAddress(1291), 0);
 		server.start();
-		String indexTemplate = new String(Main.class.getResourceAsStream("/index-template.html").readAllBytes());
-		String tagTemplate = new String(Main.class.getResourceAsStream("/tag-template.html").readAllBytes());
-		String loaderTemplate = new String(Main.class.getResourceAsStream("/loader-template.html").readAllBytes());
-		String conventionTemplate = new String(Main.class.getResourceAsStream("/convention-template.html").readAllBytes());
-		String script = new String(Main.class.getResourceAsStream("/index.js").readAllBytes());
-		String styles = new String(Main.class.getResourceAsStream("/style.css").readAllBytes());
-		String manifest = new String(Main.class.getResourceAsStream("/manifest.json").readAllBytes());
-		byte[] x512 = Main.class.getResourceAsStream("/512x.png").readAllBytes();
+		String indexTemplate = new String(TagsGui.class.getResourceAsStream("/index-template.html").readAllBytes());
+		String tagTemplate = new String(TagsGui.class.getResourceAsStream("/tag-template.html").readAllBytes());
+		String loaderTemplate = new String(TagsGui.class.getResourceAsStream("/loader-template.html").readAllBytes());
+		String conventionTemplate = new String(TagsGui.class.getResourceAsStream("/convention-template.html").readAllBytes());
+		String script = new String(TagsGui.class.getResourceAsStream("/index.js").readAllBytes());
+		String styles = new String(TagsGui.class.getResourceAsStream("/style.css").readAllBytes());
+		String manifest = new String(TagsGui.class.getResourceAsStream("/manifest.json").readAllBytes());
+		byte[] x512 = TagsGui.class.getResourceAsStream("/512x.png").readAllBytes();
 		server.createContext("/icons/512.png", exchange -> {
 			byte[] bytes = x512;
 			int length = bytes.length;
@@ -78,6 +77,7 @@ public class Main {
 					}
 				}
 				Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));
+				Files.writeString(Path.of("tags/output.tags"), Tag.serializeMini(tags));
 				exchange.sendResponseHeaders(200, 0);
 				exchange.close();
 			}

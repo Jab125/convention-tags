@@ -15,6 +15,17 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 		return String.join("\n", strs);
 	}
 
+	public String serialiseMini() {
+		if (!notBlank(convention)) return null;
+		ArrayList<String> strs = new ArrayList<>();
+		strs.add("TAG\t" + registryKey + "\t" + name);
+		for (String comment : comments) {
+			strs.add("\tCOMMENT\t" + comment);
+		}
+		strs.add("\tCOMMON\t" + convention);
+		return String.join("\n", strs);
+	}
+
 	public String getRegistryAndName() {
 		return registryKey + "|" + name;
 	}
@@ -121,6 +132,17 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 		List<String> strings = new ArrayList<>();
 		for (Tag tag : r) {
 			strings.add(tag.serialise());
+		}
+		return String.join("\n", strings);
+	}
+
+	public static String serializeMini(Collection<Tag> tags) {
+		ArrayList<Tag> r = new ArrayList<>(tags);
+		Collections.sort(r);
+		List<String> strings = new ArrayList<>();
+		for (Tag tag : r) {
+			String s = tag.serialiseMini();
+			if (s != null) strings.add(s);
 		}
 		return String.join("\n", strings);
 	}

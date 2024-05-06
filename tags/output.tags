@@ -1,0 +1,848 @@
+TAG	minecraft:block	c:barrels
+	COMMON	dev/jab125/tags/BlockTags	BARRELS
+TAG	minecraft:block	c:barrels/wooden
+	COMMON	dev/jab125/tags/BlockTags	WOODEN_BARRELS
+TAG	minecraft:block	c:bookshelves
+	COMMON	dev/jab125/tags/BlockTags	BOOKSHELVES
+TAG	minecraft:block	c:budding_blocks
+	COMMON	dev/jab125/tags/BlockTags	BUDDING_BLOCKS
+TAG	minecraft:block	c:buds
+	COMMON	dev/jab125/tags/BlockTags	BUDS
+TAG	minecraft:block	c:chains
+	COMMON	dev/jab125/tags/BlockTags	CHAINS
+TAG	minecraft:block	c:chests
+	COMMON	dev/jab125/tags/BlockTags	CHESTS
+TAG	minecraft:block	c:chests/ender
+	COMMON	dev/jab125/tags/BlockTags	ENDER_CHESTS
+TAG	minecraft:block	c:chests/trapped
+	COMMON	dev/jab125/tags/BlockTags	TRAPPED_CHESTS
+TAG	minecraft:block	c:chests/wooden
+	COMMON	dev/jab125/tags/BlockTags	WOODEN_CHESTS
+TAG	minecraft:block	c:clusters
+	COMMON	dev/jab125/tags/BlockTags	CLUSTERS
+TAG	minecraft:block	c:cobblestones
+	COMMON	dev/jab125/tags/BlockTags	COBBLESTONES
+TAG	minecraft:block	c:cobblestones/deepslate
+	COMMON	dev/jab125/tags/BlockTags	DEEPSLATE_COBBLESTONES
+TAG	minecraft:block	c:cobblestones/infested
+	COMMON	dev/jab125/tags/BlockTags	INFESTED_COBBLESTONES
+TAG	minecraft:block	c:cobblestones/mossy
+	COMMON	dev/jab125/tags/BlockTags	MOSSY_COBBLESTONES
+TAG	minecraft:block	c:cobblestones/normal
+	COMMON	dev/jab125/tags/BlockTags	NORMAL_COBBLESTONES
+TAG	minecraft:block	c:dyed
+	COMMENT	Contains all other dyed tags.
+	COMMON	dev/jab125/tags/BlockTags	DYED
+TAG	minecraft:block	c:dyed/black
+	COMMON	dev/jab125/tags/BlockTags	BLACK_DYED
+TAG	minecraft:block	c:dyed/blue
+	COMMON	dev/jab125/tags/BlockTags	BLUE_DYED
+TAG	minecraft:block	c:dyed/brown
+	COMMON	dev/jab125/tags/BlockTags	BROWN_DYED
+TAG	minecraft:block	c:dyed/cyan
+	COMMON	dev/jab125/tags/BlockTags	CYAN_DYED
+TAG	minecraft:block	c:dyed/gray
+	COMMON	dev/jab125/tags/BlockTags	GRAY_DYED
+TAG	minecraft:block	c:dyed/green
+	COMMON	dev/jab125/tags/BlockTags	GREEN_DYED
+TAG	minecraft:block	c:dyed/light_blue
+	COMMON	dev/jab125/tags/BlockTags	LIGHT_BLUE_DYED
+TAG	minecraft:block	c:dyed/light_gray
+	COMMON	dev/jab125/tags/BlockTags	LIGHT_GRAY_DYED
+TAG	minecraft:block	c:dyed/lime
+	COMMON	dev/jab125/tags/BlockTags	LIME_DYED
+TAG	minecraft:block	c:dyed/magenta
+	COMMON	dev/jab125/tags/BlockTags	MAGENTA_DYED
+TAG	minecraft:block	c:dyed/orange
+	COMMON	dev/jab125/tags/BlockTags	ORANGE_DYED
+TAG	minecraft:block	c:dyed/pink
+	COMMON	dev/jab125/tags/BlockTags	PINK_DYED
+TAG	minecraft:block	c:dyed/purple
+	COMMON	dev/jab125/tags/BlockTags	PURPLE_DYED
+TAG	minecraft:block	c:dyed/red
+	COMMON	dev/jab125/tags/BlockTags	RED_DYED
+TAG	minecraft:block	c:dyed/white
+	COMMON	dev/jab125/tags/BlockTags	WHITE_DYED
+TAG	minecraft:block	c:dyed/yellow
+	COMMON	dev/jab125/tags/BlockTags	YELLOW_DYED
+TAG	minecraft:block	c:end_stones
+	COMMON	dev/jab125/tags/BlockTags	END_STONES
+TAG	minecraft:block	c:fence_gates
+	COMMON	dev/jab125/tags/BlockTags	FENCE_GATES
+TAG	minecraft:block	c:fence_gates/wooden
+	COMMON	dev/jab125/tags/BlockTags	WOODEN_FENCE_GATES
+TAG	minecraft:block	c:fences
+	COMMON	dev/jab125/tags/BlockTags	FENCES
+TAG	minecraft:block	c:fences/nether_brick
+	COMMON	dev/jab125/tags/BlockTags	NETHER_BRICK_FENCES
+TAG	minecraft:block	c:fences/wooden
+	COMMON	dev/jab125/tags/BlockTags	WOODEN_FENCES
+TAG	minecraft:block	c:glass_blocks
+	COMMON	dev/jab125/tags/BlockTags	GRASS_BLOCKS
+TAG	minecraft:block	c:glass_blocks/cheap
+	COMMENT	Glass which is made from cheap resources like sand and only minor additional ingredients like dyes.
+	COMMON	dev/jab125/tags/BlockTags	CHEAP_GLASS_BLOCKS
+TAG	minecraft:block	c:glass_blocks/colorless
+	COMMON	dev/jab125/tags/BlockTags	COLORLESS_GLASS_BLOCKS
+TAG	minecraft:block	c:glass_blocks/tinted
+	COMMON	dev/jab125/tags/BlockTags	TINTED_GLASS_BLOCKS
+TAG	minecraft:block	c:glass_panes
+	COMMON	dev/jab125/tags/BlockTags	GLASS_PANES
+TAG	minecraft:block	c:glass_panes/colorless
+	COMMON	dev/jab125/tags/BlockTags	COLORESS_GLASS_PANES
+TAG	minecraft:block	c:gravels
+	COMMON	dev/jab125/tags/BlockTags	GRAVELS
+TAG	minecraft:block	c:hidden_from_recipe_viewers
+	COMMENT	This tag holds all blocks that should be hidden from recipe viewers.
+	COMMON	dev/jab125/tags/BlockTags	HIDDEN_FROM_RECIPE_VIEWERS
+TAG	minecraft:block	c:netherracks
+	COMMON	dev/jab125/tags/BlockTags	NETHERRACKS
+TAG	minecraft:block	c:obsidians
+	COMMON	dev/jab125/tags/BlockTags	OBSIDIANS
+TAG	minecraft:block	c:ore_bearing_ground/deepslate
+	COMMENT	Blocks that are treated like Deepslate during ore generation.
+	COMMON	dev/jab125/tags/BlockTags	DEEPSLATE_ORE_BEARING_GROUND
+TAG	minecraft:block	c:ore_bearing_ground/netherrack
+	COMMENT	Blocks that are treated like Netherrack during ore generation.
+	COMMON	dev/jab125/tags/BlockTags	NETHERRACK_ORE_BEARING_GROUND
+TAG	minecraft:block	c:ore_bearing_ground/stone
+	COMMENT	Blocks that are treated like Stone during ore generation.
+	COMMON	dev/jab125/tags/BlockTags	STONE_ORE_BEARING_GROUND
+TAG	minecraft:block	c:ore_rates/dense
+	COMMENT	Ores that usually drop more than one resource when mined.
+	COMMON	dev/jab125/tags/BlockTags	DENSE_ORE_RATES
+TAG	minecraft:block	c:ore_rates/singular
+	COMMENT	Ores that usually drop a single resource when mined.
+	COMMON	dev/jab125/tags/BlockTags	SINGULAR_ORE_RATES
+TAG	minecraft:block	c:ore_rates/sparse
+	COMMENT	Ores that usually drop less than one resource when mined.
+	COMMON	dev/jab125/tags/BlockTags	SPARSE_ORE_RATES
+TAG	minecraft:block	c:ores
+	COMMON	dev/jab125/tags/BlockTags	ORES
+TAG	minecraft:block	c:ores/coal
+	COMMON	dev/jab125/tags/BlockTags	COAL_ORES
+TAG	minecraft:block	c:ores/copper
+	COMMON	dev/jab125/tags/BlockTags	COPPER_ORES
+TAG	minecraft:block	c:ores/diamond
+	COMMON	dev/jab125/tags/BlockTags	DIAMOND_ORES
+TAG	minecraft:block	c:ores/emerald
+	COMMON	dev/jab125/tags/BlockTags	EMERALD_ORES
+TAG	minecraft:block	c:ores/gold
+	COMMON	dev/jab125/tags/BlockTags	GOLD_ORES
+TAG	minecraft:block	c:ores/iron
+	COMMON	dev/jab125/tags/BlockTags	IRON_ORES
+TAG	minecraft:block	c:ores/lapis
+	COMMON	dev/jab125/tags/BlockTags	LAPIS_ORES
+TAG	minecraft:block	c:ores/netherite_scrap
+	COMMON	dev/jab125/tags/BlockTags	NETHERITE_SCRAP_ORES
+TAG	minecraft:block	c:ores/quartz
+	COMMON	dev/jab125/tags/BlockTags	QUARTZ_ORES
+TAG	minecraft:block	c:ores/redstone
+	COMMON	dev/jab125/tags/BlockTags	REDSTONE_ORES
+TAG	minecraft:block	c:ores_in_ground/deepslate
+	COMMON	dev/jab125/tags/BlockTags	DEEPSLATE_ORES_IN_GROUND
+TAG	minecraft:block	c:ores_in_ground/netherrack
+	COMMON	dev/jab125/tags/BlockTags	NETHERRACK_ORES_IN_GROUND
+TAG	minecraft:block	c:ores_in_ground/stone
+	COMMON	dev/jab125/tags/BlockTags	STONE_ORES_IN_GROUND
+TAG	minecraft:block	c:player_workstations/crafting_tables
+	COMMON	dev/jab125/tags/BlockTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+TAG	minecraft:block	c:player_workstations/furnaces
+	COMMON	dev/jab125/tags/BlockTags	PLAYER_WORKSTATIONS_FURNACES
+TAG	minecraft:block	c:relocation_not_supported
+	COMMENT	Blocks should be included in this tag if their movement can cause 
+	COMMENT	serious issues such as world corruption or for balance reasons.
+	COMMON	dev/jab125/tags/BlockTags	RELOCATION_NOT_SUPPORTED
+TAG	minecraft:block	c:ropes
+	COMMON	dev/jab125/tags/BlockTags	ROPES
+TAG	minecraft:block	c:sands
+	COMMON	dev/jab125/tags/BlockTags	SANDS
+TAG	minecraft:block	c:sands/colorless
+	COMMON	dev/jab125/tags/BlockTags	COLORLESS_SANDS
+TAG	minecraft:block	c:sands/red
+	COMMON	dev/jab125/tags/BlockTags	RED_SANDS
+TAG	minecraft:block	c:sandstone/blocks
+	COMMON	dev/jab125/tags/BlockTags	SANDSTONE_BLOCKS
+TAG	minecraft:block	c:sandstone/red_blocks
+	COMMON	dev/jab125/tags/BlockTags	RED_SANDSTONE_BLOCKS
+TAG	minecraft:block	c:sandstone/red_slabs
+	COMMON	dev/jab125/tags/BlockTags	RED_SANDSTONE_SLABS
+TAG	minecraft:block	c:sandstone/red_stairs
+	COMMON	dev/jab125/tags/BlockTags	RED_SANDSTONE_STAIRS
+TAG	minecraft:block	c:sandstone/slabs
+	COMMON	dev/jab125/tags/BlockTags	SANDSTONE_SLABS
+TAG	minecraft:block	c:sandstone/stairs
+	COMMON	dev/jab125/tags/BlockTags	SANDSTONE_STAIRS
+TAG	minecraft:block	c:sandstone/uncolored_blocks
+	COMMON	dev/jab125/tags/BlockTags	UNCOLORED_SANDSTONE_BLOCKS
+TAG	minecraft:block	c:sandstone/uncolored_slabs
+	COMMON	dev/jab125/tags/BlockTags	UNCOLORED_SANDSTONE_SLABS
+TAG	minecraft:block	c:sandstone/uncolored_stairs
+	COMMON	dev/jab125/tags/BlockTags	UNCOLORED_SANDSTONE_STAIRS
+TAG	minecraft:block	c:shulker_boxes
+	COMMON	dev/jab125/tags/BlockTags	SHULKER_BOXES
+TAG	minecraft:block	c:skulls
+	COMMON	dev/jab125/tags/BlockTags	SKULLS
+TAG	minecraft:block	c:stones
+	COMMON	dev/jab125/tags/BlockTags	STONES
+TAG	minecraft:block	c:storage_blocks
+	COMMON	dev/jab125/tags/BlockTags	STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/bone_meal
+	COMMON	dev/jab125/tags/BlockTags	BONE_MEAL_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/coal
+	COMMON	dev/jab125/tags/BlockTags	COAL_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/copper
+	COMMON	dev/jab125/tags/BlockTags	COPPER_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/diamond
+	COMMON	dev/jab125/tags/BlockTags	DIAMOND_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/dried_kelp
+	COMMON	dev/jab125/tags/BlockTags	DRIED_KELP_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/emerald
+	COMMON	dev/jab125/tags/BlockTags	EMERALD_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/gold
+	COMMON	dev/jab125/tags/BlockTags	GOLD_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/iron
+	COMMON	dev/jab125/tags/BlockTags	IRON_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/lapis
+	COMMON	dev/jab125/tags/BlockTags	LAPIS_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/netherite
+	COMMON	dev/jab125/tags/BlockTags	NETHERITE_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/raw_copper
+	COMMON	dev/jab125/tags/BlockTags	RAW_COPPER_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/raw_gold
+	COMMON	dev/jab125/tags/BlockTags	RAW_GOLD_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/raw_iron
+	COMMON	dev/jab125/tags/BlockTags	RAW_IRON_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/redstone
+	COMMON	dev/jab125/tags/BlockTags	REDSTONE_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/slime
+	COMMON	dev/jab125/tags/BlockTags	SLIME_STORAGE_BLOCKS
+TAG	minecraft:block	c:storage_blocks/wheat
+	COMMON	dev/jab125/tags/BlockTags	WHEAT_STORAGE_BLOCKS
+TAG	minecraft:block	c:villager_job_sites
+	COMMON	dev/jab125/tags/BlockTags	VILLAGER_JOB_SITES
+TAG	minecraft:enchantment	c:entity_auxiliary_movement_enhancements
+	COMMON	dev/jab125/tags/EnchantmentTags	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
+TAG	minecraft:enchantment	c:entity_defense_enhancements
+	COMMON	dev/jab125/tags/EnchantmentTags	ENTITY_DEFENSE_ENHANCEMENTS
+TAG	minecraft:enchantment	c:entity_speed_enhancements
+	COMMON	dev/jab125/tags/EnchantmentTags	ENTITY_SPEED_ENHANCEMENTS
+TAG	minecraft:enchantment	c:increase_block_drops
+	COMMON	dev/jab125/tags/EnchantmentTags	INCREASE_BLOCK_DROPS
+TAG	minecraft:enchantment	c:increase_entity_drops
+	COMMON	dev/jab125/tags/EnchantmentTags	INCREASE_ENTITY_DROPS
+TAG	minecraft:enchantment	c:weapon_damage_enhancements
+	COMMON	dev/jab125/tags/EnchantmentTags	WEAPON_DAMAGE_ENHANCEMENTS
+TAG	minecraft:entity_type	c:boats
+	COMMON	dev/jab125/tags/EntityTypeTags	BOATS
+TAG	minecraft:entity_type	c:bosses
+	COMMON	dev/jab125/tags/EntityTypeTags	BOSSES
+TAG	minecraft:entity_type	c:capturing_not_supported
+	COMMON	dev/jab125/tags/EntityTypeTags	CAPTURING_NOT_SUPPORTED
+TAG	minecraft:entity_type	c:minecarts
+	COMMON	dev/jab125/tags/EntityTypeTags	MINECARTS
+TAG	minecraft:entity_type	c:teleporting_not_supported
+	COMMON	dev/jab125/tags/EntityTypeTags	TELEPORTING_NOT_SUPPORTED
+TAG	minecraft:fluid	c:beetroot_soup
+	COMMON	dev/jab125/tags/FluidTags	BEETROOT_SOUP
+TAG	minecraft:fluid	c:gaseous
+	COMMENT	Liquids that flow up, instead of down.
+	COMMON	dev/jab125/tags/FluidTags	GASEOUS
+TAG	minecraft:fluid	c:hidden_from_recipe_viewers
+	COMMON	dev/jab125/tags/FluidTags	HIDDEN_FROM_RECIPE_VIEWERS
+TAG	minecraft:fluid	c:honey
+	COMMON	dev/jab125/tags/FluidTags	HONEY
+TAG	minecraft:fluid	c:lava
+	COMMON	dev/jab125/tags/FluidTags	LAVA
+TAG	minecraft:fluid	c:milk
+	COMMON	dev/jab125/tags/FluidTags	MILK
+TAG	minecraft:fluid	c:mushroom_stew
+	COMMON	dev/jab125/tags/FluidTags	MUSHROOM_STEW
+TAG	minecraft:fluid	c:potion
+	COMMON	dev/jab125/tags/FluidTags	POTION
+TAG	minecraft:fluid	c:rabbit_stew
+	COMMON	dev/jab125/tags/FluidTags	RABBIT_STEW
+TAG	minecraft:fluid	c:suspicious_stew
+	COMMON	dev/jab125/tags/FluidTags	SUSPICIOUS_STEW
+TAG	minecraft:fluid	c:water
+	COMMON	dev/jab125/tags/FluidTags	WATER
+TAG	minecraft:item	c:armors
+	COMMON	dev/jab125/tags/ItemTags	ARMORS
+TAG	minecraft:item	c:barrels
+	COMMON	dev/jab125/tags/ItemTags	BARRELS
+TAG	minecraft:item	c:barrels/wooden
+	COMMON	dev/jab125/tags/ItemTags	WOODEN_BARRELS
+TAG	minecraft:item	c:bones
+	COMMON	dev/jab125/tags/ItemTags	BONES
+TAG	minecraft:item	c:bookshelves
+	COMMON	dev/jab125/tags/ItemTags	BOOKSHELVES
+TAG	minecraft:item	c:bricks
+	COMMON	dev/jab125/tags/ItemTags	BRICKS
+TAG	minecraft:item	c:bricks/nether
+	COMMON	dev/jab125/tags/ItemTags	NETHER_BRICKS
+TAG	minecraft:item	c:bricks/normal
+	COMMON	dev/jab125/tags/ItemTags	NORMAL_BRICKS
+TAG	minecraft:item	c:buckets
+	COMMON	dev/jab125/tags/ItemTags	BUCKETS
+TAG	minecraft:item	c:buckets/empty
+	COMMON	dev/jab125/tags/ItemTags	EMPTY_BUCKETS
+TAG	minecraft:item	c:buckets/entity_water
+	COMMON	dev/jab125/tags/ItemTags	ENTITY_WATER_BUCKETS
+TAG	minecraft:item	c:buckets/lava
+	COMMON	dev/jab125/tags/ItemTags	LAVA_BUCKETS
+TAG	minecraft:item	c:buckets/milk
+	COMMON	dev/jab125/tags/ItemTags	MILK_BUCKETS
+TAG	minecraft:item	c:buckets/powder_snow
+	COMMON	dev/jab125/tags/ItemTags	POWDER_SNOW_BUCKETS
+TAG	minecraft:item	c:buckets/water
+	COMMON	dev/jab125/tags/ItemTags	WATER_BUCKETS
+TAG	minecraft:item	c:budding_blocks
+	COMMON	dev/jab125/tags/ItemTags	BUDDING_BLOCKS
+TAG	minecraft:item	c:buds
+	COMMON	dev/jab125/tags/ItemTags	BUDS
+TAG	minecraft:item	c:chains
+	COMMON	dev/jab125/tags/ItemTags	CHAINS
+TAG	minecraft:item	c:chests
+	COMMON	dev/jab125/tags/ItemTags	CHESTS
+TAG	minecraft:item	c:chests/ender
+	COMMON	dev/jab125/tags/ItemTags	ENDER_CHESTS
+TAG	minecraft:item	c:chests/trapped
+	COMMON	dev/jab125/tags/ItemTags	TRAPPED_CHESTS
+TAG	minecraft:item	c:chests/wooden
+	COMMON	dev/jab125/tags/ItemTags	WOODEN_CHESTS
+TAG	minecraft:item	c:clusters
+	COMMON	dev/jab125/tags/ItemTags	CLUSTERS
+TAG	minecraft:item	c:coal
+	COMMON	dev/jab125/tags/ItemTags	COAL
+TAG	minecraft:item	c:cobblestones
+	COMMON	dev/jab125/tags/ItemTags	COBBLESTONES
+TAG	minecraft:item	c:cobblestones/deepslate
+	COMMON	dev/jab125/tags/ItemTags	DEEPSLATE_COBBLESTONES
+TAG	minecraft:item	c:cobblestones/infested
+	COMMON	dev/jab125/tags/ItemTags	INFESTED_COBBLESTONES
+TAG	minecraft:item	c:cobblestones/normal
+	COMMON	dev/jab125/tags/ItemTags	NORMAL_COBBLESTONES
+TAG	minecraft:item	c:crops
+	COMMON	dev/jab125/tags/ItemTags	CROPS
+TAG	minecraft:item	c:crops/beetroot
+	COMMON	dev/jab125/tags/ItemTags	BEETROOT_CROPS
+TAG	minecraft:item	c:crops/carrot
+	COMMON	dev/jab125/tags/ItemTags	CARROT_CROPS
+TAG	minecraft:item	c:crops/nether_wart
+	COMMON	dev/jab125/tags/ItemTags	NETHER_WART_CROPS
+TAG	minecraft:item	c:crops/potato
+	COMMON	dev/jab125/tags/ItemTags	POTATO_CROPS
+TAG	minecraft:item	c:crops/wheat
+	COMMON	dev/jab125/tags/ItemTags	WHEAT_CROPS
+TAG	minecraft:item	c:dusts
+	COMMON	dev/jab125/tags/ItemTags	DUSTS
+TAG	minecraft:item	c:dusts/glowstone
+	COMMON	dev/jab125/tags/ItemTags	GLOWSTONE_DUSTS
+TAG	minecraft:item	c:dusts/redstone
+	COMMON	dev/jab125/tags/ItemTags	REDSTONE_DUSTS
+TAG	minecraft:item	c:dyed
+	COMMON	dev/jab125/tags/ItemTags	DYED
+TAG	minecraft:item	c:dyed/black
+	COMMON	dev/jab125/tags/ItemTags	BLACK_DYED
+TAG	minecraft:item	c:dyed/blue
+	COMMON	dev/jab125/tags/ItemTags	BLUE_DYED
+TAG	minecraft:item	c:dyed/brown
+	COMMON	dev/jab125/tags/ItemTags	BROWN_DYED
+TAG	minecraft:item	c:dyed/cyan
+	COMMON	dev/jab125/tags/ItemTags	CYAN_DYED
+TAG	minecraft:item	c:dyed/gray
+	COMMON	dev/jab125/tags/ItemTags	GRAY_DYED
+TAG	minecraft:item	c:dyed/green
+	COMMON	dev/jab125/tags/ItemTags	GREEN_DYED
+TAG	minecraft:item	c:dyed/light_blue
+	COMMON	dev/jab125/tags/ItemTags	LIGHT_BLUE_DYED
+TAG	minecraft:item	c:dyed/light_gray
+	COMMON	dev/jab125/tags/ItemTags	LIGHT_GRAY_DYED
+TAG	minecraft:item	c:dyed/lime
+	COMMON	dev/jab125/tags/ItemTags	LIME_DYED
+TAG	minecraft:item	c:dyed/magenta
+	COMMON	dev/jab125/tags/ItemTags	MAGENTA_DYED
+TAG	minecraft:item	c:dyed/orange
+	COMMON	dev/jab125/tags/ItemTags	ORANGE_DYED
+TAG	minecraft:item	c:dyed/pink
+	COMMON	dev/jab125/tags/ItemTags	PINK_DYED
+TAG	minecraft:item	c:dyed/purple
+	COMMON	dev/jab125/tags/ItemTags	PURPLE_DYED
+TAG	minecraft:item	c:dyed/red
+	COMMON	dev/jab125/tags/ItemTags	RED_DYED
+TAG	minecraft:item	c:dyed/white
+	COMMON	dev/jab125/tags/ItemTags	WHITE_DYED
+TAG	minecraft:item	c:dyed/yellow
+	COMMON	dev/jab125/tags/ItemTags	YELLOW_DYED
+TAG	minecraft:item	c:dyes
+	COMMON	dev/jab125/tags/ItemTags	DYES
+TAG	minecraft:item	c:dyes/black
+	COMMON	dev/jab125/tags/ItemTags	BLACK_DYES
+TAG	minecraft:item	c:dyes/blue
+	COMMON	dev/jab125/tags/ItemTags	BLUE_DYES
+TAG	minecraft:item	c:dyes/brown
+	COMMON	dev/jab125/tags/ItemTags	BROWN_DYES
+TAG	minecraft:item	c:dyes/cyan
+	COMMON	dev/jab125/tags/ItemTags	CYAN_DYES
+TAG	minecraft:item	c:dyes/gray
+	COMMON	dev/jab125/tags/ItemTags	GRAY_DYES
+TAG	minecraft:item	c:dyes/green
+	COMMON	dev/jab125/tags/ItemTags	GREEN_DYES
+TAG	minecraft:item	c:dyes/light_blue
+	COMMON	dev/jab125/tags/ItemTags	LIGHT_BLUE_DYES
+TAG	minecraft:item	c:dyes/light_gray
+	COMMON	dev/jab125/tags/ItemTags	LIGHT_GRAY_DYES
+TAG	minecraft:item	c:dyes/lime
+	COMMON	dev/jab125/tags/ItemTags	LIME_DYES
+TAG	minecraft:item	c:dyes/magenta
+	COMMON	dev/jab125/tags/ItemTags	MAGENTA_DYES
+TAG	minecraft:item	c:dyes/orange
+	COMMON	dev/jab125/tags/ItemTags	ORANGE_DYES
+TAG	minecraft:item	c:dyes/pink
+	COMMON	dev/jab125/tags/ItemTags	PINK_DYES
+TAG	minecraft:item	c:dyes/purple
+	COMMON	dev/jab125/tags/ItemTags	PURPLE_DYES
+TAG	minecraft:item	c:dyes/red
+	COMMON	dev/jab125/tags/ItemTags	RED_DYES
+TAG	minecraft:item	c:dyes/white
+	COMMON	dev/jab125/tags/ItemTags	WHITE_DYES
+TAG	minecraft:item	c:dyes/yellow
+	COMMON	dev/jab125/tags/ItemTags	YELLOW_DYES
+TAG	minecraft:item	c:eggs
+	COMMON	dev/jab125/tags/ItemTags	EGGS
+TAG	minecraft:item	c:enchantables
+	COMMON	dev/jab125/tags/ItemTags	ENCHANTABLES
+TAG	minecraft:item	c:end_stones
+	COMMON	dev/jab125/tags/ItemTags	END_STONES
+TAG	minecraft:item	c:ender_pearls
+	COMMON	dev/jab125/tags/ItemTags	ENDER_PEARLS
+TAG	minecraft:item	c:feathers
+	COMMON	dev/jab125/tags/ItemTags	FEATHERS
+TAG	minecraft:item	c:fence_gates
+	COMMON	dev/jab125/tags/ItemTags	FENCE_GATES
+TAG	minecraft:item	c:fence_gates/wooden
+	COMMON	dev/jab125/tags/ItemTags	FENCE_GATES_WOODEN
+TAG	minecraft:item	c:fences
+	COMMON	dev/jab125/tags/ItemTags	FENCES
+TAG	minecraft:item	c:fences/nether_brick
+	COMMON	dev/jab125/tags/ItemTags	NETHER_BRICK_FENCES
+TAG	minecraft:item	c:fences/wooden
+	COMMON	dev/jab125/tags/ItemTags	WOODEN_FENCES
+TAG	minecraft:item	c:foods
+	COMMON	dev/jab125/tags/ItemTags	FOODS
+TAG	minecraft:item	c:foods/berries
+	COMMON	dev/jab125/tags/ItemTags	BERRY_FOODS
+TAG	minecraft:item	c:foods/breads
+	COMMON	dev/jab125/tags/ItemTags	BREAD_FOODS
+TAG	minecraft:item	c:foods/candies
+	COMMON	dev/jab125/tags/ItemTags	CANDY_FOODS
+TAG	minecraft:item	c:foods/cooked_fishes
+	COMMON	dev/jab125/tags/ItemTags	COOKED_FISH_FOODS
+TAG	minecraft:item	c:foods/cooked_meats
+	COMMON	dev/jab125/tags/ItemTags	COOKED_MEAT_FOODS
+TAG	minecraft:item	c:foods/cookies
+	COMMON	dev/jab125/tags/ItemTags	COOKIE_FOODS
+TAG	minecraft:item	c:foods/edible_when_placed
+	COMMON	dev/jab125/tags/ItemTags	EDIBLE_WHEN_PLACED_FOODS
+TAG	minecraft:item	c:foods/food_poisoning
+	COMMON	dev/jab125/tags/ItemTags	FOOD_POISONING_FOODS
+TAG	minecraft:item	c:foods/fruits
+	COMMON	dev/jab125/tags/ItemTags	FRUIT_FOODS
+TAG	minecraft:item	c:foods/raw_fishes
+	COMMON	dev/jab125/tags/ItemTags	RAW_FISH_FOODS
+TAG	minecraft:item	c:foods/raw_meats
+	COMMON	dev/jab125/tags/ItemTags	RAW_MEAT_FOODS
+TAG	minecraft:item	c:foods/soups
+	COMMON	dev/jab125/tags/ItemTags	SOUP_FOODS
+TAG	minecraft:item	c:foods/vegetables
+	COMMON	dev/jab125/tags/ItemTags	VEGETABLE_FOODS
+TAG	minecraft:item	c:gems
+	COMMON	dev/jab125/tags/ItemTags	GEMS
+TAG	minecraft:item	c:gems/amethyst
+	COMMON	dev/jab125/tags/ItemTags	AMETHYST_GEMS
+TAG	minecraft:item	c:gems/diamond
+	COMMON	dev/jab125/tags/ItemTags	DIAMOND_GEMS
+TAG	minecraft:item	c:gems/emerald
+	COMMON	dev/jab125/tags/ItemTags	EMERALD_GEMS
+TAG	minecraft:item	c:gems/lapis
+	COMMON	dev/jab125/tags/ItemTags	LAPIS_GEMS
+TAG	minecraft:item	c:gems/prismarine
+	COMMON	dev/jab125/tags/ItemTags	PRISMARINE_GEMS
+TAG	minecraft:item	c:gems/quartz
+	COMMON	dev/jab125/tags/ItemTags	QUARTZ_GEMS
+TAG	minecraft:item	c:glass_blocks
+	COMMON	dev/jab125/tags/ItemTags	GLASS_BLOCKS
+TAG	minecraft:item	c:glass_blocks/cheap
+	COMMON	dev/jab125/tags/ItemTags	CHEAP_GLASS_BLOCKS
+TAG	minecraft:item	c:glass_blocks/colorless
+	COMMON	dev/jab125/tags/ItemTags	COLORLESS_GLASS_BLOCKS
+TAG	minecraft:item	c:glass_blocks/tinted
+	COMMON	dev/jab125/tags/ItemTags	TINTED_GLASS_BLOCKS
+TAG	minecraft:item	c:glass_panes
+	COMMON	dev/jab125/tags/ItemTags	GLASS_PANES
+TAG	minecraft:item	c:glass_panes/colorless
+	COMMON	dev/jab125/tags/ItemTags	COLORESS_GLASS_PANES
+TAG	minecraft:item	c:gravels
+	COMMON	dev/jab125/tags/ItemTags	GRAVELS
+TAG	minecraft:item	c:gunpowders
+	COMMON	dev/jab125/tags/ItemTags	GUNPOWDERS
+TAG	minecraft:item	c:hidden_from_recipe_viewers
+	COMMON	dev/jab125/tags/ItemTags	HIDDEN_FROM_RECIPE_VIEWERS
+TAG	minecraft:item	c:ingots
+	COMMON	dev/jab125/tags/ItemTags	INGOTS
+TAG	minecraft:item	c:ingots/copper
+	COMMON	dev/jab125/tags/ItemTags	COPPER_INGOTS
+TAG	minecraft:item	c:ingots/gold
+	COMMON	dev/jab125/tags/ItemTags	GOLD_INGOTS
+TAG	minecraft:item	c:ingots/iron
+	COMMON	dev/jab125/tags/ItemTags	IRON_INGOTS
+TAG	minecraft:item	c:ingots/netherite
+	COMMON	dev/jab125/tags/ItemTags	NETHERITE_INGOTS
+TAG	minecraft:item	c:leathers
+	COMMON	dev/jab125/tags/ItemTags	LEATHERS
+TAG	minecraft:item	c:mushrooms
+	COMMON	dev/jab125/tags/ItemTags	MUSHROOMS
+TAG	minecraft:item	c:nether_stars
+	COMMON	dev/jab125/tags/ItemTags	NETHER_STARS
+TAG	minecraft:item	c:netherracks
+	COMMON	dev/jab125/tags/ItemTags	NETHERRACKS
+TAG	minecraft:item	c:nuggets
+	COMMON	dev/jab125/tags/ItemTags	NUGGETS
+TAG	minecraft:item	c:nuggets/gold
+	COMMON	dev/jab125/tags/ItemTags	NUGGETS_GOLD
+TAG	minecraft:item	c:nuggets/iron
+	COMMON	dev/jab125/tags/ItemTags	NUGGETS_IRON
+TAG	minecraft:item	c:obsidians
+	COMMON	dev/jab125/tags/ItemTags	OBSIDIANS
+TAG	minecraft:item	c:ore_bearing_ground/deepslate
+	COMMON	dev/jab125/tags/ItemTags	DEEPSLATE_ORE_BEARING_GROUND
+TAG	minecraft:item	c:ore_bearing_ground/netherrack
+	COMMON	dev/jab125/tags/ItemTags	NETHERRACK_ORE_BEARING_GROUND
+TAG	minecraft:item	c:ore_bearing_ground/stone
+	COMMON	dev/jab125/tags/ItemTags	STONE_ORE_BEARING_GROUND
+TAG	minecraft:item	c:ore_rates/dense
+	COMMON	dev/jab125/tags/ItemTags	DENSE_ORE_RATES
+TAG	minecraft:item	c:ore_rates/singular
+	COMMON	dev/jab125/tags/ItemTags	SINGULAR_ORE_RATES
+TAG	minecraft:item	c:ore_rates/sparse
+	COMMON	dev/jab125/tags/ItemTags	SPARSE_ORE_RATES
+TAG	minecraft:item	c:ores
+	COMMON	dev/jab125/tags/ItemTags	ORES
+TAG	minecraft:item	c:ores/coal
+	COMMON	dev/jab125/tags/ItemTags	COAL_ORES
+TAG	minecraft:item	c:ores/copper
+	COMMON	dev/jab125/tags/ItemTags	COPPER_ORES
+TAG	minecraft:item	c:ores/diamond
+	COMMON	dev/jab125/tags/ItemTags	DIAMOND_ORES
+TAG	minecraft:item	c:ores/emerald
+	COMMON	dev/jab125/tags/ItemTags	EMERALD_ORES
+TAG	minecraft:item	c:ores/gold
+	COMMON	dev/jab125/tags/ItemTags	GOLD_ORES
+TAG	minecraft:item	c:ores/iron
+	COMMON	dev/jab125/tags/ItemTags	IRON_ORES
+TAG	minecraft:item	c:ores/lapis
+	COMMON	dev/jab125/tags/ItemTags	LAPIS_ORES
+TAG	minecraft:item	c:ores/netherite_scrap
+	COMMON	dev/jab125/tags/ItemTags	NETHERITE_SCRAP_ORES
+TAG	minecraft:item	c:ores/quartz
+	COMMON	dev/jab125/tags/ItemTags	QUARTZ_ORES
+TAG	minecraft:item	c:ores/redstone
+	COMMON	dev/jab125/tags/ItemTags	REDSTONE_ORES
+TAG	minecraft:item	c:ores_in_ground/deepslate
+	COMMON	dev/jab125/tags/ItemTags	DEEPSLATE_ORES_IN_GROUND
+TAG	minecraft:item	c:ores_in_ground/netherrack
+	COMMON	dev/jab125/tags/ItemTags	NETHERRACK_ORES_IN_GROUND
+TAG	minecraft:item	c:ores_in_ground/stone
+	COMMON	dev/jab125/tags/ItemTags	STONE_ORES_IN_GROUND
+TAG	minecraft:item	c:player_workstations/crafting_tables
+	COMMON	dev/jab125/tags/ItemTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+TAG	minecraft:item	c:player_workstations/furnaces
+	COMMON	dev/jab125/tags/ItemTags	PLAYER_WORKSTATIONS_FURNACES
+TAG	minecraft:item	c:potions
+	COMMON	dev/jab125/tags/ItemTags	POTIONS
+TAG	minecraft:item	c:raw_blocks
+	COMMON	dev/jab125/tags/ItemTags	RAW_BLOCKS
+TAG	minecraft:item	c:raw_blocks/copper
+	COMMON	dev/jab125/tags/ItemTags	COPPER_RAW_BLOCKS
+TAG	minecraft:item	c:raw_blocks/gold
+	COMMON	dev/jab125/tags/ItemTags	GOLD_RAW_BLOCKS
+TAG	minecraft:item	c:raw_blocks/iron
+	COMMON	dev/jab125/tags/ItemTags	IRON_RAW_BLOCKS
+TAG	minecraft:item	c:raw_materials
+	COMMON	dev/jab125/tags/ItemTags	RAW_MATERIALS
+TAG	minecraft:item	c:raw_materials/copper
+	COMMON	dev/jab125/tags/ItemTags	COPPER_RAW_MATERIALS
+TAG	minecraft:item	c:raw_materials/gold
+	COMMON	dev/jab125/tags/ItemTags	GOLD_RAW_MATERIALS
+TAG	minecraft:item	c:raw_materials/iron
+	COMMON	dev/jab125/tags/ItemTags	IRON_RAW_MATERIALS
+TAG	minecraft:item	c:rods
+	COMMON	dev/jab125/tags/ItemTags	RODS
+TAG	minecraft:item	c:rods/blaze
+	COMMON	dev/jab125/tags/ItemTags	BLAZE_RODS
+TAG	minecraft:item	c:rods/breeze
+	COMMON	dev/jab125/tags/ItemTags	BREEZE_RODS
+TAG	minecraft:item	c:rods/wooden
+	COMMON	dev/jab125/tags/ItemTags	WOODEN_RODS
+TAG	minecraft:item	c:ropes
+	COMMON	dev/jab125/tags/ItemTags	ROPES
+TAG	minecraft:item	c:sands
+	COMMON	dev/jab125/tags/ItemTags	SANDS
+TAG	minecraft:item	c:sands/colorless
+	COMMON	dev/jab125/tags/ItemTags	COLORESS_SANDS
+TAG	minecraft:item	c:sands/red
+	COMMON	dev/jab125/tags/ItemTags	RED_SANDS
+TAG	minecraft:item	c:sandstone/blocks
+	COMMON	dev/jab125/tags/ItemTags	SANDSTONE_BLOCKS
+TAG	minecraft:item	c:sandstone/red_blocks
+	COMMON	dev/jab125/tags/ItemTags	RED_SANDSTONE_BLOCKS
+TAG	minecraft:item	c:sandstone/red_slabs
+	COMMON	dev/jab125/tags/ItemTags	RED_SANDSTONE_SLABS
+TAG	minecraft:item	c:sandstone/red_stairs
+	COMMON	dev/jab125/tags/ItemTags	RED_SANDSTONE_STAIRS
+TAG	minecraft:item	c:sandstone/slabs
+	COMMON	dev/jab125/tags/ItemTags	SANDSTONE_SLABS
+TAG	minecraft:item	c:sandstone/stairs
+	COMMON	dev/jab125/tags/ItemTags	SANDSTONE_STAIRS
+TAG	minecraft:item	c:sandstone/uncolored_blocks
+	COMMON	dev/jab125/tags/ItemTags	UNCOLORED_SANDSTONE_BLOCKS
+TAG	minecraft:item	c:sandstone/uncolored_slabs
+	COMMON	dev/jab125/tags/ItemTags	UNCOLORED_SANDSTONE_SLABS
+TAG	minecraft:item	c:sandstone/uncolored_stairs
+	COMMON	dev/jab125/tags/ItemTags	UNCOLORED_SANDSTONE_STAIRS
+TAG	minecraft:item	c:seeds
+	COMMON	dev/jab125/tags/ItemTags	SEEDS
+TAG	minecraft:item	c:seeds/beetroot
+	COMMON	dev/jab125/tags/ItemTags	BEETROOT_SEEDS
+TAG	minecraft:item	c:seeds/melon
+	COMMON	dev/jab125/tags/ItemTags	MELON_SEEDS
+TAG	minecraft:item	c:seeds/pumpkin
+	COMMON	dev/jab125/tags/ItemTags	PUMPKIN_SEEDS
+TAG	minecraft:item	c:seeds/wheat
+	COMMON	dev/jab125/tags/ItemTags	WHEAT_SEEDS
+TAG	minecraft:item	c:shulker_boxes
+	COMMON	dev/jab125/tags/ItemTags	SHULKER_BOXES
+TAG	minecraft:item	c:slimeballs
+	COMMON	dev/jab125/tags/ItemTags	SLIMEBALLS
+TAG	minecraft:item	c:stones
+	COMMON	dev/jab125/tags/ItemTags	STONES
+TAG	minecraft:item	c:storage_blocks
+	COMMON	dev/jab125/tags/ItemTags	STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/bone_meal
+	COMMON	dev/jab125/tags/ItemTags	BONE_MEAL_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/coal
+	COMMON	dev/jab125/tags/ItemTags	COAL_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/copper
+	COMMON	dev/jab125/tags/ItemTags	COPPER_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/diamond
+	COMMON	dev/jab125/tags/ItemTags	DIAMOND_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/dried_kelp
+	COMMON	dev/jab125/tags/ItemTags	DRIED_KELP_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/emerald
+	COMMON	dev/jab125/tags/ItemTags	EMERALD_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/gold
+	COMMON	dev/jab125/tags/ItemTags	GOLD_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/iron
+	COMMON	dev/jab125/tags/ItemTags	IRON_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/lapis
+	COMMON	dev/jab125/tags/ItemTags	LAPIS_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/netherite
+	COMMON	dev/jab125/tags/ItemTags	NETHERITE_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/raw_copper
+	COMMON	dev/jab125/tags/ItemTags	RAW_COPPER_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/raw_gold
+	COMMON	dev/jab125/tags/ItemTags	RAW_GOLD_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/raw_iron
+	COMMON	dev/jab125/tags/ItemTags	RAW_IRON_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/redstone
+	COMMON	dev/jab125/tags/ItemTags	REDSTONE_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/slime
+	COMMON	dev/jab125/tags/ItemTags	SLIME_STORAGE_BLOCKS
+TAG	minecraft:item	c:storage_blocks/wheat
+	COMMON	dev/jab125/tags/ItemTags	WHEAT_STORAGE_BLOCKS
+TAG	minecraft:item	c:strings
+	COMMON	dev/jab125/tags/ItemTags	STRINGS
+TAG	minecraft:item	c:tools
+	COMMON	dev/jab125/tags/ItemTags	TOOLS
+TAG	minecraft:item	c:tools/bows
+	COMMON	dev/jab125/tags/ItemTags	BOW_TOOLS
+TAG	minecraft:item	c:tools/brushes
+	COMMON	dev/jab125/tags/ItemTags	BRUSH_TOOLS
+TAG	minecraft:item	c:tools/crossbows
+	COMMON	dev/jab125/tags/ItemTags	CROSSBOW_TOOLS
+TAG	minecraft:item	c:tools/fishing_rods
+	COMMON	dev/jab125/tags/ItemTags	FISHING_ROD_TOOLS
+TAG	minecraft:item	c:tools/melee_weapons
+	COMMON	dev/jab125/tags/ItemTags	MELEE_WEAPON_TOOLS
+TAG	minecraft:item	c:tools/mining_tools
+	COMMON	dev/jab125/tags/ItemTags	MINING_TOOLS
+TAG	minecraft:item	c:tools/ranged_weapons
+	COMMON	dev/jab125/tags/ItemTags	RANGED_WEAPON_TOOLS
+TAG	minecraft:item	c:tools/shears
+	COMMON	dev/jab125/tags/ItemTags	SHEAR_TOOLS
+TAG	minecraft:item	c:tools/shields
+	COMMON	dev/jab125/tags/ItemTags	SHIELD_TOOLS
+TAG	minecraft:item	c:tools/spears
+	COMMON	dev/jab125/tags/ItemTags	SPEAR_TOOLS
+TAG	minecraft:item	c:villager_job_sites
+	COMMON	dev/jab125/tags/ItemTags	VILLAGER_JOB_SITES
+TAG	minecraft:worldgen/biome	c:hidden_from_locator_selection
+	COMMON	dev/jab125/tags/BiomeTags	HIDDEN_FROM_LOCATOR_SELECTION
+TAG	minecraft:worldgen/biome	c:is_aquatic
+	COMMON	dev/jab125/tags/BiomeTags	IS_AQUATIC
+TAG	minecraft:worldgen/biome	c:is_aquatic_icy
+	COMMON	dev/jab125/tags/BiomeTags	IS_AQUATIC_ICY
+TAG	minecraft:worldgen/biome	c:is_badlands
+	COMMON	dev/jab125/tags/BiomeTags	IS_BADLANDS
+TAG	minecraft:worldgen/biome	c:is_beach
+	COMMON	dev/jab125/tags/BiomeTags	IS_BEACH
+TAG	minecraft:worldgen/biome	c:is_birch_forest
+	COMMON	dev/jab125/tags/BiomeTags	IS_BIRCH_FOREST
+TAG	minecraft:worldgen/biome	c:is_cave
+	COMMON	dev/jab125/tags/BiomeTags	IS_CAVE
+TAG	minecraft:worldgen/biome	c:is_cold
+	COMMON	dev/jab125/tags/BiomeTags	IS_COLD
+TAG	minecraft:worldgen/biome	c:is_cold/end
+	COMMON	dev/jab125/tags/BiomeTags	IS_COLD_END
+TAG	minecraft:worldgen/biome	c:is_cold/nether
+	COMMON	dev/jab125/tags/BiomeTags	IS_COLD_NETHER
+TAG	minecraft:worldgen/biome	c:is_cold/overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_COLD_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_dead
+	COMMON	dev/jab125/tags/BiomeTags	IS_DEAD
+TAG	minecraft:worldgen/biome	c:is_deep_ocean
+	COMMON	dev/jab125/tags/BiomeTags	IS_DEEP_OCEAN
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation
+	COMMON	dev/jab125/tags/BiomeTags	IS_DENSE_VEGETATION
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation/end
+	COMMON	dev/jab125/tags/BiomeTags	IS_DENSE_VEGETATION_END
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation/nether
+	COMMON	dev/jab125/tags/BiomeTags	IS_DENSE_VEGETATION_NETHER
+TAG	minecraft:worldgen/biome	c:is_dense_vegetation/overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_DENSE_VEGETATION_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_desert
+	COMMON	dev/jab125/tags/BiomeTags	IS_DESERT
+TAG	minecraft:worldgen/biome	c:is_dry
+	COMMON	dev/jab125/tags/BiomeTags	IS_DRY
+TAG	minecraft:worldgen/biome	c:is_dry/end
+	COMMON	dev/jab125/tags/BiomeTags	IS_DRY_END
+TAG	minecraft:worldgen/biome	c:is_dry/nether
+	COMMON	dev/jab125/tags/BiomeTags	IS_DRY_NETHER
+TAG	minecraft:worldgen/biome	c:is_dry/overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_DRY_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_end
+	COMMON	dev/jab125/tags/BiomeTags	IS_END
+TAG	minecraft:worldgen/biome	c:is_floral
+	COMMON	dev/jab125/tags/BiomeTags	IS_FLORAL
+TAG	minecraft:worldgen/biome	c:is_flower_forest
+	COMMON	dev/jab125/tags/BiomeTags	IS_FLOWER_FOREST
+TAG	minecraft:worldgen/biome	c:is_forest
+	COMMON	dev/jab125/tags/BiomeTags	IS_FOREST
+TAG	minecraft:worldgen/biome	c:is_hill
+	COMMON	dev/jab125/tags/BiomeTags	IS_HILL
+TAG	minecraft:worldgen/biome	c:is_hot
+	COMMON	dev/jab125/tags/BiomeTags	IS_HOT
+TAG	minecraft:worldgen/biome	c:is_hot/end
+	COMMON	dev/jab125/tags/BiomeTags	IS_HOT_END
+TAG	minecraft:worldgen/biome	c:is_hot/nether
+	COMMON	dev/jab125/tags/BiomeTags	IS_HOT_NETHER
+TAG	minecraft:worldgen/biome	c:is_hot/overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_HOT_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_icy
+	COMMON	dev/jab125/tags/BiomeTags	IS_ICY
+TAG	minecraft:worldgen/biome	c:is_jungle
+	COMMON	dev/jab125/tags/BiomeTags	IS_JUNGLE
+TAG	minecraft:worldgen/biome	c:is_lush
+	COMMON	dev/jab125/tags/BiomeTags	IS_LUSH
+TAG	minecraft:worldgen/biome	c:is_magical
+	COMMON	dev/jab125/tags/BiomeTags	IS_MAGICAL
+TAG	minecraft:worldgen/biome	c:is_modified
+	COMMON	dev/jab125/tags/BiomeTags	IS_MODIFIED
+TAG	minecraft:worldgen/biome	c:is_mountain
+	COMMON	dev/jab125/tags/BiomeTags	IS_MOUNTAIN
+TAG	minecraft:worldgen/biome	c:is_mountain/peak
+	COMMON	dev/jab125/tags/BiomeTags	IS_MOUNTAIN_PEAK
+TAG	minecraft:worldgen/biome	c:is_mountain/slope
+	COMMON	dev/jab125/tags/BiomeTags	IS_MOUNTAIN_SLOPE
+TAG	minecraft:worldgen/biome	c:is_mushroom
+	COMMON	dev/jab125/tags/BiomeTags	IS_MUSHROOM
+TAG	minecraft:worldgen/biome	c:is_nether
+	COMMON	dev/jab125/tags/BiomeTags	IS_NETHER
+TAG	minecraft:worldgen/biome	c:is_nether_forest
+	COMMON	dev/jab125/tags/BiomeTags	IS_NETHER_FOREST
+TAG	minecraft:worldgen/biome	c:is_ocean
+	COMMON	dev/jab125/tags/BiomeTags	IS_OCEAN
+TAG	minecraft:worldgen/biome	c:is_old_growth
+	COMMON	dev/jab125/tags/BiomeTags	IS_OLD_GROWTH
+TAG	minecraft:worldgen/biome	c:is_outer_end_island
+	COMMON	dev/jab125/tags/BiomeTags	IS_OUTER_END_ISLAND
+TAG	minecraft:worldgen/biome	c:is_overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_plains
+	COMMON	dev/jab125/tags/BiomeTags	IS_PLAINS
+TAG	minecraft:worldgen/biome	c:is_plateau
+	COMMON	dev/jab125/tags/BiomeTags	IS_PLATEAU
+TAG	minecraft:worldgen/biome	c:is_rare
+	COMMON	dev/jab125/tags/BiomeTags	IS_RARE
+TAG	minecraft:worldgen/biome	c:is_river
+	COMMON	dev/jab125/tags/BiomeTags	IS_RIVER
+TAG	minecraft:worldgen/biome	c:is_sandy
+	COMMON	dev/jab125/tags/BiomeTags	IS_SANDY
+TAG	minecraft:worldgen/biome	c:is_savanna
+	COMMON	dev/jab125/tags/BiomeTags	IS_SAVANNA
+TAG	minecraft:worldgen/biome	c:is_shallow_ocean
+	COMMON	dev/jab125/tags/BiomeTags	IS_SHALLOW_OCEAN
+TAG	minecraft:worldgen/biome	c:is_snowy
+	COMMON	dev/jab125/tags/BiomeTags	IS_SNOWY
+TAG	minecraft:worldgen/biome	c:is_snowy_plains
+	COMMON	dev/jab125/tags/BiomeTags	IS_SNOWY_PLAINS
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation
+	COMMON	dev/jab125/tags/BiomeTags	IS_SPARSE_VEGETATION
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/end
+	COMMON	dev/jab125/tags/BiomeTags	IS_SPARSE_VEGETATION_END
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/nether
+	COMMON	dev/jab125/tags/BiomeTags	IS_SPARSE_VEGETATION_NETHER
+TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_SPARSE_VEGETATION_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_spooky
+	COMMON	dev/jab125/tags/BiomeTags	IS_SPOOKY
+TAG	minecraft:worldgen/biome	c:is_stony_shores
+	COMMON	dev/jab125/tags/BiomeTags	IS_STONY_SHORES
+TAG	minecraft:worldgen/biome	c:is_swamp
+	COMMON	dev/jab125/tags/BiomeTags	IS_SWAMP
+TAG	minecraft:worldgen/biome	c:is_taiga
+	COMMON	dev/jab125/tags/BiomeTags	IS_TAIGA
+TAG	minecraft:worldgen/biome	c:is_temperate
+	COMMON	dev/jab125/tags/BiomeTags	IS_TEMPERATE
+TAG	minecraft:worldgen/biome	c:is_temperate/overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_TEMPERATE_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_tree/coniferous
+	COMMON	dev/jab125/tags/BiomeTags	IS_CONIFEROUS_TREE
+TAG	minecraft:worldgen/biome	c:is_tree/deciduous
+	COMMON	dev/jab125/tags/BiomeTags	IS_DECIDUOUS_TREE
+TAG	minecraft:worldgen/biome	c:is_tree/jungle
+	COMMON	dev/jab125/tags/BiomeTags	IS_JUNGLE_TREE
+TAG	minecraft:worldgen/biome	c:is_tree/savanna
+	COMMON	dev/jab125/tags/BiomeTags	IS_SAVANNA_TREE
+TAG	minecraft:worldgen/biome	c:is_underground
+	COMMON	dev/jab125/tags/BiomeTags	IS_UNDERGROUND
+TAG	minecraft:worldgen/biome	c:is_void
+	COMMON	dev/jab125/tags/BiomeTags	IS_VOID
+TAG	minecraft:worldgen/biome	c:is_wasteland
+	COMMON	dev/jab125/tags/BiomeTags	IS_WASTELAND
+TAG	minecraft:worldgen/biome	c:is_wet
+	COMMON	dev/jab125/tags/BiomeTags	IS_WET
+TAG	minecraft:worldgen/biome	c:is_wet/end
+	COMMON	dev/jab125/tags/BiomeTags	IS_WET_END
+TAG	minecraft:worldgen/biome	c:is_wet/nether
+	COMMON	dev/jab125/tags/BiomeTags	IS_WET_NETHER
+TAG	minecraft:worldgen/biome	c:is_wet/overworld
+	COMMON	dev/jab125/tags/BiomeTags	IS_WET_OVERWORLD
+TAG	minecraft:worldgen/biome	c:is_windswept
+	COMMON	dev/jab125/tags/BiomeTags	IS_WINDSWEPT
+TAG	minecraft:worldgen/biome	c:no_default_monsters
+	COMMON	dev/jab125/tags/BiomeTags	NO_DEFAULT_MONSTERS
+TAG	minecraft:worldgen/structure	c:hidden_from_displayers
+	COMMON	dev/jab125/tags/StructureTags	HIDDEN_FROM_DISPLAYERS
+TAG	minecraft:worldgen/structure	c:hidden_from_locator_selection
+	COMMON	dev/jab125/tags/StructureTags	HIDDEN_FROM_LOCATOR_SELECTION
