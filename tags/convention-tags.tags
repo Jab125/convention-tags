@@ -164,7 +164,7 @@ TAG	minecraft:block	c:glass_panes
 TAG	minecraft:block	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES_COLORLESS
 	COMMON	dev/jab125/tags/BlockTags	COLORESS_GLASS_PANES
-TAG	minecraft:block	c:gravel
+TAG	minecraft:block	c:gravels
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GRAVELS
 	COMMON	dev/jab125/tags/BlockTags	GRAVELS
 TAG	minecraft:block	c:hidden_from_recipe_viewers
@@ -172,7 +172,7 @@ TAG	minecraft:block	c:hidden_from_recipe_viewers
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	HIDDEN_FROM_RECIPE_VIEWERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	HIDDEN_FROM_RECIPE_VIEWERS
 	COMMON	dev/jab125/tags/BlockTags	HIDDEN_FROM_RECIPE_VIEWERS
-TAG	minecraft:block	c:netherrack
+TAG	minecraft:block	c:netherracks
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	NETHERRACKS
 	COMMON	dev/jab125/tags/BlockTags	NETHERRACKS
 TAG	minecraft:block	c:obsidians
@@ -509,24 +509,31 @@ TAG	minecraft:item	c:bricks/normal
 	COMMON	dev/jab125/tags/ItemTags	NORMAL_BRICKS
 TAG	minecraft:item	c:buckets
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUCKETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS
 	COMMON	dev/jab125/tags/ItemTags	BUCKETS
 TAG	minecraft:item	c:buckets/empty
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EMPTY_BUCKETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_EMPTY
 	COMMON	dev/jab125/tags/ItemTags	EMPTY_BUCKETS
 TAG	minecraft:item	c:buckets/entity_water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ENTITY_WATER_BUCKETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_ENTITY_WATER
 	COMMON	dev/jab125/tags/ItemTags	ENTITY_WATER_BUCKETS
 TAG	minecraft:item	c:buckets/lava
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LAVA_BUCKETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_LAVA
 	COMMON	dev/jab125/tags/ItemTags	LAVA_BUCKETS
 TAG	minecraft:item	c:buckets/milk
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MILK_BUCKETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_MILK
 	COMMON	dev/jab125/tags/ItemTags	MILK_BUCKETS
 TAG	minecraft:item	c:buckets/powder_snow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	POWDER_SNOW_BUCKETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_POWDER_SNOW
 	COMMON	dev/jab125/tags/ItemTags	POWDER_SNOW_BUCKETS
 TAG	minecraft:item	c:buckets/water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WATER_BUCKETS
+	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_WATER
 	COMMON	dev/jab125/tags/ItemTags	WATER_BUCKETS
 TAG	minecraft:item	c:budding_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUDDING_BLOCKS
@@ -680,67 +687,51 @@ TAG	minecraft:item	c:dyes
 	COMMON	dev/jab125/tags/ItemTags	DYES
 TAG	minecraft:item	c:dyes/black
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLACK_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BLACK
 	COMMON	dev/jab125/tags/ItemTags	BLACK_DYES
 TAG	minecraft:item	c:dyes/blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLUE_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BLUE
 	COMMON	dev/jab125/tags/ItemTags	BLUE_DYES
 TAG	minecraft:item	c:dyes/brown
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BROWN_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_BROWN
 	COMMON	dev/jab125/tags/ItemTags	BROWN_DYES
 TAG	minecraft:item	c:dyes/cyan
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CYAN_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_CYAN
 	COMMON	dev/jab125/tags/ItemTags	CYAN_DYES
 TAG	minecraft:item	c:dyes/gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GRAY_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_GRAY
 	COMMON	dev/jab125/tags/ItemTags	GRAY_DYES
 TAG	minecraft:item	c:dyes/green
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GREEN_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_GREEN
 	COMMON	dev/jab125/tags/ItemTags	GREEN_DYES
 TAG	minecraft:item	c:dyes/light_blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_BLUE_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIGHT_BLUE
 	COMMON	dev/jab125/tags/ItemTags	LIGHT_BLUE_DYES
 TAG	minecraft:item	c:dyes/light_gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_GRAY_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIGHT_GRAY
 	COMMON	dev/jab125/tags/ItemTags	LIGHT_GRAY_DYES
 TAG	minecraft:item	c:dyes/lime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIME_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_LIME
 	COMMON	dev/jab125/tags/ItemTags	LIME_DYES
 TAG	minecraft:item	c:dyes/magenta
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MAGENTA_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_MAGENTA
 	COMMON	dev/jab125/tags/ItemTags	MAGENTA_DYES
 TAG	minecraft:item	c:dyes/orange
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORANGE_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_ORANGE
 	COMMON	dev/jab125/tags/ItemTags	ORANGE_DYES
 TAG	minecraft:item	c:dyes/pink
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PINK_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_PINK
 	COMMON	dev/jab125/tags/ItemTags	PINK_DYES
 TAG	minecraft:item	c:dyes/purple
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PURPLE_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_PURPLE
 	COMMON	dev/jab125/tags/ItemTags	PURPLE_DYES
 TAG	minecraft:item	c:dyes/red
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_RED
 	COMMON	dev/jab125/tags/ItemTags	RED_DYES
 TAG	minecraft:item	c:dyes/white
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WHITE_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_WHITE
 	COMMON	dev/jab125/tags/ItemTags	WHITE_DYES
 TAG	minecraft:item	c:dyes/yellow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	YELLOW_DYES
-	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES_YELLOW
 	COMMON	dev/jab125/tags/ItemTags	YELLOW_DYES
 TAG	minecraft:item	c:eggs
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	EGGS
@@ -877,10 +868,10 @@ TAG	minecraft:item	c:glass_panes
 TAG	minecraft:item	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES_COLORLESS
 	COMMON	dev/jab125/tags/ItemTags	COLORESS_GLASS_PANES
-TAG	minecraft:item	c:gravel
+TAG	minecraft:item	c:gravels
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GRAVELS
 	COMMON	dev/jab125/tags/ItemTags	GRAVELS
-TAG	minecraft:item	c:gunpowder
+TAG	minecraft:item	c:gunpowders
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GUNPOWDERS
 	COMMON	dev/jab125/tags/ItemTags	GUNPOWDERS
 TAG	minecraft:item	c:hidden_from_recipe_viewers
@@ -907,7 +898,7 @@ TAG	minecraft:item	c:ingots/netherite
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHERITE_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_NETHERITE
 	COMMON	dev/jab125/tags/ItemTags	NETHERITE_INGOTS
-TAG	minecraft:item	c:leather
+TAG	minecraft:item	c:leathers
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	LEATHERS
 	COMMON	dev/jab125/tags/ItemTags	LEATHERS
 TAG	minecraft:item	c:mushrooms
@@ -916,7 +907,7 @@ TAG	minecraft:item	c:mushrooms
 TAG	minecraft:item	c:nether_stars
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHER_STARS
 	COMMON	dev/jab125/tags/ItemTags	NETHER_STARS
-TAG	minecraft:item	c:netherrack
+TAG	minecraft:item	c:netherracks
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHERRACKS
 	COMMON	dev/jab125/tags/ItemTags	NETHERRACKS
 TAG	minecraft:item	c:nuggets
