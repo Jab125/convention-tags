@@ -5,7 +5,7 @@ issueTrackerURL = "https://github.com/Jab125/convention-tags/issues"
 
 [[mods]]
 modId = "conventiontags"
-version = "${version}"
+version = "1.0.0"
 displayName = "Convention tags"
 authors = "Jab125"
 displayURL = "https://github.com/Jab125/convention-tags"
