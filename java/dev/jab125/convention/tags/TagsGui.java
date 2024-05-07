@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.sun.net.httpserver.HttpServer;
+import dev.jab125.convention.tags.util.TagMerger;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -20,6 +21,7 @@ public class TagsGui {
 		//cGen();
 		String s = Files.readString(Path.of("tags/convention-tags.tags"));
 		TagsGui.tags = Tag.deserialize(s);
+		//TagGeneration.main(args);tags = TagMerger.merge(TagGeneration.mutableTags.stream().map(a -> a.build()).toList(), tags);
 		HttpServer server = HttpServer.create();
 		server.bind(new InetSocketAddress(1291), 0);
 		server.start();

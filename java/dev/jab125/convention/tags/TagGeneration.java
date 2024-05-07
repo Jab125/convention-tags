@@ -22,7 +22,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 public class TagGeneration {
-	public static final String FABRIC_CONVENTION_TAGS_VERSION = "2.0.1+0af3f5a768";
+	public static final String FABRIC_CONVENTION_TAGS_VERSION = "2.0.0+2b43c5c8ff";
 	public static final String NEOFORGE_VERSION = "20.6.42-beta";
 	public static final Path GENERATION = Path.of("generation");
 	public static final List<Tag.TagBuilder> mutableTags = new ArrayList<>();

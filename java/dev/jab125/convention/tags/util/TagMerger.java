@@ -5,7 +5,7 @@ import dev.jab125.convention.tags.Tag;
 import java.util.*;
 
 public class TagMerger {
-	public static Collection<Tag> merge(Collection<Tag> newList, Collection<Tag> oldList) {
+	public static List<Tag> merge(Collection<Tag> newList, Collection<Tag> oldList) {
 		List<Tag.TagBuilder> combinedTagBuilders = new ArrayList<>();
 		List<String> newTags = newList.stream().map(a -> a.registryKey() + "|" + a.name()).toList();
 		List<String> oldTags = oldList.stream().map(a -> a.registryKey() + "|" + a.name()).toList();

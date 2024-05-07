@@ -9,7 +9,7 @@
     "sources": "https://github.com/Jab125/convention-tags"
   },
   "depends": {
-    "fabric-convention-tags-v2": "^2.0.1+0af3f5a768",
+    "fabric-convention-tags-v2": "^2.0.0+2b43c5c8ff",
     "minecraft": "~1.20.6"
   },
   "custom": {
