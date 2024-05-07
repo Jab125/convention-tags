@@ -120,10 +120,24 @@ publishing {
                 file(nfSourcesJar.toFile())
             }
         }
+        setupRepositories(respositories)
     }
+}
 
-    repositories {
 
+void setupRepositories(RepositoryHandler repositories) {
+    //repositories.mavenLocal() // uncomment for testing
+    def ENV = System.getenv()
+    if (ENV.MAVEN_URL) {
+        repositories.maven {
+            url ENV.MAVEN_URL
+            if (ENV.MAVEN_USERNAME) {
+                credentials {
+                    username ENV.MAVEN_USERNAME
+                    password ENV.MAVEN_PASSWORD
+                }
+            }
+        }
     }
 }
 
