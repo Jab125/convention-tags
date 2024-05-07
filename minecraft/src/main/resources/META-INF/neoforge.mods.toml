@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "TODO LICENSE"
+issueTrackerURL = "https://github.com/Jab125/convention-tags/issues"
+
+[[mods]]
+modId = "conventiontags"
+version = "${version}"
+displayName = "Convention tags"
+authors = "Jab125"
+displayURL = "https://github.com/Jab125/convention-tags"
+description = '''
+Convention tags for multiplatform mods.
+'''
+
+[[dependencies.conventiontags]]
+modId = "neoforge"
+mandatory = true
+type="required"
+versionRange = "[20.6.42-beta,21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.conventiontags]]
+modId = "minecraft"
+mandatory = true
+type="required"
+versionRange = "[1.20.6,1.21)"
+ordering = "NONE"
+side = "BOTH"

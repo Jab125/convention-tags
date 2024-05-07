@@ -1,9 +1,19 @@
+import dev.jab125.remapping.Purifier
 import dev.jab125.remapping.Remapper
+import dev.jab125.remapping.Setup
+import dev.jab125.remapping.SourceRemap
+
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
 
 plugins {
     id 'org.spongepowered.gradle.vanilla' version '0.2.1-SNAPSHOT'
 }
 
+archivesBaseName = "convention-tags"
+version "1.0.0"
+
+Setup.setup();
 minecraft {
     version("1.20.6")
     platform(org.spongepowered.gradle.vanilla.repository.MinecraftPlatform.JOINED)
@@ -21,10 +31,51 @@ sourceSets {
     }
 }
 
-task("intermediaryJar") {
-    doLast {
+java {
+    withSourcesJar()
+}
+
+def commonJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-" + version + "-common.jar");
+def fabricJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-" + version + "-fabric.jar");
+def nfJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-" + version + "-neoforge.jar");
+def ij = task("intermediaryJar") {
+    doFirst {
         def deps = configurations.compileClasspath
         def resolve = deps.resolve().stream().map { it.toPath() }.toArray(java.nio.file.Path[]::new);
-        Remapper.run(jar.archiveFile.get().getAsFile().toPath(), jar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-intermediary.jar"), resolve)
+        Remapper.run(jar.archiveFile.get().getAsFile().toPath(), fabricJar, resolve)
     }
 } dependsOn jar
+
+def commonSourcesJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-" + version + "-common-sources.jar");
+def fabricSourcesJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-" + version + "-fabric-sources.jar");
+def nfSourcesJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-" + version + "-neoforge-sources.jar");
+def isj = task("intermediarySourcesJar") {
+    doFirst {
+
+        def resolve = configurations.compileClasspath.resolve().stream().toArray(java.io.File[]::new);
+        def create = SourceRemap.create(resolve, 21)
+        create.remapSourcesJar(sourcesJar.archiveFile.get().getAsFile().toPath(), fabricSourcesJar)
+    }
+} dependsOn sourcesJar
+def purify = task("purify") {
+    doFirst {
+        Files.copy(jar.archiveFile.get().getAsFile().toPath(), nfJar, StandardCopyOption.REPLACE_EXISTING);
+        Files.copy(sourcesJar.archiveFile.get().getAsFile().toPath(), nfSourcesJar, StandardCopyOption.REPLACE_EXISTING);
+
+        Files.copy(jar.archiveFile.get().getAsFile().toPath(), commonJar, StandardCopyOption.REPLACE_EXISTING);
+        Files.copy(sourcesJar.archiveFile.get().getAsFile().toPath(), commonSourcesJar, StandardCopyOption.REPLACE_EXISTING);
+
+        Purifier.purify(fabricJar, "META-INF/neoforge.mods.toml")
+        Purifier.purify(fabricSourcesJar, "META-INF/neoforge.mods.toml")
+        Purifier.purify(nfJar, "/fabric.mod.json")
+        Purifier.purify(nfSourcesJar, "/fabric.mod.json")
+        Purifier.purify(commonJar, "META-INF/neoforge.mods.toml")
+        Purifier.purify(commonSourcesJar, "META-INF/neoforge.mods.toml")
+        Purifier.purify(commonJar, "/fabric.mod.json")
+        Purifier.purify(commonSourcesJar, "/fabric.mod.json")
+    }
+}
+build {
+    dependsOn ij, isj
+    finalizedBy purify
+}
