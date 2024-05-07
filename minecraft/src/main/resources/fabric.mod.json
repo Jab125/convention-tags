@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "conventiontags",
+  "name": "Convention Tags",
+  "description": "Convention tags for multiplatform mods.",
+  "version": "1.0.0",
+  "contact": {
+    "issues": "https://github.com/Jab125/convention-tags/issues",
+    "sources": "https://github.com/Jab125/convention-tags"
+  },
+  "depends": {
+    "fabric-convention-tags-v2": "^2.0.1+0af3f5a768",
+    "minecraft": "~1.20.6"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["library"]
+    }
+  }
+}
