@@ -89,11 +89,9 @@ publishing {
             groupId = 'dev.jab125'
             artifactId = "convention-tags-common"
             version = project.version
-            artifact {
-                file(commonJar.toFile())
-            }
-            artifact(sourcesJar) {
-                file(commonSourcesJar.toFile())
+            artifact file(commonJar.toFile())
+            artifact (file(commonSourcesJar.toFile())) {
+                classifier "sources"
             }
         }
 
@@ -101,11 +99,9 @@ publishing {
             groupId = 'dev.jab125'
             artifactId = "convention-tags-fabric"
             version = project.version
-            artifact {
-                file(fabricJar.toFile())
-            }
-            artifact(sourcesJar) {
-                file(fabricSourcesJar.toFile())
+            artifact file(fabricJar.toFile())
+            artifact (file(fabricSourcesJar.toFile())) {
+                classifier "sources"
             }
         }
 
@@ -113,11 +109,9 @@ publishing {
             groupId = 'dev.jab125'
             artifactId = "convention-tags-neoforge"
             version = project.version
-            artifact {
-                file(nfJar.toFile())
-            }
-            artifact(sourcesJar) {
-                file(nfSourcesJar.toFile())
+            artifact file(nfJar.toFile())
+            artifact (file(nfSourcesJar.toFile())) {
+                classifier "sources"
             }
         }
         setupRepositories(repositories)
