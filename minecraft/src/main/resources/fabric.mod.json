@@ -3,6 +3,10 @@
   "id": "conventiontags",
   "name": "Convention Tags",
   "description": "Convention tags for multiplatform mods.",
+  "license": [
+    "Apache-2.0",
+    "LGPL-2.1-only"
+  ],
   "version": "${version}",
   "contact": {
     "issues": "https://github.com/Jab125/convention-tags/issues",

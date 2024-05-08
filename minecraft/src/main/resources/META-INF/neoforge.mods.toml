@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
-license = "TODO LICENSE"
+license = "Apache-2.0 & LGPL-2.1-only"
 issueTrackerURL = "https://github.com/Jab125/convention-tags/issues"
 
 [[mods]]
