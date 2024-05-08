@@ -12,7 +12,7 @@ plugins {
 }
 
 archivesBaseName = "convention-tags"
-version "1.0.1"
+version "1.0.2"
 
 Setup.setup();
 minecraft {
