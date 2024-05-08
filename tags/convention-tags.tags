@@ -2,171 +2,501 @@ TAG	minecraft:block	c:barrels
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BARRELS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BARRELS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BARRELS
+	ENTRY	#c:barrels/wooden	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:barrels/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	WOODEN_BARRELS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BARRELS_WOODEN
 	COMMON	dev/jab125/tags/ConventionalBlockTags	WOODEN_BARRELS
+	ENTRY	minecraft:barrel	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:bookshelves
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BOOKSHELVES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BOOKSHELVES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BOOKSHELVES
+	ENTRY	minecraft:bookshelf	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:budding_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BUDDING_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BUDDING_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BUDDING_BLOCKS
+	ENTRY	minecraft:budding_amethyst	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:buds
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BUDS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BUDS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BUDS
+	ENTRY	minecraft:large_amethyst_bud	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:medium_amethyst_bud	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:small_amethyst_bud	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:chains
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CHAINS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHAINS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CHAINS
+	ENTRY	minecraft:chain	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:chests
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CHESTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CHESTS
+	ENTRY	#c:chests/ender	false	NEOFORGE
+	ENTRY	#c:chests/trapped	false	NEOFORGE
+	ENTRY	#c:chests/wooden	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:ender_chest	false	FABRIC
 TAG	minecraft:block	c:chests/ender
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS_ENDER
 	COMMON	dev/jab125/tags/ConventionalBlockTags	ENDER_CHESTS
+	ENTRY	minecraft:ender_chest	false	NEOFORGE
 TAG	minecraft:block	c:chests/trapped
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS_TRAPPED
 	COMMON	dev/jab125/tags/ConventionalBlockTags	TRAPPED_CHESTS
+	ENTRY	minecraft:trapped_chest	false	NEOFORGE
 TAG	minecraft:block	c:chests/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	WOODEN_CHESTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CHESTS_WOODEN
 	COMMON	dev/jab125/tags/ConventionalBlockTags	WOODEN_CHESTS
+	ENTRY	minecraft:chest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:trapped_chest	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:clusters
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CLUSTERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CLUSTERS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CLUSTERS
+	ENTRY	minecraft:amethyst_cluster	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:cobblestones
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	COBBLESTONES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COBBLESTONES
+	ENTRY	#c:cobblestones/deepslate	false	NEOFORGE
+	ENTRY	#c:cobblestones/infested	false	NEOFORGE
+	ENTRY	#c:cobblestones/mossy	false	NEOFORGE
+	ENTRY	#c:cobblestones/normal	false	NEOFORGE
+	ENTRY	minecraft:cobbled_deepslate	false	FABRIC
+	ENTRY	minecraft:cobblestone	false	FABRIC
+	ENTRY	minecraft:infested_cobblestone	false	FABRIC
+	ENTRY	minecraft:mossy_cobblestone	false	FABRIC
 TAG	minecraft:block	c:cobblestones/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_DEEPSLATE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DEEPSLATE_COBBLESTONES
+	ENTRY	minecraft:cobbled_deepslate	false	NEOFORGE
 TAG	minecraft:block	c:cobblestones/infested
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_INFESTED
 	COMMON	dev/jab125/tags/ConventionalBlockTags	INFESTED_COBBLESTONES
+	ENTRY	minecraft:infested_cobblestone	false	NEOFORGE
 TAG	minecraft:block	c:cobblestones/mossy
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_MOSSY
 	COMMON	dev/jab125/tags/ConventionalBlockTags	MOSSY_COBBLESTONES
+	ENTRY	minecraft:mossy_cobblestone	false	NEOFORGE
 TAG	minecraft:block	c:cobblestones/normal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	COBBLESTONES_NORMAL
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NORMAL_COBBLESTONES
+	ENTRY	minecraft:cobblestone	false	NEOFORGE
 TAG	minecraft:block	c:dyed
 	COMMENT	Contains all other dyed tags.
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DYED
+	ENTRY	#c:dyed/black	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/blue	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/brown	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/cyan	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/gray	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/green	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/light_blue	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/light_gray	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/lime	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/magenta	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/orange	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/pink	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/purple	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/red	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/white	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/yellow	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/black
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BLACK_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_BLACK
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BLACK_DYED
+	ENTRY	minecraft:black_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BLUE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_BLUE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BLUE_DYED
+	ENTRY	minecraft:blue_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/brown
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BROWN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_BROWN
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BROWN_DYED
+	ENTRY	minecraft:brown_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/cyan
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CYAN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_CYAN
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CYAN_DYED
+	ENTRY	minecraft:cyan_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GRAY_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_GRAY
 	COMMON	dev/jab125/tags/ConventionalBlockTags	GRAY_DYED
+	ENTRY	minecraft:gray_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/green
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GREEN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_GREEN
 	COMMON	dev/jab125/tags/ConventionalBlockTags	GREEN_DYED
+	ENTRY	minecraft:green_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/light_blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	LIGHT_BLUE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_LIGHT_BLUE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	LIGHT_BLUE_DYED
+	ENTRY	minecraft:light_blue_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/light_gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	LIGHT_GRAY_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_LIGHT_GRAY
 	COMMON	dev/jab125/tags/ConventionalBlockTags	LIGHT_GRAY_DYED
+	ENTRY	minecraft:light_gray_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/lime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	LIME_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_LIME
 	COMMON	dev/jab125/tags/ConventionalBlockTags	LIME_DYED
+	ENTRY	minecraft:lime_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/magenta
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	MAGENTA_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_MAGENTA
 	COMMON	dev/jab125/tags/ConventionalBlockTags	MAGENTA_DYED
+	ENTRY	minecraft:magenta_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/orange
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ORANGE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_ORANGE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	ORANGE_DYED
+	ENTRY	minecraft:orange_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/pink
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PINK_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_PINK
 	COMMON	dev/jab125/tags/ConventionalBlockTags	PINK_DYED
+	ENTRY	minecraft:pink_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/purple
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PURPLE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_PURPLE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	PURPLE_DYED
+	ENTRY	minecraft:purple_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/red
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_RED
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RED_DYED
+	ENTRY	minecraft:red_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/white
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	WHITE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_WHITE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	WHITE_DYED
+	ENTRY	minecraft:white_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:dyed/yellow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	YELLOW_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED_YELLOW
 	COMMON	dev/jab125/tags/ConventionalBlockTags	YELLOW_DYED
+	ENTRY	minecraft:yellow_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_wall_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:end_stones
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	END_STONES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	END_STONES
+	ENTRY	minecraft:end_stone	false	NEOFORGE
 TAG	minecraft:block	c:fence_gates
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCE_GATES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	FENCE_GATES
+	ENTRY	#c:fence_gates/wooden	false	NEOFORGE
 TAG	minecraft:block	c:fence_gates/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCE_GATES_WOODEN
 	COMMON	dev/jab125/tags/ConventionalBlockTags	WOODEN_FENCE_GATES
+	ENTRY	minecraft:acacia_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:bamboo_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:birch_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:cherry_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:crimson_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:dark_oak_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:jungle_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:mangrove_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:oak_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:spruce_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:warped_fence_gate	false	NEOFORGE
 TAG	minecraft:block	c:fences
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	FENCES
+	ENTRY	#c:fences/nether_brick	false	NEOFORGE
+	ENTRY	#c:fences/wooden	false	NEOFORGE
 TAG	minecraft:block	c:fences/nether_brick
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES_NETHER_BRICK
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NETHER_BRICK_FENCES
+	ENTRY	minecraft:nether_brick_fence	false	NEOFORGE
 TAG	minecraft:block	c:fences/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	FENCES_WOODEN
 	COMMON	dev/jab125/tags/ConventionalBlockTags	WOODEN_FENCES
+	ENTRY	#minecraft:wooden_fences	false	NEOFORGE
 TAG	minecraft:block	c:glass_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GLASS_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	GRASS_BLOCKS
+	ENTRY	#c:glass_blocks/cheap	false	NEOFORGE
+	ENTRY	#c:glass_blocks/colorless	false	NEOFORGE
+	ENTRY	#c:glass_blocks/tinted	false	NEOFORGE
+	ENTRY	minecraft:black_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:glass	false	FABRIC
+	ENTRY	minecraft:gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tinted_glass	false	FABRIC
+	ENTRY	minecraft:white_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:glass_blocks/cheap
 	COMMENT	Glass which is made from cheap resources like sand and only minor additional ingredients like dyes.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_CHEAP
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CHEAP_GLASS_BLOCKS
+	ENTRY	minecraft:black_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:glass	false	NEOFORGE
+	ENTRY	minecraft:gray_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:green_stained_glass	false	NEOFORGE	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:red_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:white_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass	false	NEOFORGE
 TAG	minecraft:block	c:glass_blocks/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_COLORLESS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COLORLESS_GLASS_BLOCKS
+	ENTRY	minecraft:glass	false	NEOFORGE
 TAG	minecraft:block	c:glass_blocks/tinted
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_BLOCKS_TINTED
 	COMMON	dev/jab125/tags/ConventionalBlockTags	TINTED_GLASS_BLOCKS
+	ENTRY	minecraft:tinted_glass	false	NEOFORGE
 TAG	minecraft:block	c:glass_panes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	GLASS_PANES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	GLASS_PANES
+	ENTRY	#c:glass_panes/colorless	false	NEOFORGE
+	ENTRY	minecraft:black_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:glass_pane	false	FABRIC
+	ENTRY	minecraft:gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass_pane	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GLASS_PANES_COLORLESS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COLORLESS_GLASS_PANES
+	ENTRY	minecraft:glass_pane	false	NEOFORGE
 TAG	minecraft:block	c:gravels
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	GRAVELS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	GRAVELS
+	ENTRY	minecraft:gravel	false	NEOFORGE
 TAG	minecraft:block	c:hidden_from_recipe_viewers
 	COMMENT	This tag holds all blocks that should be hidden from recipe viewers.
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	HIDDEN_FROM_RECIPE_VIEWERS
@@ -175,86 +505,158 @@ TAG	minecraft:block	c:hidden_from_recipe_viewers
 TAG	minecraft:block	c:netherracks
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	NETHERRACKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NETHERRACKS
+	ENTRY	minecraft:netherrack	false	NEOFORGE
 TAG	minecraft:block	c:obsidians
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	OBSIDIANS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	OBSIDIANS
+	ENTRY	minecraft:obsidian	false	NEOFORGE
 TAG	minecraft:block	c:ore_bearing_ground/deepslate
 	COMMENT	Blocks that are treated like Deepslate during ore generation.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_DEEPSLATE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DEEPSLATE_ORE_BEARING_GROUND
+	ENTRY	minecraft:deepslate	false	NEOFORGE
 TAG	minecraft:block	c:ore_bearing_ground/netherrack
 	COMMENT	Blocks that are treated like Netherrack during ore generation.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_NETHERRACK
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NETHERRACK_ORE_BEARING_GROUND
+	ENTRY	minecraft:netherrack	false	NEOFORGE
 TAG	minecraft:block	c:ore_bearing_ground/stone
 	COMMENT	Blocks that are treated like Stone during ore generation.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_BEARING_GROUND_STONE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	STONE_ORE_BEARING_GROUND
+	ENTRY	minecraft:stone	false	NEOFORGE
 TAG	minecraft:block	c:ore_rates/dense
 	COMMENT	Ores that usually drop more than one resource when mined.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_DENSE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DENSE_ORE_RATES
+	ENTRY	minecraft:copper_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_copper_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_redstone_ore	false	NEOFORGE
+	ENTRY	minecraft:lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:redstone_ore	false	NEOFORGE
 TAG	minecraft:block	c:ore_rates/singular
 	COMMENT	Ores that usually drop a single resource when mined.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_SINGULAR
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SINGULAR_ORE_RATES
+	ENTRY	minecraft:ancient_debris	false	NEOFORGE
+	ENTRY	minecraft:coal_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_coal_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_gold_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_iron_ore	false	NEOFORGE
+	ENTRY	minecraft:diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:gold_ore	false	NEOFORGE
+	ENTRY	minecraft:iron_ore	false	NEOFORGE
+	ENTRY	minecraft:nether_quartz_ore	false	NEOFORGE
 TAG	minecraft:block	c:ore_rates/sparse
 	COMMENT	Ores that usually drop less than one resource when mined.
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORE_RATES_SPARSE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SPARSE_ORE_RATES
+	ENTRY	minecraft:nether_gold_ore	false	NEOFORGE
 TAG	minecraft:block	c:ores
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	ORES
+	ENTRY	#c:ores/coal	false	NEOFORGE
+	ENTRY	#c:ores/copper	false	NEOFORGE
+	ENTRY	#c:ores/diamond	false	NEOFORGE
+	ENTRY	#c:ores/emerald	false	NEOFORGE
+	ENTRY	#c:ores/gold	false	NEOFORGE
+	ENTRY	#c:ores/iron	false	NEOFORGE
+	ENTRY	#c:ores/lapis	false	NEOFORGE
+	ENTRY	#c:ores/netherite_scrap	false	NEOFORGE
+	ENTRY	#c:ores/quartz	false	NEOFORGE
+	ENTRY	#c:ores/redstone	false	NEOFORGE
+	ENTRY	minecraft:coal_ores	false	FABRIC
+	ENTRY	minecraft:copper_ores	false	FABRIC
+	ENTRY	minecraft:diamond_ores	false	FABRIC
+	ENTRY	minecraft:emerald_ores	false	FABRIC
+	ENTRY	minecraft:gold_ores	false	FABRIC
+	ENTRY	minecraft:iron_ores	false	FABRIC
+	ENTRY	minecraft:lapis_ores	false	FABRIC
+	ENTRY	minecraft:redstone_ores	false	FABRIC
 TAG	minecraft:block	c:ores/coal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_COAL
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COAL_ORES
+	ENTRY	#minecraft:coal_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores/copper
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_COPPER
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COPPER_ORES
+	ENTRY	#minecraft:copper_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores/diamond
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_DIAMOND
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DIAMOND_ORES
+	ENTRY	#minecraft:diamond_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores/emerald
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_EMERALD
 	COMMON	dev/jab125/tags/ConventionalBlockTags	EMERALD_ORES
+	ENTRY	#minecraft:emerald_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores/gold
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_GOLD
 	COMMON	dev/jab125/tags/ConventionalBlockTags	GOLD_ORES
+	ENTRY	#minecraft:gold_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores/iron
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IRON
 	COMMON	dev/jab125/tags/ConventionalBlockTags	IRON_ORES
+	ENTRY	#minecraft:iron_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores/lapis
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_LAPIS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	LAPIS_ORES
+	ENTRY	#minecraft:lapis_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores/netherite_scrap
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	NETHERITE_SCRAP_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_NETHERITE_SCRAP
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NETHERITE_SCRAP_ORES
+	ENTRY	minecraft:ancient_debris	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:ores/quartz
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	QUARTZ_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_QUARTZ
 	COMMON	dev/jab125/tags/ConventionalBlockTags	QUARTZ_ORES
+	ENTRY	minecraft:nether_quartz_ore	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:ores/redstone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_REDSTONE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	REDSTONE_ORES
+	ENTRY	#minecraft:redstone_ores	false	NEOFORGE
 TAG	minecraft:block	c:ores_in_ground/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_DEEPSLATE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DEEPSLATE_ORES_IN_GROUND
+	ENTRY	minecraft:deepslate_coal_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_copper_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_gold_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_iron_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_redstone_ore	false	NEOFORGE
 TAG	minecraft:block	c:ores_in_ground/netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_NETHERRACK
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NETHERRACK_ORES_IN_GROUND
+	ENTRY	minecraft:nether_gold_ore	false	NEOFORGE
+	ENTRY	minecraft:nether_quartz_ore	false	NEOFORGE
 TAG	minecraft:block	c:ores_in_ground/stone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	ORES_IN_GROUND_STONE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	STONE_ORES_IN_GROUND
+	ENTRY	minecraft:coal_ore	false	NEOFORGE
+	ENTRY	minecraft:copper_ore	false	NEOFORGE
+	ENTRY	minecraft:diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:gold_ore	false	NEOFORGE
+	ENTRY	minecraft:iron_ore	false	NEOFORGE
+	ENTRY	minecraft:lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:redstone_ore	false	NEOFORGE
 TAG	minecraft:block	c:player_workstations/crafting_tables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+	ENTRY	minecraft:crafting_table	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:player_workstations/furnaces
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	PLAYER_WORKSTATIONS_FURNACES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	PLAYER_WORKSTATIONS_FURNACES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	PLAYER_WORKSTATIONS_FURNACES
+	ENTRY	minecraft:furnace	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:relocation_not_supported
 	COMMENT	Blocks should be included in this tag if their movement can cause 
 	COMMENT	serious issues such as world corruption or for balance reasons.
@@ -268,163 +670,298 @@ TAG	minecraft:block	c:ropes
 TAG	minecraft:block	c:sands
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SANDS
+	ENTRY	#c:sands/colorless	false	NEOFORGE
+	ENTRY	#c:sands/red	false	NEOFORGE
 TAG	minecraft:block	c:sands/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS_COLORLESS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COLORLESS_SANDS
+	ENTRY	minecraft:sand	false	NEOFORGE
 TAG	minecraft:block	c:sands/red
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDS_RED
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RED_SANDS
+	ENTRY	minecraft:red_sand	false	NEOFORGE
 TAG	minecraft:block	c:sandstone/blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SANDSTONE_BLOCKS
+	ENTRY	#c:sandstone/red_blocks	false	NEOFORGE
+	ENTRY	#c:sandstone/uncolored_blocks	false	NEOFORGE
 TAG	minecraft:block	c:sandstone/red_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RED_SANDSTONE_BLOCKS
+	ENTRY	minecraft:chiseled_red_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cut_red_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_red_sandstone	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:sandstone/red_slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_SLABS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RED_SANDSTONE_SLABS
+	ENTRY	minecraft:cut_red_sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_red_sandstone_slab	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:sandstone/red_stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	RED_SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_RED_STAIRS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RED_SANDSTONE_STAIRS
+	ENTRY	minecraft:red_sandstone_stairs	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_red_sandstone_stairs	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:sandstone/slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_SLABS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SANDSTONE_SLABS
+	ENTRY	#c:sandstone/red_slabs	false	NEOFORGE
+	ENTRY	#c:sandstone/uncolored_slabs	false	NEOFORGE
 TAG	minecraft:block	c:sandstone/stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_STAIRS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SANDSTONE_STAIRS
+	ENTRY	#c:sandstone/red_stairs	false	NEOFORGE
+	ENTRY	#c:sandstone/uncolored_stairs	false	NEOFORGE
 TAG	minecraft:block	c:sandstone/uncolored_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	UNCOLORED_SANDSTONE_BLOCKS
+	ENTRY	minecraft:chiseled_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cut_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_sandstone	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:sandstone/uncolored_slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_SLABS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	UNCOLORED_SANDSTONE_SLABS
+	ENTRY	minecraft:cut_sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_sandstone_slab	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:sandstone/uncolored_stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	UNCOLORED_SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SANDSTONE_UNCOLORED_STAIRS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	UNCOLORED_SANDSTONE_STAIRS
+	ENTRY	minecraft:sandstone_stairs	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_sandstone_stairs	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:shulker_boxes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SHULKER_BOXES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SHULKER_BOXES
+	ENTRY	minecraft:black_shulker_box	false	FABRIC
+	ENTRY	minecraft:blue_shulker_box	false	FABRIC
+	ENTRY	minecraft:brown_shulker_box	false	FABRIC
+	ENTRY	minecraft:cyan_shulker_box	false	FABRIC
+	ENTRY	minecraft:gray_shulker_box	false	FABRIC
+	ENTRY	minecraft:green_shulker_box	false	FABRIC
+	ENTRY	minecraft:light_blue_shulker_box	false	FABRIC
+	ENTRY	minecraft:light_gray_shulker_box	false	FABRIC
+	ENTRY	minecraft:lime_shulker_box	false	FABRIC
+	ENTRY	minecraft:magenta_shulker_box	false	FABRIC
+	ENTRY	minecraft:orange_shulker_box	false	FABRIC
+	ENTRY	minecraft:pink_shulker_box	false	FABRIC
+	ENTRY	minecraft:purple_shulker_box	false	FABRIC
+	ENTRY	minecraft:red_shulker_box	false	FABRIC
+	ENTRY	minecraft:shulker_box	false	FABRIC
+	ENTRY	minecraft:white_shulker_box	false	FABRIC
+	ENTRY	minecraft:yellow_shulker_box	false	FABRIC
 TAG	minecraft:block	c:skulls
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	SKULLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	SKULLS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SKULLS
+	ENTRY	minecraft:creeper_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:creeper_wall_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:dragon_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:dragon_wall_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:piglin_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:piglin_wall_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:player_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:player_wall_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:skeleton_skull	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:skeleton_wall_skull	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:wither_skeleton_skull	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:wither_skeleton_wall_skull	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:zombie_head	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:zombie_wall_head	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:stones
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STONES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STONES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	STONES
+	ENTRY	minecraft:andesite	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:deepslate	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:diorite	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:granite	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:stone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tuff	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	STORAGE_BLOCKS
+	ENTRY	#c:storage_blocks/bone_meal	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/coal	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/copper	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/diamond	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/dried_kelp	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/emerald	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/gold	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/iron	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/lapis	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/netherite	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/raw_copper	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/raw_gold	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/raw_iron	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/redstone	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/slime	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/wheat	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/bone_meal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_BONE_MEAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_BONE_MEAL
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BONE_MEAL_STORAGE_BLOCKS
+	ENTRY	minecraft:bone_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/coal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_COAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_COAL
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COAL_STORAGE_BLOCKS
+	ENTRY	minecraft:coal_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_COPPER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_COPPER
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COPPER_STORAGE_BLOCKS
+	ENTRY	minecraft:copper_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/diamond
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_DIAMOND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_DIAMOND
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DIAMOND_STORAGE_BLOCKS
+	ENTRY	minecraft:diamond_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/dried_kelp
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_DRIED_KELP
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_DRIED_KELP
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DRIED_KELP_STORAGE_BLOCKS
+	ENTRY	minecraft:dried_kelp_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/emerald
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_EMERALD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_EMERALD
 	COMMON	dev/jab125/tags/ConventionalBlockTags	EMERALD_STORAGE_BLOCKS
+	ENTRY	minecraft:emerald_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_GOLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_GOLD
 	COMMON	dev/jab125/tags/ConventionalBlockTags	GOLD_STORAGE_BLOCKS
+	ENTRY	minecraft:gold_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_IRON
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_IRON
 	COMMON	dev/jab125/tags/ConventionalBlockTags	IRON_STORAGE_BLOCKS
+	ENTRY	minecraft:iron_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/lapis
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_LAPIS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_LAPIS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	LAPIS_STORAGE_BLOCKS
+	ENTRY	minecraft:lapis_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/netherite
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_NETHERITE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_NETHERITE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NETHERITE_STORAGE_BLOCKS
+	ENTRY	minecraft:netherite_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/raw_copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_COPPER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_COPPER
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RAW_COPPER_STORAGE_BLOCKS
+	ENTRY	minecraft:raw_copper_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/raw_gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_GOLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_GOLD
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RAW_GOLD_STORAGE_BLOCKS
+	ENTRY	minecraft:raw_gold_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/raw_iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_RAW_IRON
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_RAW_IRON
 	COMMON	dev/jab125/tags/ConventionalBlockTags	RAW_IRON_STORAGE_BLOCKS
+	ENTRY	minecraft:raw_iron_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/redstone
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_REDSTONE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_REDSTONE
 	COMMON	dev/jab125/tags/ConventionalBlockTags	REDSTONE_STORAGE_BLOCKS
+	ENTRY	minecraft:redstone_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/slime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_SLIME
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_SLIME
 	COMMON	dev/jab125/tags/ConventionalBlockTags	SLIME_STORAGE_BLOCKS
+	ENTRY	minecraft:slime_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:storage_blocks/wheat
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	STORAGE_BLOCKS_WHEAT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	STORAGE_BLOCKS_WHEAT
 	COMMON	dev/jab125/tags/ConventionalBlockTags	WHEAT_STORAGE_BLOCKS
+	ENTRY	minecraft:hay_block	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:villager_job_sites
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	VILLAGER_JOB_SITES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	VILLAGER_JOB_SITES
 	COMMON	dev/jab125/tags/ConventionalBlockTags	VILLAGER_JOB_SITES
+	ENTRY	minecraft:barrel	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blast_furnace	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brewing_stand	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cartography_table	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cauldron	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:composter	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:fletching_table	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:grindstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lava_cauldron	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lectern	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:loom	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:powder_snow_cauldron	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smithing_table	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smoker	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:stonecutter	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:water_cauldron	false	FABRIC	NEOFORGE
 TAG	minecraft:enchantment	c:entity_auxiliary_movement_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
 	COMMON	dev/jab125/tags/ConventionalEnchantmentTags	ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS
+	ENTRY	minecraft:feather_falling	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frost_walker	false	FABRIC	NEOFORGE
 TAG	minecraft:enchantment	c:entity_defense_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_DEFENSE_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_DEFENSE_ENHANCEMENTS
 	COMMON	dev/jab125/tags/ConventionalEnchantmentTags	ENTITY_DEFENSE_ENHANCEMENTS
+	ENTRY	minecraft:blast_protection	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:feather_falling	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:fire_protection	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:projectile_protection	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:protection	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:respiration	false	FABRIC	NEOFORGE
 TAG	minecraft:enchantment	c:entity_speed_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	ENTITY_SPEED_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	ENTITY_SPEED_ENHANCEMENTS
 	COMMON	dev/jab125/tags/ConventionalEnchantmentTags	ENTITY_SPEED_ENHANCEMENTS
+	ENTRY	minecraft:depth_strider	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:soul_speed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:swift_sneak	false	FABRIC	NEOFORGE
 TAG	minecraft:enchantment	c:increase_block_drops
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	INCREASE_BLOCK_DROPS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	INCREASE_BLOCK_DROPS
 	COMMON	dev/jab125/tags/ConventionalEnchantmentTags	INCREASE_BLOCK_DROPS
+	ENTRY	minecraft:fortune	false	FABRIC	NEOFORGE
 TAG	minecraft:enchantment	c:increase_entity_drops
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	INCREASE_ENTITY_DROPS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	INCREASE_ENTITY_DROPS
 	COMMON	dev/jab125/tags/ConventionalEnchantmentTags	INCREASE_ENTITY_DROPS
+	ENTRY	minecraft:looting	false	FABRIC	NEOFORGE
 TAG	minecraft:enchantment	c:weapon_damage_enhancements
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEnchantmentTags	WEAPON_DAMAGE_ENHANCEMENTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Enchantments	WEAPON_DAMAGE_ENHANCEMENTS
 	COMMON	dev/jab125/tags/ConventionalEnchantmentTags	WEAPON_DAMAGE_ENHANCEMENTS
+	ENTRY	minecraft:bane_of_arthropods	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:impaling	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:power	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sharpness	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smite	false	FABRIC	NEOFORGE
 TAG	minecraft:entity_type	c:boats
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	BOATS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	BOATS
 	COMMON	dev/jab125/tags/ConventionalEntityTypeTags	BOATS
+	ENTRY	minecraft:boat	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:chest_boat	false	FABRIC	NEOFORGE
 TAG	minecraft:entity_type	c:bosses
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	BOSSES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	BOSSES
 	COMMON	dev/jab125/tags/ConventionalEntityTypeTags	BOSSES
+	ENTRY	minecraft:ender_dragon	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:wither	false	FABRIC	NEOFORGE
 TAG	minecraft:entity_type	c:capturing_not_supported
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	CAPTURING_NOT_SUPPORTED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	CAPTURING_NOT_SUPPORTED
@@ -433,6 +970,13 @@ TAG	minecraft:entity_type	c:minecarts
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	MINECARTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	MINECARTS
 	COMMON	dev/jab125/tags/ConventionalEntityTypeTags	MINECARTS
+	ENTRY	minecraft:chest_minecart	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:command_block_minecart	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:furnace_minecart	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:hopper_minecart	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:minecart	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:spawner_minecart	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tnt_minecart	false	FABRIC	NEOFORGE
 TAG	minecraft:entity_type	c:teleporting_not_supported
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalEntityTypeTags	TELEPORTING_NOT_SUPPORTED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$EntityTypes	TELEPORTING_NOT_SUPPORTED
@@ -456,10 +1000,14 @@ TAG	minecraft:fluid	c:lava
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	LAVA
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	LAVA
 	COMMON	dev/jab125/tags/ConventionalFluidTags	LAVA
+	ENTRY	minecraft:flowing_lava	false	NEOFORGE
+	ENTRY	minecraft:lava	false	FABRIC	NEOFORGE
 TAG	minecraft:fluid	c:milk
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	MILK
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	MILK
 	COMMON	dev/jab125/tags/ConventionalFluidTags	MILK
+	ENTRY	minecraft:flowing_milk	false	NEOFORGE
+	ENTRY	minecraft:milk	false	NEOFORGE
 TAG	minecraft:fluid	c:mushroom_stew
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	MUSHROOM_STEW
 	COMMON	dev/jab125/tags/ConventionalFluidTags	MUSHROOM_STEW
@@ -476,306 +1024,688 @@ TAG	minecraft:fluid	c:water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalFluidTags	WATER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Fluids	WATER
 	COMMON	dev/jab125/tags/ConventionalFluidTags	WATER
+	ENTRY	minecraft:flowing_water	false	NEOFORGE
+	ENTRY	minecraft:water	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:armors
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ARMORS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ARMORS
 	COMMON	dev/jab125/tags/ConventionalItemTags	ARMORS
+	ENTRY	#minecraft:chest_armor	false	NEOFORGE
+	ENTRY	#minecraft:foot_armor	false	NEOFORGE
+	ENTRY	#minecraft:head_armor	false	NEOFORGE
+	ENTRY	#minecraft:leg_armor	false	NEOFORGE
+	ENTRY	minecraft:chest_armor	false	FABRIC
+	ENTRY	minecraft:foot_armor	false	FABRIC
+	ENTRY	minecraft:head_armor	false	FABRIC
+	ENTRY	minecraft:leg_armor	false	FABRIC
 TAG	minecraft:item	c:barrels
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BARRELS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BARRELS
 	COMMON	dev/jab125/tags/ConventionalItemTags	BARRELS
+	ENTRY	#c:barrels/wooden	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:barrels/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_BARRELS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BARRELS_WOODEN
 	COMMON	dev/jab125/tags/ConventionalItemTags	WOODEN_BARRELS
+	ENTRY	minecraft:barrel	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:bones
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BONES
 	COMMON	dev/jab125/tags/ConventionalItemTags	BONES
+	ENTRY	minecraft:bone	false	NEOFORGE
 TAG	minecraft:item	c:bookshelves
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BOOKSHELVES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BOOKSHELVES
 	COMMON	dev/jab125/tags/ConventionalItemTags	BOOKSHELVES
+	ENTRY	minecraft:bookshelf	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:bricks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BRICKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	BRICKS
+	ENTRY	#c:bricks/nether	false	NEOFORGE
+	ENTRY	#c:bricks/normal	false	NEOFORGE
 TAG	minecraft:item	c:bricks/nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHER_BRICKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS_NETHER
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHER_BRICKS
+	ENTRY	minecraft:nether_brick	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:bricks/normal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NORMAL_BRICKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BRICKS_NORMAL
 	COMMON	dev/jab125/tags/ConventionalItemTags	NORMAL_BRICKS
+	ENTRY	minecraft:brick	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:buckets
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUCKETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS
 	COMMON	dev/jab125/tags/ConventionalItemTags	BUCKETS
+	ENTRY	#c:buckets/empty	false	NEOFORGE
+	ENTRY	#c:buckets/entity_water	false	NEOFORGE
+	ENTRY	#c:buckets/lava	false	NEOFORGE
+	ENTRY	#c:buckets/milk	false	NEOFORGE
+	ENTRY	#c:buckets/powder_snow	false	NEOFORGE
+	ENTRY	#c:buckets/water	false	NEOFORGE
 TAG	minecraft:item	c:buckets/empty
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EMPTY_BUCKETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_EMPTY
 	COMMON	dev/jab125/tags/ConventionalItemTags	EMPTY_BUCKETS
+	ENTRY	minecraft:bucket	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:buckets/entity_water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ENTITY_WATER_BUCKETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_ENTITY_WATER
 	COMMON	dev/jab125/tags/ConventionalItemTags	ENTITY_WATER_BUCKETS
+	ENTRY	minecraft:axolotl_bucket	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cod_bucket	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pufferfish_bucket	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:salmon_bucket	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tadpole_bucket	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tropical_fish_bucket	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:buckets/lava
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LAVA_BUCKETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_LAVA
 	COMMON	dev/jab125/tags/ConventionalItemTags	LAVA_BUCKETS
+	ENTRY	minecraft:lava_bucket	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:buckets/milk
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MILK_BUCKETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_MILK
 	COMMON	dev/jab125/tags/ConventionalItemTags	MILK_BUCKETS
+	ENTRY	minecraft:milk_bucket	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:buckets/powder_snow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	POWDER_SNOW_BUCKETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_POWDER_SNOW
 	COMMON	dev/jab125/tags/ConventionalItemTags	POWDER_SNOW_BUCKETS
+	ENTRY	minecraft:powder_snow_bucket	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:buckets/water
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WATER_BUCKETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUCKETS_WATER
 	COMMON	dev/jab125/tags/ConventionalItemTags	WATER_BUCKETS
+	ENTRY	minecraft:water_bucket	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:budding_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUDDING_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUDDING_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	BUDDING_BLOCKS
+	ENTRY	minecraft:budding_amethyst	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:buds
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BUDS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	BUDS
 	COMMON	dev/jab125/tags/ConventionalItemTags	BUDS
+	ENTRY	minecraft:large_amethyst_bud	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:medium_amethyst_bud	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:small_amethyst_bud	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:chains
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CHAINS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHAINS
 	COMMON	dev/jab125/tags/ConventionalItemTags	CHAINS
+	ENTRY	minecraft:chain	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:chests
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CHESTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS
 	COMMON	dev/jab125/tags/ConventionalItemTags	CHESTS
+	ENTRY	#c:chests/ender	false	NEOFORGE
+	ENTRY	#c:chests/trapped	false	NEOFORGE
+	ENTRY	#c:chests/wooden	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:ender_chest	false	FABRIC
 TAG	minecraft:item	c:chests/ender
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_ENDER
 	COMMON	dev/jab125/tags/ConventionalItemTags	ENDER_CHESTS
+	ENTRY	minecraft:ender_chest	false	NEOFORGE
 TAG	minecraft:item	c:chests/trapped
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_TRAPPED
 	COMMON	dev/jab125/tags/ConventionalItemTags	TRAPPED_CHESTS
+	ENTRY	minecraft:trapped_chest	false	NEOFORGE
 TAG	minecraft:item	c:chests/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_CHESTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CHESTS_WOODEN
 	COMMON	dev/jab125/tags/ConventionalItemTags	WOODEN_CHESTS
+	ENTRY	minecraft:chest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:trapped_chest	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:clusters
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CLUSTERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CLUSTERS
 	COMMON	dev/jab125/tags/ConventionalItemTags	CLUSTERS
+	ENTRY	minecraft:amethyst_cluster	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:coal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COAL
 	COMMON	dev/jab125/tags/ConventionalItemTags	COAL
+	ENTRY	minecraft:coals	false	FABRIC
 TAG	minecraft:item	c:cobblestones
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COBBLESTONES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES
 	COMMON	dev/jab125/tags/ConventionalItemTags	COBBLESTONES
+	ENTRY	#c:cobblestones/deepslate	false	NEOFORGE
+	ENTRY	#c:cobblestones/infested	false	NEOFORGE
+	ENTRY	#c:cobblestones/mossy	false	NEOFORGE
+	ENTRY	#c:cobblestones/normal	false	NEOFORGE
+	ENTRY	minecraft:cobbled_deepslate	false	FABRIC
+	ENTRY	minecraft:cobblestone	false	FABRIC
+	ENTRY	minecraft:infested_cobblestone	false	FABRIC
+	ENTRY	minecraft:mossy_cobblestone	false	FABRIC
 TAG	minecraft:item	c:cobblestones/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_DEEPSLATE
 	COMMON	dev/jab125/tags/ConventionalItemTags	DEEPSLATE_COBBLESTONES
+	ENTRY	minecraft:cobbled_deepslate	false	NEOFORGE
 TAG	minecraft:item	c:cobblestones/infested
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_INFESTED
 	COMMON	dev/jab125/tags/ConventionalItemTags	INFESTED_COBBLESTONES
+	ENTRY	minecraft:infested_cobblestone	false	NEOFORGE
 TAG	minecraft:item	c:cobblestones/mossy
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_MOSSY
+	ENTRY	minecraft:mossy_cobblestone	false	NEOFORGE
 TAG	minecraft:item	c:cobblestones/normal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	COBBLESTONES_NORMAL
 	COMMON	dev/jab125/tags/ConventionalItemTags	NORMAL_COBBLESTONES
+	ENTRY	minecraft:cobblestone	false	NEOFORGE
 TAG	minecraft:item	c:crops
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS
 	COMMON	dev/jab125/tags/ConventionalItemTags	CROPS
+	ENTRY	#c:crops/beetroot	false	NEOFORGE
+	ENTRY	#c:crops/carrot	false	NEOFORGE
+	ENTRY	#c:crops/nether_wart	false	NEOFORGE
+	ENTRY	#c:crops/potato	false	NEOFORGE
+	ENTRY	#c:crops/wheat	false	NEOFORGE
 TAG	minecraft:item	c:crops/beetroot
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_BEETROOT
 	COMMON	dev/jab125/tags/ConventionalItemTags	BEETROOT_CROPS
+	ENTRY	minecraft:beetroot	false	NEOFORGE
 TAG	minecraft:item	c:crops/carrot
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_CARROT
 	COMMON	dev/jab125/tags/ConventionalItemTags	CARROT_CROPS
+	ENTRY	minecraft:carrot	false	NEOFORGE
 TAG	minecraft:item	c:crops/nether_wart
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_NETHER_WART
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHER_WART_CROPS
+	ENTRY	minecraft:nether_wart	false	NEOFORGE
 TAG	minecraft:item	c:crops/potato
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_POTATO
 	COMMON	dev/jab125/tags/ConventionalItemTags	POTATO_CROPS
+	ENTRY	minecraft:potato	false	NEOFORGE
 TAG	minecraft:item	c:crops/wheat
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	CROPS_WHEAT
 	COMMON	dev/jab125/tags/ConventionalItemTags	WHEAT_CROPS
+	ENTRY	minecraft:wheat	false	NEOFORGE
 TAG	minecraft:item	c:dusts
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DUSTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS
 	COMMON	dev/jab125/tags/ConventionalItemTags	DUSTS
+	ENTRY	#c:dusts/glowstone	false	NEOFORGE
+	ENTRY	#c:dusts/redstone	false	NEOFORGE
 TAG	minecraft:item	c:dusts/glowstone
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLOWSTONE_DUSTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS_GLOWSTONE
 	COMMON	dev/jab125/tags/ConventionalItemTags	GLOWSTONE_DUSTS
+	ENTRY	minecraft:glowstone_dust	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dusts/redstone
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	REDSTONE_DUSTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DUSTS_REDSTONE
 	COMMON	dev/jab125/tags/ConventionalItemTags	REDSTONE_DUSTS
+	ENTRY	minecraft:redstone	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED
 	COMMON	dev/jab125/tags/ConventionalItemTags	DYED
+	ENTRY	#c:dyed/black	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/blue	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/brown	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/cyan	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/gray	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/green	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/light_blue	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/light_gray	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/lime	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/magenta	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/orange	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/pink	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/purple	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/red	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/white	false	FABRIC	NEOFORGE
+	ENTRY	#c:dyed/yellow	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/black
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLACK_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BLACK
 	COMMON	dev/jab125/tags/ConventionalItemTags	BLACK_DYED
+	ENTRY	minecraft:black_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:black_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLUE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BLUE
 	COMMON	dev/jab125/tags/ConventionalItemTags	BLUE_DYED
+	ENTRY	minecraft:blue_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/brown
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BROWN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_BROWN
 	COMMON	dev/jab125/tags/ConventionalItemTags	BROWN_DYED
+	ENTRY	minecraft:brown_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/cyan
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CYAN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_CYAN
 	COMMON	dev/jab125/tags/ConventionalItemTags	CYAN_DYED
+	ENTRY	minecraft:cyan_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GRAY_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_GRAY
 	COMMON	dev/jab125/tags/ConventionalItemTags	GRAY_DYED
+	ENTRY	minecraft:gray_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:gray_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/green
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GREEN_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_GREEN
 	COMMON	dev/jab125/tags/ConventionalItemTags	GREEN_DYED
+	ENTRY	minecraft:green_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/light_blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_BLUE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIGHT_BLUE
 	COMMON	dev/jab125/tags/ConventionalItemTags	LIGHT_BLUE_DYED
+	ENTRY	minecraft:light_blue_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/light_gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_GRAY_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIGHT_GRAY
 	COMMON	dev/jab125/tags/ConventionalItemTags	LIGHT_GRAY_DYED
+	ENTRY	minecraft:light_gray_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/lime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIME_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_LIME
 	COMMON	dev/jab125/tags/ConventionalItemTags	LIME_DYED
+	ENTRY	minecraft:lime_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/magenta
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MAGENTA_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_MAGENTA
 	COMMON	dev/jab125/tags/ConventionalItemTags	MAGENTA_DYED
+	ENTRY	minecraft:magenta_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/orange
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORANGE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_ORANGE
 	COMMON	dev/jab125/tags/ConventionalItemTags	ORANGE_DYED
+	ENTRY	minecraft:orange_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/pink
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PINK_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_PINK
 	COMMON	dev/jab125/tags/ConventionalItemTags	PINK_DYED
+	ENTRY	minecraft:pink_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/purple
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PURPLE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_PURPLE
 	COMMON	dev/jab125/tags/ConventionalItemTags	PURPLE_DYED
+	ENTRY	minecraft:purple_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/red
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_RED
 	COMMON	dev/jab125/tags/ConventionalItemTags	RED_DYED
+	ENTRY	minecraft:red_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/white
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WHITE_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_WHITE
 	COMMON	dev/jab125/tags/ConventionalItemTags	WHITE_DYED
+	ENTRY	minecraft:white_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyed/yellow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	YELLOW_DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYED_YELLOW
 	COMMON	dev/jab125/tags/ConventionalItemTags	YELLOW_DYED
+	ENTRY	minecraft:yellow_banner	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_bed	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_candle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_carpet	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_concrete	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_concrete_powder	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_glazed_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_shulker_box	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_terracotta	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_wool	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DYES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	DYES
+	ENTRY	#c:dyes/black	false	NEOFORGE
+	ENTRY	#c:dyes/blue	false	NEOFORGE
+	ENTRY	#c:dyes/brown	false	NEOFORGE
+	ENTRY	#c:dyes/cyan	false	NEOFORGE
+	ENTRY	#c:dyes/gray	false	NEOFORGE
+	ENTRY	#c:dyes/green	false	NEOFORGE
+	ENTRY	#c:dyes/light_blue	false	NEOFORGE
+	ENTRY	#c:dyes/light_gray	false	NEOFORGE
+	ENTRY	#c:dyes/lime	false	NEOFORGE
+	ENTRY	#c:dyes/magenta	false	NEOFORGE
+	ENTRY	#c:dyes/orange	false	NEOFORGE
+	ENTRY	#c:dyes/pink	false	NEOFORGE
+	ENTRY	#c:dyes/purple	false	NEOFORGE
+	ENTRY	#c:dyes/red	false	NEOFORGE
+	ENTRY	#c:dyes/white	false	NEOFORGE
+	ENTRY	#c:dyes/yellow	false	NEOFORGE
 TAG	minecraft:item	c:dyes/black
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLACK_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	BLACK_DYES
+	ENTRY	minecraft:black_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLUE_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	BLUE_DYES
+	ENTRY	minecraft:blue_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/brown
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BROWN_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	BROWN_DYES
+	ENTRY	minecraft:brown_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/cyan
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CYAN_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	CYAN_DYES
+	ENTRY	minecraft:cyan_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GRAY_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	GRAY_DYES
+	ENTRY	minecraft:gray_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/green
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GREEN_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	GREEN_DYES
+	ENTRY	minecraft:green_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/light_blue
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_BLUE_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	LIGHT_BLUE_DYES
+	ENTRY	minecraft:light_blue_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/light_gray
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIGHT_GRAY_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	LIGHT_GRAY_DYES
+	ENTRY	minecraft:light_gray_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/lime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LIME_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	LIME_DYES
+	ENTRY	minecraft:lime_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/magenta
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MAGENTA_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	MAGENTA_DYES
+	ENTRY	minecraft:magenta_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/orange
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORANGE_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	ORANGE_DYES
+	ENTRY	minecraft:orange_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/pink
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PINK_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	PINK_DYES
+	ENTRY	minecraft:pink_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/purple
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PURPLE_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	PURPLE_DYES
+	ENTRY	minecraft:purple_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/red
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	RED_DYES
+	ENTRY	minecraft:red_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/white
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WHITE_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	WHITE_DYES
+	ENTRY	minecraft:white_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:dyes/yellow
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	YELLOW_DYES
 	COMMON	dev/jab125/tags/ConventionalItemTags	YELLOW_DYES
+	ENTRY	minecraft:yellow_dye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:eggs
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	EGGS
 	COMMON	dev/jab125/tags/ConventionalItemTags	EGGS
+	ENTRY	minecraft:egg	false	NEOFORGE
 TAG	minecraft:item	c:enchantables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ENCHANTABLES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ENCHANTABLES
 	COMMON	dev/jab125/tags/ConventionalItemTags	ENCHANTABLES
+	ENTRY	#minecraft:enchantable/armor	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/bow	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/crossbow	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/durability	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/equippable	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/fire_aspect	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/fishing	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/mining	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/mining_loot	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/sword	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/trident	false	NEOFORGE
+	ENTRY	#minecraft:enchantable/weapon	false	NEOFORGE
+	ENTRY	minecraft:enchantable/armor	false	FABRIC
+	ENTRY	minecraft:enchantable/bow	false	FABRIC
+	ENTRY	minecraft:enchantable/crossbow	false	FABRIC
+	ENTRY	minecraft:enchantable/durability	false	FABRIC
+	ENTRY	minecraft:enchantable/equippable	false	FABRIC
+	ENTRY	minecraft:enchantable/fire_aspect	false	FABRIC
+	ENTRY	minecraft:enchantable/fishing	false	FABRIC
+	ENTRY	minecraft:enchantable/mace	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:enchantable/mining	false	FABRIC
+	ENTRY	minecraft:enchantable/mining_loot	false	FABRIC
+	ENTRY	minecraft:enchantable/sword	false	FABRIC
+	ENTRY	minecraft:enchantable/trident	false	FABRIC
+	ENTRY	minecraft:enchantable/weapon	false	FABRIC
 TAG	minecraft:item	c:end_stones
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	END_STONES
 	COMMON	dev/jab125/tags/ConventionalItemTags	END_STONES
+	ENTRY	minecraft:end_stone	false	NEOFORGE
 TAG	minecraft:item	c:ender_pearls
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ENDER_PEARLS
 	COMMON	dev/jab125/tags/ConventionalItemTags	ENDER_PEARLS
+	ENTRY	minecraft:ender_pearl	false	NEOFORGE
 TAG	minecraft:item	c:feathers
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FEATHERS
 	COMMON	dev/jab125/tags/ConventionalItemTags	FEATHERS
+	ENTRY	minecraft:feather	false	NEOFORGE
 TAG	minecraft:item	c:fence_gates
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCE_GATES
 	COMMON	dev/jab125/tags/ConventionalItemTags	FENCE_GATES
+	ENTRY	#c:fence_gates/wooden	false	NEOFORGE
 TAG	minecraft:item	c:fence_gates/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCE_GATES_WOODEN
 	COMMON	dev/jab125/tags/ConventionalItemTags	FENCE_GATES_WOODEN
+	ENTRY	minecraft:acacia_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:bamboo_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:birch_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:cherry_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:crimson_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:dark_oak_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:jungle_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:mangrove_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:oak_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:spruce_fence_gate	false	NEOFORGE
+	ENTRY	minecraft:warped_fence_gate	false	NEOFORGE
 TAG	minecraft:item	c:fences
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES
 	COMMON	dev/jab125/tags/ConventionalItemTags	FENCES
+	ENTRY	#c:fences/nether_brick	false	NEOFORGE
+	ENTRY	#c:fences/wooden	false	NEOFORGE
 TAG	minecraft:item	c:fences/nether_brick
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES_NETHER_BRICK
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHER_BRICK_FENCES
+	ENTRY	minecraft:nether_brick_fence	false	NEOFORGE
 TAG	minecraft:item	c:fences/wooden
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FENCES_WOODEN
 	COMMON	dev/jab125/tags/ConventionalItemTags	WOODEN_FENCES
+	ENTRY	#minecraft:wooden_fences	false	NEOFORGE
 TAG	minecraft:item	c:foods
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS
 	COMMON	dev/jab125/tags/ConventionalItemTags	FOODS
+	ENTRY	#c:foods/berries	false	NEOFORGE
+	ENTRY	#c:foods/breads	false	NEOFORGE
+	ENTRY	#c:foods/candies	false	NEOFORGE
+	ENTRY	#c:foods/cooked_fishes	false	NEOFORGE
+	ENTRY	#c:foods/cooked_meats	false	NEOFORGE
+	ENTRY	#c:foods/cookies	false	NEOFORGE
+	ENTRY	#c:foods/edible_when_placed	false	NEOFORGE
+	ENTRY	#c:foods/food_poisoning	false	NEOFORGE
+	ENTRY	#c:foods/fruits	false	NEOFORGE
+	ENTRY	#c:foods/raw_fishes	false	NEOFORGE
+	ENTRY	#c:foods/raw_meats	false	NEOFORGE
+	ENTRY	#c:foods/soups	false	NEOFORGE
+	ENTRY	#c:foods/vegetables	false	NEOFORGE
+	ENTRY	minecraft:baked_potato	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:dried_kelp	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:honey_bottle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:ominous_bottle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pumpkin_pie	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/berries
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BERRIES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_BERRIES
 	COMMON	dev/jab125/tags/ConventionalItemTags	BERRY_FOODS
+	ENTRY	minecraft:glow_berries	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sweet_berries	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/breads
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BREADS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_BREADS
 	COMMON	dev/jab125/tags/ConventionalItemTags	BREAD_FOODS
+	ENTRY	minecraft:bread	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/candies
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CANDIES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_CANDIES
@@ -784,96 +1714,204 @@ TAG	minecraft:item	c:foods/cooked_fishes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKED_FISHES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKED_FISHES
 	COMMON	dev/jab125/tags/ConventionalItemTags	COOKED_FISH_FOODS
+	ENTRY	minecraft:cooked_cod	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cooked_salmon	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/cooked_meats
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKED_MEATS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKED_MEATS
 	COMMON	dev/jab125/tags/ConventionalItemTags	COOKED_MEAT_FOODS
+	ENTRY	minecraft:cooked_beef	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cooked_chicken	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cooked_mutton	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cooked_porkchop	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cooked_rabbit	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/cookies
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COOKIES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_COOKIES
 	COMMON	dev/jab125/tags/ConventionalItemTags	COOKIE_FOODS
+	ENTRY	minecraft:cookie	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/edible_when_placed
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EDIBLE_WHEN_PLACED_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_EDIBLE_WHEN_PLACED
 	COMMON	dev/jab125/tags/ConventionalItemTags	EDIBLE_WHEN_PLACED_FOODS
+	ENTRY	minecraft:cake	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/food_poisoning
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FOOD_POISONING_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_FOOD_POISONING
 	COMMON	dev/jab125/tags/ConventionalItemTags	FOOD_POISONING_FOODS
+	ENTRY	minecraft:chicken	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:poisonous_potato	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pufferfish	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:rotten_flesh	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:spider_eye	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/fruits
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FRUITS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_FRUITS
 	COMMON	dev/jab125/tags/ConventionalItemTags	FRUIT_FOODS
+	ENTRY	minecraft:apple	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:enchanted_golden_apple	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:golden_apple	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/raw_fishes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_FISHES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_RAW_FISHES
 	COMMON	dev/jab125/tags/ConventionalItemTags	RAW_FISH_FOODS
+	ENTRY	minecraft:cod	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pufferfish	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:salmon	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tropical_fish	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/raw_meats
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_MEATS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_RAW_MEATS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RAW_MEAT_FOODS
+	ENTRY	minecraft:beef	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:chicken	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:mutton	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:porkchop	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:rabbit	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/soups
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SOUPS_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_SOUPS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SOUP_FOODS
+	ENTRY	minecraft:beetroot_soup	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:mushroom_stew	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:rabbit_stew	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:suspicious_stew	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:foods/vegetables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	VEGETABLES_FOODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	FOODS_VEGETABLES
 	COMMON	dev/jab125/tags/ConventionalItemTags	VEGETABLE_FOODS
+	ENTRY	minecraft:beetroot	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:carrot	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:golden_carrot	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:melon_slice	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:potato	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:gems
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS
 	COMMON	dev/jab125/tags/ConventionalItemTags	GEMS
+	ENTRY	#c:gems/amethyst	false	NEOFORGE
+	ENTRY	#c:gems/diamond	false	NEOFORGE
+	ENTRY	#c:gems/emerald	false	NEOFORGE
+	ENTRY	#c:gems/lapis	false	NEOFORGE
+	ENTRY	#c:gems/prismarine	false	NEOFORGE
+	ENTRY	#c:gems/quartz	false	NEOFORGE
 TAG	minecraft:item	c:gems/amethyst
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	AMETHYST_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_AMETHYST
 	COMMON	dev/jab125/tags/ConventionalItemTags	AMETHYST_GEMS
+	ENTRY	minecraft:amethyst_shard	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:gems/diamond
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	DIAMOND_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_DIAMOND
 	COMMON	dev/jab125/tags/ConventionalItemTags	DIAMOND_GEMS
+	ENTRY	minecraft:diamond	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:gems/emerald
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	EMERALD_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_EMERALD
 	COMMON	dev/jab125/tags/ConventionalItemTags	EMERALD_GEMS
+	ENTRY	minecraft:emerald	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:gems/lapis
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	LAPIS_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_LAPIS
 	COMMON	dev/jab125/tags/ConventionalItemTags	LAPIS_GEMS
+	ENTRY	minecraft:lapis_lazuli	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:gems/prismarine
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PRISMARINE_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_PRISMARINE
 	COMMON	dev/jab125/tags/ConventionalItemTags	PRISMARINE_GEMS
+	ENTRY	minecraft:prismarine_crystals	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:gems/quartz
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	QUARTZ_GEMS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GEMS_QUARTZ
 	COMMON	dev/jab125/tags/ConventionalItemTags	QUARTZ_GEMS
+	ENTRY	minecraft:quartz	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:glass_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLASS_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	GLASS_BLOCKS
+	ENTRY	#c:glass_blocks/cheap	false	NEOFORGE
+	ENTRY	#c:glass_blocks/colorless	false	NEOFORGE
+	ENTRY	#c:glass_blocks/tinted	false	NEOFORGE
+	ENTRY	minecraft:black_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:glass	false	FABRIC
+	ENTRY	minecraft:gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tinted_glass	false	FABRIC
+	ENTRY	minecraft:white_stained_glass	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:glass_blocks/cheap
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_CHEAP
 	COMMON	dev/jab125/tags/ConventionalItemTags	CHEAP_GLASS_BLOCKS
+	ENTRY	minecraft:black_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:glass	false	NEOFORGE
+	ENTRY	minecraft:gray_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:green_stained_glass	false	NEOFORGE	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:red_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:white_stained_glass	false	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass	false	NEOFORGE
 TAG	minecraft:item	c:glass_blocks/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_COLORLESS
 	COMMON	dev/jab125/tags/ConventionalItemTags	COLORLESS_GLASS_BLOCKS
+	ENTRY	minecraft:glass	false	NEOFORGE
 TAG	minecraft:item	c:glass_blocks/tinted
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_BLOCKS_TINTED
 	COMMON	dev/jab125/tags/ConventionalItemTags	TINTED_GLASS_BLOCKS
+	ENTRY	minecraft:tinted_glass	false	NEOFORGE
 TAG	minecraft:item	c:glass_panes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GLASS_PANES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES
 	COMMON	dev/jab125/tags/ConventionalItemTags	GLASS_PANES
+	ENTRY	#c:glass_panes/colorless	false	NEOFORGE
+	ENTRY	minecraft:black_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brown_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cyan_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:glass_pane	false	FABRIC
+	ENTRY	minecraft:gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:green_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_blue_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:light_gray_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lime_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:magenta_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:orange_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:pink_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:purple_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:white_stained_glass_pane	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:yellow_stained_glass_pane	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:glass_panes/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GLASS_PANES_COLORLESS
 	COMMON	dev/jab125/tags/ConventionalItemTags	COLORLESS_GLASS_PANES
+	ENTRY	minecraft:glass_pane	false	NEOFORGE
 TAG	minecraft:item	c:gravels
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GRAVELS
 	COMMON	dev/jab125/tags/ConventionalItemTags	GRAVELS
+	ENTRY	minecraft:gravel	false	NEOFORGE
 TAG	minecraft:item	c:gunpowders
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	GUNPOWDERS
 	COMMON	dev/jab125/tags/ConventionalItemTags	GUNPOWDERS
+	ENTRY	minecraft:gunpowder	false	NEOFORGE
 TAG	minecraft:item	c:hidden_from_recipe_viewers
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	HIDDEN_FROM_RECIPE_VIEWERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	HIDDEN_FROM_RECIPE_VIEWERS
@@ -882,169 +1920,280 @@ TAG	minecraft:item	c:ingots
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS
 	COMMON	dev/jab125/tags/ConventionalItemTags	INGOTS
+	ENTRY	#c:ingots/copper	false	NEOFORGE
+	ENTRY	#c:ingots/gold	false	NEOFORGE
+	ENTRY	#c:ingots/iron	false	NEOFORGE
+	ENTRY	#c:ingots/netherite	false	NEOFORGE
 TAG	minecraft:item	c:ingots/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_COPPER
 	COMMON	dev/jab125/tags/ConventionalItemTags	COPPER_INGOTS
+	ENTRY	minecraft:copper_ingot	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:ingots/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_GOLD
 	COMMON	dev/jab125/tags/ConventionalItemTags	GOLD_INGOTS
+	ENTRY	minecraft:gold_ingot	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:ingots/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_IRON
 	COMMON	dev/jab125/tags/ConventionalItemTags	IRON_INGOTS
+	ENTRY	minecraft:iron_ingot	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:ingots/netherite
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHERITE_INGOTS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	INGOTS_NETHERITE
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHERITE_INGOTS
+	ENTRY	minecraft:netherite_ingot	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:leathers
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	LEATHERS
 	COMMON	dev/jab125/tags/ConventionalItemTags	LEATHERS
+	ENTRY	minecraft:leather	false	NEOFORGE
 TAG	minecraft:item	c:mushrooms
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	MUSHROOMS
 	COMMON	dev/jab125/tags/ConventionalItemTags	MUSHROOMS
+	ENTRY	minecraft:brown_mushroom	false	NEOFORGE
+	ENTRY	minecraft:red_mushroom	false	NEOFORGE
 TAG	minecraft:item	c:nether_stars
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHER_STARS
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHER_STARS
+	ENTRY	minecraft:nether_star	false	NEOFORGE
 TAG	minecraft:item	c:netherracks
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NETHERRACKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHERRACKS
+	ENTRY	minecraft:netherrack	false	NEOFORGE
 TAG	minecraft:item	c:nuggets
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NUGGETS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS
 	COMMON	dev/jab125/tags/ConventionalItemTags	NUGGETS
+	ENTRY	#c:nuggets/gold	false	NEOFORGE
+	ENTRY	#c:nuggets/iron	false	NEOFORGE
+	ENTRY	minecraft:gold_nugget	false	FABRIC
+	ENTRY	minecraft:iron_nugget	false	FABRIC
 TAG	minecraft:item	c:nuggets/gold
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS_GOLD
 	COMMON	dev/jab125/tags/ConventionalItemTags	NUGGETS_GOLD
+	ENTRY	minecraft:gold_nugget	false	NEOFORGE
 TAG	minecraft:item	c:nuggets/iron
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	NUGGETS_IRON
 	COMMON	dev/jab125/tags/ConventionalItemTags	NUGGETS_IRON
+	ENTRY	minecraft:iron_nugget	false	NEOFORGE
 TAG	minecraft:item	c:obsidians
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	OBSIDIANS
 	COMMON	dev/jab125/tags/ConventionalItemTags	OBSIDIANS
+	ENTRY	minecraft:obsidian	false	NEOFORGE
 TAG	minecraft:item	c:ore_bearing_ground/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_DEEPSLATE
 	COMMON	dev/jab125/tags/ConventionalItemTags	DEEPSLATE_ORE_BEARING_GROUND
+	ENTRY	minecraft:deepslate	false	NEOFORGE
 TAG	minecraft:item	c:ore_bearing_ground/netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_NETHERRACK
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHERRACK_ORE_BEARING_GROUND
+	ENTRY	minecraft:netherrack	false	NEOFORGE
 TAG	minecraft:item	c:ore_bearing_ground/stone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_BEARING_GROUND_STONE
 	COMMON	dev/jab125/tags/ConventionalItemTags	STONE_ORE_BEARING_GROUND
+	ENTRY	minecraft:stone	false	NEOFORGE
 TAG	minecraft:item	c:ore_rates/dense
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_DENSE
 	COMMON	dev/jab125/tags/ConventionalItemTags	DENSE_ORE_RATES
+	ENTRY	minecraft:copper_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_copper_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_redstone_ore	false	NEOFORGE
+	ENTRY	minecraft:lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:redstone_ore	false	NEOFORGE
 TAG	minecraft:item	c:ore_rates/singular
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_SINGULAR
 	COMMON	dev/jab125/tags/ConventionalItemTags	SINGULAR_ORE_RATES
+	ENTRY	minecraft:ancient_debris	false	NEOFORGE
+	ENTRY	minecraft:coal_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_coal_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_gold_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_iron_ore	false	NEOFORGE
+	ENTRY	minecraft:diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:gold_ore	false	NEOFORGE
+	ENTRY	minecraft:iron_ore	false	NEOFORGE
+	ENTRY	minecraft:nether_quartz_ore	false	NEOFORGE
 TAG	minecraft:item	c:ore_rates/sparse
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORE_RATES_SPARSE
 	COMMON	dev/jab125/tags/ConventionalItemTags	SPARSE_ORE_RATES
+	ENTRY	minecraft:nether_gold_ore	false	NEOFORGE
 TAG	minecraft:item	c:ores
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES
 	COMMON	dev/jab125/tags/ConventionalItemTags	ORES
+	ENTRY	#c:ores/coal	false	NEOFORGE
+	ENTRY	#c:ores/copper	false	NEOFORGE
+	ENTRY	#c:ores/diamond	false	NEOFORGE
+	ENTRY	#c:ores/emerald	false	NEOFORGE
+	ENTRY	#c:ores/gold	false	NEOFORGE
+	ENTRY	#c:ores/iron	false	NEOFORGE
+	ENTRY	#c:ores/lapis	false	NEOFORGE
+	ENTRY	#c:ores/netherite_scrap	false	NEOFORGE
+	ENTRY	#c:ores/quartz	false	NEOFORGE
+	ENTRY	#c:ores/redstone	false	NEOFORGE
+	ENTRY	minecraft:coal_ores	false	FABRIC
+	ENTRY	minecraft:copper_ores	false	FABRIC
+	ENTRY	minecraft:diamond_ores	false	FABRIC
+	ENTRY	minecraft:emerald_ores	false	FABRIC
+	ENTRY	minecraft:gold_ores	false	FABRIC
+	ENTRY	minecraft:iron_ores	false	FABRIC
+	ENTRY	minecraft:lapis_ores	false	FABRIC
+	ENTRY	minecraft:redstone_ores	false	FABRIC
 TAG	minecraft:item	c:ores/coal
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_COAL
 	COMMON	dev/jab125/tags/ConventionalItemTags	COAL_ORES
+	ENTRY	#minecraft:coal_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores/copper
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_COPPER
 	COMMON	dev/jab125/tags/ConventionalItemTags	COPPER_ORES
+	ENTRY	#minecraft:copper_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores/diamond
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_DIAMOND
 	COMMON	dev/jab125/tags/ConventionalItemTags	DIAMOND_ORES
+	ENTRY	#minecraft:diamond_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores/emerald
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_EMERALD
 	COMMON	dev/jab125/tags/ConventionalItemTags	EMERALD_ORES
+	ENTRY	#minecraft:emerald_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores/gold
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_GOLD
 	COMMON	dev/jab125/tags/ConventionalItemTags	GOLD_ORES
+	ENTRY	#minecraft:gold_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores/iron
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IRON
 	COMMON	dev/jab125/tags/ConventionalItemTags	IRON_ORES
+	ENTRY	#minecraft:iron_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores/lapis
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_LAPIS
 	COMMON	dev/jab125/tags/ConventionalItemTags	LAPIS_ORES
+	ENTRY	#minecraft:lapis_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores/netherite_scrap
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	NETHERITE_SCRAP_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_NETHERITE_SCRAP
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHERITE_SCRAP_ORES
+	ENTRY	minecraft:ancient_debris	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:ores/quartz
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	QUARTZ_ORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_QUARTZ
 	COMMON	dev/jab125/tags/ConventionalItemTags	QUARTZ_ORES
+	ENTRY	minecraft:nether_quartz_ore	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:ores/redstone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_REDSTONE
 	COMMON	dev/jab125/tags/ConventionalItemTags	REDSTONE_ORES
+	ENTRY	#minecraft:redstone_ores	false	NEOFORGE
 TAG	minecraft:item	c:ores_in_ground/deepslate
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_DEEPSLATE
 	COMMON	dev/jab125/tags/ConventionalItemTags	DEEPSLATE_ORES_IN_GROUND
+	ENTRY	minecraft:deepslate_coal_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_copper_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_gold_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_iron_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:deepslate_redstone_ore	false	NEOFORGE
 TAG	minecraft:item	c:ores_in_ground/netherrack
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_NETHERRACK
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHERRACK_ORES_IN_GROUND
+	ENTRY	minecraft:nether_gold_ore	false	NEOFORGE
+	ENTRY	minecraft:nether_quartz_ore	false	NEOFORGE
 TAG	minecraft:item	c:ores_in_ground/stone
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ORES_IN_GROUND_STONE
 	COMMON	dev/jab125/tags/ConventionalItemTags	STONE_ORES_IN_GROUND
+	ENTRY	minecraft:coal_ore	false	NEOFORGE
+	ENTRY	minecraft:copper_ore	false	NEOFORGE
+	ENTRY	minecraft:diamond_ore	false	NEOFORGE
+	ENTRY	minecraft:emerald_ore	false	NEOFORGE
+	ENTRY	minecraft:gold_ore	false	NEOFORGE
+	ENTRY	minecraft:iron_ore	false	NEOFORGE
+	ENTRY	minecraft:lapis_ore	false	NEOFORGE
+	ENTRY	minecraft:redstone_ore	false	NEOFORGE
 TAG	minecraft:item	c:player_workstations/crafting_tables
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	PLAYER_WORKSTATIONS_CRAFTING_TABLES
 	COMMON	dev/jab125/tags/ConventionalItemTags	PLAYER_WORKSTATIONS_CRAFTING_TABLES
+	ENTRY	minecraft:crafting_table	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:player_workstations/furnaces
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	PLAYER_WORKSTATIONS_FURNACES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	PLAYER_WORKSTATIONS_FURNACES
 	COMMON	dev/jab125/tags/ConventionalItemTags	PLAYER_WORKSTATIONS_FURNACES
+	ENTRY	minecraft:furnace	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:potions
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	POTIONS
 	COMMON	dev/jab125/tags/ConventionalItemTags	POTIONS
+	ENTRY	minecraft:lingering_potion	false	FABRIC
+	ENTRY	minecraft:potion	false	FABRIC
+	ENTRY	minecraft:splash_potion	false	FABRIC
 TAG	minecraft:item	c:raw_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RAW_BLOCKS
+	ENTRY	#c:raw_blocks/copper	false	NEOFORGE
+	ENTRY	#c:raw_blocks/gold	false	NEOFORGE
+	ENTRY	#c:raw_blocks/iron	false	NEOFORGE
 TAG	minecraft:item	c:raw_blocks/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_COPPER
 	COMMON	dev/jab125/tags/ConventionalItemTags	COPPER_RAW_BLOCKS
+	ENTRY	minecraft:raw_copper_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:raw_blocks/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_GOLD
 	COMMON	dev/jab125/tags/ConventionalItemTags	GOLD_RAW_BLOCKS
+	ENTRY	minecraft:raw_gold_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:raw_blocks/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_RAW_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_BLOCKS_IRON
 	COMMON	dev/jab125/tags/ConventionalItemTags	IRON_RAW_BLOCKS
+	ENTRY	minecraft:raw_iron_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:raw_materials
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RAW_MATERIALS
+	ENTRY	#c:raw_materials/copper	false	NEOFORGE
+	ENTRY	#c:raw_materials/gold	false	NEOFORGE
+	ENTRY	#c:raw_materials/iron	false	NEOFORGE
 TAG	minecraft:item	c:raw_materials/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	COPPER_RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_COPPER
 	COMMON	dev/jab125/tags/ConventionalItemTags	COPPER_RAW_MATERIALS
+	ENTRY	minecraft:raw_copper	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:raw_materials/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	GOLD_RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_GOLD
 	COMMON	dev/jab125/tags/ConventionalItemTags	GOLD_RAW_MATERIALS
+	ENTRY	minecraft:raw_gold	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:raw_materials/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	IRON_RAW_MATERIALS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RAW_MATERIALS_IRON
 	COMMON	dev/jab125/tags/ConventionalItemTags	IRON_RAW_MATERIALS
+	ENTRY	minecraft:raw_iron	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:rods
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RODS
+	ENTRY	#c:rods/blaze	false	NEOFORGE
+	ENTRY	#c:rods/breeze	false	NEOFORGE
+	ENTRY	#c:rods/wooden	false	NEOFORGE
 TAG	minecraft:item	c:rods/blaze
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BLAZE_RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_BLAZE
 	COMMON	dev/jab125/tags/ConventionalItemTags	BLAZE_RODS
+	ENTRY	minecraft:blaze_rod	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:rods/breeze
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BREEZE_RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_BREEZE
 	COMMON	dev/jab125/tags/ConventionalItemTags	BREEZE_RODS
+	ENTRY	minecraft:breeze_rod	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:rods/wooden
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	WOODEN_RODS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	RODS_WOODEN
 	COMMON	dev/jab125/tags/ConventionalItemTags	WOODEN_RODS
+	ENTRY	minecraft:stick	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:ropes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	ROPES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	ROPES
@@ -1052,190 +2201,341 @@ TAG	minecraft:item	c:ropes
 TAG	minecraft:item	c:sands
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SANDS
+	ENTRY	#c:sands/colorless	false	NEOFORGE
+	ENTRY	#c:sands/red	false	NEOFORGE
 TAG	minecraft:item	c:sands/colorless
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_COLORLESS
 	COMMON	dev/jab125/tags/ConventionalItemTags	COLORLESS_SANDS
+	ENTRY	minecraft:sand	false	NEOFORGE
 TAG	minecraft:item	c:sands/red
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDS_RED
 	COMMON	dev/jab125/tags/ConventionalItemTags	RED_SANDS
+	ENTRY	minecraft:red_sand	false	NEOFORGE
 TAG	minecraft:item	c:sandstone/blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SANDSTONE_BLOCKS
+	ENTRY	#c:sandstone/red_blocks	false	NEOFORGE
+	ENTRY	#c:sandstone/uncolored_blocks	false	NEOFORGE
 TAG	minecraft:item	c:sandstone/red_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_RED_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RED_SANDSTONE_BLOCKS
+	ENTRY	minecraft:chiseled_red_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cut_red_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_red_sandstone	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:sandstone/red_slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_RED_SLABS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RED_SANDSTONE_SLABS
+	ENTRY	minecraft:cut_red_sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:red_sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_red_sandstone_slab	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:sandstone/red_stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RED_SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_RED_STAIRS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RED_SANDSTONE_STAIRS
+	ENTRY	minecraft:red_sandstone_stairs	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_red_sandstone_stairs	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:sandstone/slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_SLABS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SANDSTONE_SLABS
+	ENTRY	#c:sandstone/red_slabs	false	NEOFORGE
+	ENTRY	#c:sandstone/uncolored_slabs	false	NEOFORGE
 TAG	minecraft:item	c:sandstone/stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_STAIRS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SANDSTONE_STAIRS
+	ENTRY	#c:sandstone/red_stairs	false	NEOFORGE
+	ENTRY	#c:sandstone/uncolored_stairs	false	NEOFORGE
 TAG	minecraft:item	c:sandstone/uncolored_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	UNCOLORED_SANDSTONE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_UNCOLORED_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	UNCOLORED_SANDSTONE_BLOCKS
+	ENTRY	minecraft:chiseled_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cut_sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sandstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_sandstone	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:sandstone/uncolored_slabs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	UNCOLORED_SANDSTONE_SLABS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_UNCOLORED_SLABS
 	COMMON	dev/jab125/tags/ConventionalItemTags	UNCOLORED_SANDSTONE_SLABS
+	ENTRY	minecraft:cut_sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sandstone_slab	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_sandstone_slab	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:sandstone/uncolored_stairs
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	UNCOLORED_SANDSTONE_STAIRS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SANDSTONE_UNCOLORED_STAIRS
 	COMMON	dev/jab125/tags/ConventionalItemTags	UNCOLORED_SANDSTONE_STAIRS
+	ENTRY	minecraft:sandstone_stairs	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smooth_sandstone_stairs	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:seeds
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SEEDS
+	ENTRY	#c:seeds/beetroot	false	NEOFORGE
+	ENTRY	#c:seeds/melon	false	NEOFORGE
+	ENTRY	#c:seeds/pumpkin	false	NEOFORGE
+	ENTRY	#c:seeds/wheat	false	NEOFORGE
 TAG	minecraft:item	c:seeds/beetroot
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_BEETROOT
 	COMMON	dev/jab125/tags/ConventionalItemTags	BEETROOT_SEEDS
+	ENTRY	minecraft:beetroot_seeds	false	NEOFORGE
 TAG	minecraft:item	c:seeds/melon
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_MELON
 	COMMON	dev/jab125/tags/ConventionalItemTags	MELON_SEEDS
+	ENTRY	minecraft:melon_seeds	false	NEOFORGE
 TAG	minecraft:item	c:seeds/pumpkin
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_PUMPKIN
 	COMMON	dev/jab125/tags/ConventionalItemTags	PUMPKIN_SEEDS
+	ENTRY	minecraft:pumpkin_seeds	false	NEOFORGE
 TAG	minecraft:item	c:seeds/wheat
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SEEDS_WHEAT
 	COMMON	dev/jab125/tags/ConventionalItemTags	WHEAT_SEEDS
+	ENTRY	minecraft:wheat_seeds	false	NEOFORGE
 TAG	minecraft:item	c:shulker_boxes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SHULKER_BOXES
 	COMMON	dev/jab125/tags/ConventionalItemTags	SHULKER_BOXES
+	ENTRY	minecraft:black_shulker_box	false	FABRIC
+	ENTRY	minecraft:blue_shulker_box	false	FABRIC
+	ENTRY	minecraft:brown_shulker_box	false	FABRIC
+	ENTRY	minecraft:cyan_shulker_box	false	FABRIC
+	ENTRY	minecraft:gray_shulker_box	false	FABRIC
+	ENTRY	minecraft:green_shulker_box	false	FABRIC
+	ENTRY	minecraft:light_blue_shulker_box	false	FABRIC
+	ENTRY	minecraft:light_gray_shulker_box	false	FABRIC
+	ENTRY	minecraft:lime_shulker_box	false	FABRIC
+	ENTRY	minecraft:magenta_shulker_box	false	FABRIC
+	ENTRY	minecraft:orange_shulker_box	false	FABRIC
+	ENTRY	minecraft:pink_shulker_box	false	FABRIC
+	ENTRY	minecraft:purple_shulker_box	false	FABRIC
+	ENTRY	minecraft:red_shulker_box	false	FABRIC
+	ENTRY	minecraft:shulker_box	false	FABRIC
+	ENTRY	minecraft:white_shulker_box	false	FABRIC
+	ENTRY	minecraft:yellow_shulker_box	false	FABRIC
 TAG	minecraft:item	c:slimeballs
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	SLIMEBALLS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SLIMEBALLS
+	ENTRY	minecraft:slime_ball	false	NEOFORGE
 TAG	minecraft:item	c:stones
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STONES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STONES
 	COMMON	dev/jab125/tags/ConventionalItemTags	STONES
+	ENTRY	minecraft:andesite	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:deepslate	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:diorite	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:granite	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:stone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:tuff	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalItemTags	STORAGE_BLOCKS
+	ENTRY	#c:storage_blocks/bone_meal	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/coal	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/copper	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/diamond	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/dried_kelp	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/emerald	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/gold	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/iron	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/lapis	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/netherite	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/raw_copper	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/raw_gold	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/raw_iron	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/redstone	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/slime	false	FABRIC	NEOFORGE
+	ENTRY	#c:storage_blocks/wheat	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/bone_meal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_BONE_MEAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_BONE_MEAL
 	COMMON	dev/jab125/tags/ConventionalItemTags	BONE_MEAL_STORAGE_BLOCKS
+	ENTRY	minecraft:bone_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/coal
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_COAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_COAL
 	COMMON	dev/jab125/tags/ConventionalItemTags	COAL_STORAGE_BLOCKS
+	ENTRY	minecraft:coal_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_COPPER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_COPPER
 	COMMON	dev/jab125/tags/ConventionalItemTags	COPPER_STORAGE_BLOCKS
+	ENTRY	minecraft:copper_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/diamond
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_DIAMOND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_DIAMOND
 	COMMON	dev/jab125/tags/ConventionalItemTags	DIAMOND_STORAGE_BLOCKS
+	ENTRY	minecraft:diamond_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/dried_kelp
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_DRIED_KELP
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_DRIED_KELP
 	COMMON	dev/jab125/tags/ConventionalItemTags	DRIED_KELP_STORAGE_BLOCKS
+	ENTRY	minecraft:dried_kelp_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/emerald
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_EMERALD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_EMERALD
 	COMMON	dev/jab125/tags/ConventionalItemTags	EMERALD_STORAGE_BLOCKS
+	ENTRY	minecraft:emerald_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_GOLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_GOLD
 	COMMON	dev/jab125/tags/ConventionalItemTags	GOLD_STORAGE_BLOCKS
+	ENTRY	minecraft:gold_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_IRON
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_IRON
 	COMMON	dev/jab125/tags/ConventionalItemTags	IRON_STORAGE_BLOCKS
+	ENTRY	minecraft:iron_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/lapis
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_LAPIS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_LAPIS
 	COMMON	dev/jab125/tags/ConventionalItemTags	LAPIS_STORAGE_BLOCKS
+	ENTRY	minecraft:lapis_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/netherite
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_NETHERITE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_NETHERITE
 	COMMON	dev/jab125/tags/ConventionalItemTags	NETHERITE_STORAGE_BLOCKS
+	ENTRY	minecraft:netherite_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/raw_copper
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_RAW_COPPER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_RAW_COPPER
 	COMMON	dev/jab125/tags/ConventionalItemTags	RAW_COPPER_STORAGE_BLOCKS
+	ENTRY	minecraft:raw_copper_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/raw_gold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_RAW_GOLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_RAW_GOLD
 	COMMON	dev/jab125/tags/ConventionalItemTags	RAW_GOLD_STORAGE_BLOCKS
+	ENTRY	minecraft:raw_gold_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/raw_iron
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_RAW_IRON
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_RAW_IRON
 	COMMON	dev/jab125/tags/ConventionalItemTags	RAW_IRON_STORAGE_BLOCKS
+	ENTRY	minecraft:raw_iron_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/redstone
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_REDSTONE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_REDSTONE
 	COMMON	dev/jab125/tags/ConventionalItemTags	REDSTONE_STORAGE_BLOCKS
+	ENTRY	minecraft:redstone_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/slime
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_SLIME
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_SLIME
 	COMMON	dev/jab125/tags/ConventionalItemTags	SLIME_STORAGE_BLOCKS
+	ENTRY	minecraft:slime_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:storage_blocks/wheat
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STORAGE_BLOCKS_WHEAT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STORAGE_BLOCKS_WHEAT
 	COMMON	dev/jab125/tags/ConventionalItemTags	WHEAT_STORAGE_BLOCKS
+	ENTRY	minecraft:hay_block	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:strings
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	STRINGS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	STRINGS
 	COMMON	dev/jab125/tags/ConventionalItemTags	STRINGS
+	ENTRY	minecraft:string	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:tools
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS
 	COMMON	dev/jab125/tags/ConventionalItemTags	TOOLS
+	ENTRY	#c:tools/bows	false	NEOFORGE
+	ENTRY	#c:tools/brushes	false	NEOFORGE
+	ENTRY	#c:tools/crossbows	false	NEOFORGE
+	ENTRY	#c:tools/fishing_rods	false	NEOFORGE
+	ENTRY	#c:tools/shears	false	NEOFORGE
+	ENTRY	#c:tools/shields	false	NEOFORGE
+	ENTRY	#c:tools/spears	false	NEOFORGE
+	ENTRY	#minecraft:axes	false	NEOFORGE
+	ENTRY	#minecraft:hoes	false	NEOFORGE
+	ENTRY	#minecraft:pickaxes	false	NEOFORGE
+	ENTRY	#minecraft:shovels	false	NEOFORGE
+	ENTRY	#minecraft:swords	false	NEOFORGE
+	ENTRY	minecraft:axes	false	FABRIC
+	ENTRY	minecraft:hoes	false	FABRIC
+	ENTRY	minecraft:pickaxes	false	FABRIC
+	ENTRY	minecraft:shovels	false	FABRIC
+	ENTRY	minecraft:swords	false	FABRIC
 TAG	minecraft:item	c:tools/bows
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BOWS_TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_BOWS
 	COMMON	dev/jab125/tags/ConventionalItemTags	BOW_TOOLS
+	ENTRY	minecraft:bow	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:tools/brushes
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	BRUSHES_TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_BRUSHES
 	COMMON	dev/jab125/tags/ConventionalItemTags	BRUSH_TOOLS
+	ENTRY	minecraft:brush	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:tools/crossbows
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	CROSSBOWS_TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_CROSSBOWS
 	COMMON	dev/jab125/tags/ConventionalItemTags	CROSSBOW_TOOLS
+	ENTRY	minecraft:crossbow	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:tools/fishing_rods
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	FISHING_RODS_TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_FISHING_RODS
 	COMMON	dev/jab125/tags/ConventionalItemTags	FISHING_ROD_TOOLS
+	ENTRY	minecraft:fishing_rod	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:tools/melee_weapons
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MELEE_WEAPONS_TOOLS
 	COMMON	dev/jab125/tags/ConventionalItemTags	MELEE_WEAPON_TOOLS
+	ENTRY	minecraft:diamond_axe	false	FABRIC
+	ENTRY	minecraft:diamond_sword	false	FABRIC
+	ENTRY	minecraft:golden_axe	false	FABRIC
+	ENTRY	minecraft:golden_sword	false	FABRIC
+	ENTRY	minecraft:iron_axe	false	FABRIC
+	ENTRY	minecraft:iron_sword	false	FABRIC
+	ENTRY	minecraft:netherite_axe	false	FABRIC
+	ENTRY	minecraft:netherite_sword	false	FABRIC
+	ENTRY	minecraft:stone_axe	false	FABRIC
+	ENTRY	minecraft:stone_sword	false	FABRIC
+	ENTRY	minecraft:wooden_axe	false	FABRIC
+	ENTRY	minecraft:wooden_sword	false	FABRIC
 TAG	minecraft:item	c:tools/mining_tools
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	MINING_TOOLS
 	COMMON	dev/jab125/tags/ConventionalItemTags	MINING_TOOLS
+	ENTRY	minecraft:diamond_pickaxe	false	FABRIC
+	ENTRY	minecraft:golden_pickaxe	false	FABRIC
+	ENTRY	minecraft:iron_pickaxe	false	FABRIC
+	ENTRY	minecraft:netherite_pickaxe	false	FABRIC
+	ENTRY	minecraft:stone_pickaxe	false	FABRIC
+	ENTRY	minecraft:wooden_pickaxe	false	FABRIC
 TAG	minecraft:item	c:tools/ranged_weapons
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	RANGED_WEAPONS_TOOLS
 	COMMON	dev/jab125/tags/ConventionalItemTags	RANGED_WEAPON_TOOLS
+	ENTRY	minecraft:bow	false	FABRIC
+	ENTRY	minecraft:crossbow	false	FABRIC
+	ENTRY	minecraft:trident	false	FABRIC
 TAG	minecraft:item	c:tools/shears
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SHEARS_TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_SHEARS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SHEAR_TOOLS
+	ENTRY	minecraft:shears	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:tools/shields
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SHIELDS_TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_SHIELDS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SHIELD_TOOLS
+	ENTRY	minecraft:shield	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:tools/spears
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	SPEARS_TOOLS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	TOOLS_SPEARS
 	COMMON	dev/jab125/tags/ConventionalItemTags	SPEAR_TOOLS
+	ENTRY	minecraft:trident	false	FABRIC	NEOFORGE
 TAG	minecraft:item	c:villager_job_sites
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalItemTags	VILLAGER_JOB_SITES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Items	VILLAGER_JOB_SITES
 	COMMON	dev/jab125/tags/ConventionalItemTags	VILLAGER_JOB_SITES
+	ENTRY	minecraft:barrel	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:blast_furnace	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:brewing_stand	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cartography_table	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:cauldron	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:composter	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:fletching_table	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:grindstone	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lectern	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:loom	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smithing_table	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:smoker	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:stonecutter	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:hidden_from_locator_selection
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	HIDDEN_FROM_LOCATOR_SELECTION
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	HIDDEN_FROM_LOCATOR_SELECTION
@@ -1244,34 +2544,55 @@ TAG	minecraft:worldgen/biome	c:is_aquatic
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_AQUATIC
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_AQUATIC
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_AQUATIC
+	ENTRY	#c:is_ocean	false	NEOFORGE
+	ENTRY	#c:is_river	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_aquatic_icy
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_AQUATIC_ICY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_AQUATIC_ICY
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_AQUATIC_ICY
+	ENTRY	minecraft:deep_frozen_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frozen_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frozen_river	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_badlands
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BADLANDS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BADLANDS
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_BADLANDS
+	ENTRY	#minecraft:is_badlands	false	NEOFORGE
+	ENTRY	minecraft:is_badlands	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_beach
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BEACH
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BEACH
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_BEACH
+	ENTRY	#minecraft:is_beach	false	NEOFORGE
+	ENTRY	minecraft:is_beach	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_birch_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_BIRCH_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_BIRCH_FOREST
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_BIRCH_FOREST
+	ENTRY	minecraft:birch_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:old_growth_birch_forest	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_cave
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_CAVE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_CAVE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_CAVE
+	ENTRY	minecraft:deep_dark	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:dripstone_caves	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lush_caves	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_cold
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_COLD
+	ENTRY	#c:is_cold/end	false	NEOFORGE
+	ENTRY	#c:is_cold/overworld	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_cold/end
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD_END
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_END
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_COLD_END
+	ENTRY	minecraft:end_barrens	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:end_highlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:end_midlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:small_end_islands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:the_end	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_cold/nether
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_NETHER
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_COLD_NETHER
@@ -1279,6 +2600,21 @@ TAG	minecraft:worldgen/biome	c:is_cold/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_COLD_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_COLD_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_COLD_OVERWORLD
+	ENTRY	minecraft:cold_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:deep_cold_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:deep_frozen_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frozen_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frozen_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frozen_river	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:grove	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:ice_spikes	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:jagged_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:old_growth_pine_taiga	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_beach	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_plains	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_slopes	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_taiga	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:taiga	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_dead
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DEAD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DEAD
@@ -1287,10 +2623,13 @@ TAG	minecraft:worldgen/biome	c:is_deep_ocean
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DEEP_OCEAN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DEEP_OCEAN
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DEEP_OCEAN
+	ENTRY	#minecraft:is_deep_ocean	false	NEOFORGE
+	ENTRY	minecraft:is_deep_ocean	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_dense_vegetation
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_DENSE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DENSE_VEGETATION
+	ENTRY	#c:is_dense_vegetation/overworld	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_dense_vegetation/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_END
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DENSE_VEGETATION_END
@@ -1301,50 +2640,88 @@ TAG	minecraft:worldgen/biome	c:is_dense_vegetation/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_DENSE_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DENSE_VEGETATION_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DENSE_VEGETATION_OVERWORLD
+	ENTRY	minecraft:dark_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:jungle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:old_growth_birch_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:old_growth_spruce_taiga	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_desert
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DESERT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DESERT
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DESERT
+	ENTRY	minecraft:desert	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_dry
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DRY
+	ENTRY	#c:is_dry/end	false	FABRIC	NEOFORGE
+	ENTRY	#c:is_dry/nether	false	FABRIC	NEOFORGE
+	ENTRY	#c:is_dry/overworld	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_dry/end
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_END
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_END
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DRY_END
+	ENTRY	minecraft:end_barrens	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:end_highlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:end_midlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:small_end_islands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:the_end	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_dry/nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_NETHER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_NETHER
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DRY_NETHER
+	ENTRY	minecraft:basalt_deltas	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:crimson_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:nether_wastes	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:soul_sand_valley	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:warped_forest	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_dry/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DRY_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DRY_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DRY_OVERWORLD
+	ENTRY	minecraft:badlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:desert	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:eroded_badlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:savanna	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:savanna_plateau	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_savanna	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:wooded_badlands	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_end
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_END
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_END
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_END
+	ENTRY	#minecraft:is_end	false	NEOFORGE
+	ENTRY	minecraft:is_end	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_floral
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FLORAL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FLORAL
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_FLORAL
+	ENTRY	#c:is_flower_forest	false	NEOFORGE
+	ENTRY	minecraft:cherry_grove	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:meadow	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sunflower_plains	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_flower_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FLOWER_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FLOWER_FOREST
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_FLOWER_FOREST
+	ENTRY	minecraft:flower_forest	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_FOREST
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_FOREST
+	ENTRY	#minecraft:is_forest	false	NEOFORGE
+	ENTRY	minecraft:is_forest	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_hill
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HILL
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HILL
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_HILL
+	ENTRY	#minecraft:is_hill	false	NEOFORGE
+	ENTRY	minecraft:is_hill	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_hot
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_HOT
+	ENTRY	#c:is_hot/nether	false	FABRIC	NEOFORGE
+	ENTRY	#c:is_hot/overworld	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_hot/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_END
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_HOT_END
@@ -1352,21 +2729,43 @@ TAG	minecraft:worldgen/biome	c:is_hot/nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT_NETHER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_NETHER
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_HOT_NETHER
+	ENTRY	minecraft:basalt_deltas	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:crimson_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:nether_wastes	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:soul_sand_valley	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:warped_forest	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_hot/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_HOT_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_HOT_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_HOT_OVERWORLD
+	ENTRY	minecraft:bamboo_jungle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:desert	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:eroded_badlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:jungle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:mangrove_swamp	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:savanna	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:savanna_plateau	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sparse_jungle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:stony_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:swamp	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:warm_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_savanna	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_icy
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_ICY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_ICY
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_ICY
+	ENTRY	minecraft:frozen_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:ice_spikes	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_jungle
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_JUNGLE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_JUNGLE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_JUNGLE
+	ENTRY	#minecraft:is_jungle	false	NEOFORGE
+	ENTRY	minecraft:is_jungle	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_lush
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_LUSH
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_LUSH
+	ENTRY	minecraft:lush_caves	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_magical
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MAGICAL
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_MAGICAL
@@ -1377,79 +2776,150 @@ TAG	minecraft:worldgen/biome	c:is_mountain
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_MOUNTAIN
+	ENTRY	#c:is_mountain/peak	false	NEOFORGE
+	ENTRY	#c:is_mountain/slope	false	NEOFORGE
+	ENTRY	#minecraft:is_mountain	false	NEOFORGE
+	ENTRY	minecraft:is_mountain	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_mountain/peak
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN_PEAK
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN_PEAK
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_MOUNTAIN_PEAK
+	ENTRY	minecraft:frozen_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:jagged_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:stony_peaks	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_mountain/slope
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MOUNTAIN_SLOPE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MOUNTAIN_SLOPE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_MOUNTAIN_SLOPE
+	ENTRY	minecraft:cherry_grove	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:grove	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:meadow	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_slopes	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_mushroom
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_MUSHROOM
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_MUSHROOM
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_MUSHROOM
+	ENTRY	minecraft:mushroom_fields	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_nether
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_NETHER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_NETHER
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_NETHER
+	ENTRY	#minecraft:is_nether	false	NEOFORGE
+	ENTRY	minecraft:is_nether	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_nether_forest
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_NETHER_FOREST
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_NETHER_FOREST
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_NETHER_FOREST
+	ENTRY	minecraft:crimson_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:warped_forest	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_ocean
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OCEAN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OCEAN
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_OCEAN
+	ENTRY	#c:is_deep_ocean	false	NEOFORGE
+	ENTRY	#c:is_shallow_ocean	false	NEOFORGE
+	ENTRY	#minecraft:is_ocean	false	NEOFORGE
+	ENTRY	minecraft:is_ocean	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_old_growth
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OLD_GROWTH
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OLD_GROWTH
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_OLD_GROWTH
+	ENTRY	minecraft:old_growth_birch_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:old_growth_pine_taiga	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:old_growth_spruce_taiga	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_outer_end_island
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OUTER_END_ISLAND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OUTER_END_ISLAND
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_OUTER_END_ISLAND
+	ENTRY	minecraft:end_barrens	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:end_highlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:end_midlands	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_OVERWORLD
+	ENTRY	#minecraft:is_overworld	false	NEOFORGE
+	ENTRY	minecraft:is_overworld	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_plains
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_PLAINS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_PLAINS
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_PLAINS
+	ENTRY	minecraft:plains	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sunflower_plains	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_plateau
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_PLATEAU
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_PLATEAU
+	ENTRY	minecraft:cherry_grove	false	NEOFORGE
+	ENTRY	minecraft:meadow	false	NEOFORGE
+	ENTRY	minecraft:savanna_plateau	false	NEOFORGE
+	ENTRY	minecraft:wooded_badlands	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_rare
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_RARE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_RARE
+	ENTRY	minecraft:bamboo_jungle	false	NEOFORGE
+	ENTRY	minecraft:deep_dark	false	NEOFORGE
+	ENTRY	minecraft:eroded_badlands	false	NEOFORGE
+	ENTRY	minecraft:flower_forest	false	NEOFORGE
+	ENTRY	minecraft:ice_spikes	false	NEOFORGE
+	ENTRY	minecraft:mushroom_fields	false	NEOFORGE
+	ENTRY	minecraft:old_growth_birch_forest	false	NEOFORGE
+	ENTRY	minecraft:old_growth_spruce_taiga	false	NEOFORGE
+	ENTRY	minecraft:savanna_plateau	false	NEOFORGE
+	ENTRY	minecraft:sparse_jungle	false	NEOFORGE
+	ENTRY	minecraft:sunflower_plains	false	NEOFORGE
+	ENTRY	minecraft:windswept_gravelly_hills	false	NEOFORGE
+	ENTRY	minecraft:windswept_savanna	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_river
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_RIVER
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_RIVER
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_RIVER
+	ENTRY	#minecraft:is_river	false	NEOFORGE
+	ENTRY	minecraft:is_river	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_sandy
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SANDY
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SANDY
+	ENTRY	minecraft:badlands	false	NEOFORGE
+	ENTRY	minecraft:beach	false	NEOFORGE
+	ENTRY	minecraft:desert	false	NEOFORGE
+	ENTRY	minecraft:eroded_badlands	false	NEOFORGE
+	ENTRY	minecraft:wooded_badlands	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_savanna
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SAVANNA
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SAVANNA
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SAVANNA
+	ENTRY	#minecraft:is_savanna	false	NEOFORGE
+	ENTRY	minecraft:is_savanna	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_shallow_ocean
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SHALLOW_OCEAN
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SHALLOW_OCEAN
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SHALLOW_OCEAN
+	ENTRY	minecraft:cold_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frozen_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lukewarm_ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:ocean	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:warm_ocean	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_snowy
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SNOWY
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SNOWY
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SNOWY
+	ENTRY	minecraft:frozen_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:grove	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:ice_spikes	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:jagged_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_beach	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_plains	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_slopes	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_taiga	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_snowy_plains
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SNOWY_PLAINS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SNOWY_PLAINS
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SNOWY_PLAINS
+	ENTRY	minecraft:snowy_plains	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_sparse_vegetation
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_SPARSE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SPARSE_VEGETATION
+	ENTRY	#c:is_sparse_vegetation/overworld	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_END
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SPARSE_VEGETATION_END
@@ -1460,51 +2930,92 @@ TAG	minecraft:worldgen/biome	c:is_sparse_vegetation/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VEGETATION_SPARSE_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPARSE_VEGETATION_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SPARSE_VEGETATION_OVERWORLD
+	ENTRY	minecraft:eroded_badlands	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:frozen_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:jagged_peaks	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:savanna	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:savanna_plateau	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:snowy_slopes	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_gravelly_hills	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_hills	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_savanna	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:wooded_badlands	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_spooky
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SPOOKY
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SPOOKY
+	ENTRY	minecraft:dark_forest	false	NEOFORGE
+	ENTRY	minecraft:deep_dark	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_stony_shores
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_STONY_SHORES
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_STONY_SHORES
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_STONY_SHORES
+	ENTRY	minecraft:stony_shore	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_swamp
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SWAMP
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SWAMP
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SWAMP
+	ENTRY	minecraft:mangrove_swamp	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:swamp	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_taiga
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TAIGA
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_TAIGA
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_TAIGA
+	ENTRY	#minecraft:is_taiga	false	NEOFORGE
+	ENTRY	minecraft:is_taiga	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_temperate
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TEMPERATE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_TEMPERATE
+	ENTRY	#c:is_temperate/overworld	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_temperate/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_TEMPERATE_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_TEMPERATE_OVERWORLD
+	ENTRY	minecraft:birch_forest	false	FABRIC
+	ENTRY	minecraft:dark_forest	false	FABRIC
+	ENTRY	minecraft:forest	false	FABRIC
+	ENTRY	minecraft:meadow	false	FABRIC
+	ENTRY	minecraft:old_growth_birch_forest	false	FABRIC
+	ENTRY	minecraft:plains	false	FABRIC
+	ENTRY	minecraft:stony_shore	false	FABRIC
+	ENTRY	minecraft:sunflower_plains	false	FABRIC
+	ENTRY	minecraft:swamp	false	FABRIC
+	ENTRY	minecraft:windswept_forest	false	FABRIC
 TAG	minecraft:worldgen/biome	c:is_tree/coniferous
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_CONIFEROUS_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_CONIFEROUS_TREE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_CONIFEROUS_TREE
+	ENTRY	#c:is_taiga	false	NEOFORGE
+	ENTRY	minecraft:grove	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_tree/deciduous
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_DECIDUOUS_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_DECIDUOUS_TREE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_DECIDUOUS_TREE
+	ENTRY	minecraft:birch_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:dark_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:flower_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:old_growth_birch_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_forest	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_tree/jungle
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_JUNGLE_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_JUNGLE_TREE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_JUNGLE_TREE
+	ENTRY	#c:is_jungle	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_tree/savanna
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_SAVANNA_TREE
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_SAVANNA_TREE
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_SAVANNA_TREE
+	ENTRY	#c:is_savanna	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_underground
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_UNDERGROUND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_UNDERGROUND
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_UNDERGROUND
+	ENTRY	#c:is_cave	false	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_void
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_VOID
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_VOID
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_VOID
+	ENTRY	minecraft:the_void	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_wasteland
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WASTELAND
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WASTELAND
@@ -1513,6 +3024,7 @@ TAG	minecraft:worldgen/biome	c:is_wet
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WET
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_WET
+	ENTRY	#c:is_wet/overworld	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_wet/end
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_END
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_WET_END
@@ -1523,14 +3035,28 @@ TAG	minecraft:worldgen/biome	c:is_wet/overworld
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WET_OVERWORLD
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WET_OVERWORLD
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_WET_OVERWORLD
+	ENTRY	minecraft:bamboo_jungle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:beach	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:dripstone_caves	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:jungle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:lush_caves	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:mangrove_swamp	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:sparse_jungle	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:swamp	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:is_windswept
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	IS_WINDSWEPT
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	IS_WINDSWEPT
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	IS_WINDSWEPT
+	ENTRY	minecraft:windswept_forest	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_gravelly_hills	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_hills	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:windswept_savanna	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/biome	c:no_default_monsters
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBiomeTags	NO_DEFAULT_MONSTERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Biomes	NO_DEFAULT_MONSTERS
 	COMMON	dev/jab125/tags/ConventionalBiomeTags	NO_DEFAULT_MONSTERS
+	ENTRY	minecraft:deep_dark	false	FABRIC	NEOFORGE
+	ENTRY	minecraft:mushroom_fields	false	FABRIC	NEOFORGE
 TAG	minecraft:worldgen/structure	c:hidden_from_displayers
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalStructureTags	HIDDEN_FROM_DISPLAYERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Structures	HIDDEN_FROM_DISPLAYERS
