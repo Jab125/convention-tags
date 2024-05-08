@@ -24,7 +24,7 @@ public class TagMerger {
 				if (!Objects.equals(oldField, newField)) {
 					System.out.printf(ecosystem.serializedName() + " %s -> %s%n", oldField == null ? null : (oldField.method() + " " + mergedTag), newField == null ? null : (newField.method() + " " + mergedTag));
 				}
-				if (nyu.isPresent()) {
+				if (nyu.isPresent() && newField != null) {
 					tagBuilder.field(ecosystem, newField.clazz(), newField.method());
 				}
 			}
