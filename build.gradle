@@ -8,7 +8,7 @@ allprojects {
 }
 
 group 'dev.jab125'
-version '1.0-SNAPSHOT'
+version properties.version
 
 repositories {
     mavenCentral()

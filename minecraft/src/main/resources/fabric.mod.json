@@ -3,7 +3,7 @@
   "id": "conventiontags",
   "name": "Convention Tags",
   "description": "Convention tags for multiplatform mods.",
-  "version": "1.0.2",
+  "version": "${version}",
   "contact": {
     "issues": "https://github.com/Jab125/convention-tags/issues",
     "sources": "https://github.com/Jab125/convention-tags"

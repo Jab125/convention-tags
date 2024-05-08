@@ -12,7 +12,7 @@ plugins {
 }
 
 archivesBaseName = "convention-tags"
-version "1.0.2"
+version  = rootProject.version
 
 Setup.setup();
 minecraft {
@@ -36,6 +36,13 @@ java {
     withSourcesJar()
 }
 
+tasks.withType(ProcessResources).configureEach {
+    inputs.property "version", rootProject.version
+
+    filesMatching(["fabric.mod.json", "META-INF/neoforge.mods.toml"]) {
+        expand "version": rootProject.version
+    }
+}
 def commonJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-common-" + version + ".jar");
 def fabricJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-fabric-" + version + ".jar");
 def nfJar = sourcesJar.archiveFile.get().getAsFile().toPath().resolveSibling(archivesBaseName + "-neoforge-" + version + ".jar");
