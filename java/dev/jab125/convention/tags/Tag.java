@@ -173,7 +173,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 						String serializedName = s.substring(0, i);
 						Optional<Ecosystem> ecosystem = Arrays.stream(Ecosystem.ECOSYSTEMS).filter(a -> a.serializedName().equals(serializedName)).findFirst();
 						if (ecosystem.isEmpty()) return;
-						s = s.substring(serializedName.length());
+						s = s.substring(serializedName.length() + 1);
 						i = s.indexOf("\t");
 						if (i == -1) throw new RuntimeException();
 						tagBuilder.field(ecosystem.get(), s.substring(0, i), s.substring(i + 1));
