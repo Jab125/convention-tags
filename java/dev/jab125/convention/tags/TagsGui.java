@@ -110,13 +110,13 @@ public class TagsGui {
 
 	private static String indexHtml(List<Tag> deserialize, String indexTemplate, String tagTemplate, String loaderTemplate, String conventionTemplate) {
 		String[] conventionClasses = new String[]{
-				"dev.jab125.tags.BiomeTags",
-				"dev.jab125.tags.BlockTags",
-				"dev.jab125.tags.EnchantmentTags",
-				"dev.jab125.tags.EntityTypeTags",
-				"dev.jab125.tags.FluidTags",
-				"dev.jab125.tags.ItemTags",
-				"dev.jab125.tags.StructureTags",
+				"dev.jab125.tags.ConventionalBiomeTags",
+				"dev.jab125.tags.ConventionalBlockTags",
+				"dev.jab125.tags.ConventionalEnchantmentTags",
+				"dev.jab125.tags.ConventionalEntityTypeTags",
+				"dev.jab125.tags.ConventionalFluidTags",
+				"dev.jab125.tags.ConventionalItemTags",
+				"dev.jab125.tags.ConventionalStructureTags",
 		};
 		String string = indexTemplate;
 		String f = "";

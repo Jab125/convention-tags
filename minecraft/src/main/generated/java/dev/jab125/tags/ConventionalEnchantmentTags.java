@@ -4,8 +4,8 @@ import net.minecraft.tags.TagKey;
 import dev.jab125.tags.util.TagUtils;
 import net.minecraft.world.item.enchantment.Enchantment;
 
-public class EnchantmentTags {
-	private EnchantmentTags() {}
+public class ConventionalEnchantmentTags {
+	private ConventionalEnchantmentTags() {}
 
 	public static final TagKey<Enchantment> ENTITY_AUXILIARY_MOVEMENT_ENHANCEMENTS = TagUtils.enchantment("c:entity_auxiliary_movement_enhancements");
 	public static final TagKey<Enchantment> ENTITY_DEFENSE_ENHANCEMENTS = TagUtils.enchantment("c:entity_defense_enhancements");

@@ -4,8 +4,8 @@ import net.minecraft.tags.TagKey;
 import dev.jab125.tags.util.TagUtils;
 import net.minecraft.world.level.material.Fluid;
 
-public class FluidTags {
-	private FluidTags() {}
+public class ConventionalFluidTags {
+	private ConventionalFluidTags() {}
 
 	public static final TagKey<Fluid> BEETROOT_SOUP = TagUtils.fluid("c:beetroot_soup");
 	/**

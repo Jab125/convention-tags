@@ -4,8 +4,8 @@ import net.minecraft.tags.TagKey;
 import dev.jab125.tags.util.TagUtils;
 import net.minecraft.world.entity.EntityType;
 
-public class EntityTypeTags {
-	private EntityTypeTags() {}
+public class ConventionalEntityTypeTags {
+	private ConventionalEntityTypeTags() {}
 
 	public static final TagKey<EntityType<?>> BOATS = TagUtils.entityType("c:boats");
 	public static final TagKey<EntityType<?>> BOSSES = TagUtils.entityType("c:bosses");

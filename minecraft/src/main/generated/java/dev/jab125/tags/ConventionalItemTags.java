@@ -4,8 +4,8 @@ import net.minecraft.tags.TagKey;
 import dev.jab125.tags.util.TagUtils;
 import net.minecraft.world.item.Item;
 
-public class ItemTags {
-	private ItemTags() {}
+public class ConventionalItemTags {
+	private ConventionalItemTags() {}
 
 	public static final TagKey<Item> ARMORS = TagUtils.item("c:armors");
 	public static final TagKey<Item> BARRELS = TagUtils.item("c:barrels");

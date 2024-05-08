@@ -4,8 +4,8 @@ import net.minecraft.tags.TagKey;
 import dev.jab125.tags.util.TagUtils;
 import net.minecraft.world.level.biome.Biome;
 
-public class BiomeTags {
-	private BiomeTags() {}
+public class ConventionalBiomeTags {
+	private ConventionalBiomeTags() {}
 
 	public static final TagKey<Biome> HIDDEN_FROM_LOCATOR_SELECTION = TagUtils.biome("c:hidden_from_locator_selection");
 	public static final TagKey<Biome> IS_AQUATIC = TagUtils.biome("c:is_aquatic");

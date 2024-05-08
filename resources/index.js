@@ -13,19 +13,19 @@ for (i in tagElements) {
 		const fabric = element.getElementById("Fabric-class").innerText;
 		const neoforge = element.getElementById("NeoForge-class").innerText;
 		if ((!fabric || fabric == "ConventionalBlockTags") && (!neoforge || neoforge == "Blocks")) {
-			element.getElementById("common-class").value = "dev.jab125.tags.BlockTags";
+			element.getElementById("common-class").value = "dev.jab125.tags.ConventionalBlockTags";
 		} else if ((!fabric || fabric == "ConventionalEnchantmentTags") && (!neoforge || neoforge == "Enchantments")) {
-			element.getElementById("common-class").value = "dev.jab125.tags.EnchantmentTags";
+			element.getElementById("common-class").value = "dev.jab125.tags.ConventionalEnchantmentTags";
 		} else if ((!fabric || fabric == "ConventionalEntityTypeTags") && (!neoforge || neoforge == "EntityTypes")) {
-			element.getElementById("common-class").value = "dev.jab125.tags.EntityTypeTags";
+			element.getElementById("common-class").value = "dev.jab125.tags.ConventionalEntityTypeTags";
 		} else if ((!fabric || fabric == "ConventionalFluidTags") && (!neoforge || neoforge == "Fluids")) {
-			element.getElementById("common-class").value = "dev.jab125.tags.FluidTags";
+			element.getElementById("common-class").value = "dev.jab125.tags.ConventionalFluidTags";
 		} else if ((!fabric || fabric == "ConventionalItemTags") && (!neoforge || neoforge == "Items")) {
-			element.getElementById("common-class").value = "dev.jab125.tags.ItemTags";
+			element.getElementById("common-class").value = "dev.jab125.tags.ConventionalItemTags";
 		} else if ((!fabric || fabric == "ConventionalBiomeTags") && (!neoforge || neoforge == "Biomes")) {
-			element.getElementById("common-class").value = "dev.jab125.tags.BiomeTags";
+			element.getElementById("common-class").value = "dev.jab125.tags.ConventionalBiomeTags";
 		} else if ((!fabric || fabric == "ConventionalStructureTags") && (!neoforge || neoforge == "Structures")) {
-			element.getElementById("common-class").value = "dev.jab125.tags.StructureTags";
+			element.getElementById("common-class").value = "dev.jab125.tags.ConventionalStructureTags";
 		}
 	}
 

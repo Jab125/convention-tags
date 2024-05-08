@@ -4,8 +4,8 @@ import net.minecraft.tags.TagKey;
 import dev.jab125.tags.util.TagUtils;
 import net.minecraft.world.level.block.Block;
 
-public class BlockTags {
-	private BlockTags() {}
+public class ConventionalBlockTags {
+	private ConventionalBlockTags() {}
 
 	public static final TagKey<Block> BARRELS = TagUtils.block("c:barrels");
 	public static final TagKey<Block> WOODEN_BARRELS = TagUtils.block("c:barrels/wooden");
