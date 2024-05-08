@@ -1,5 +1,6 @@
 package dev.jab125.convention.tags.util;
 
+import dev.jab125.convention.tags.Ecosystem;
 import dev.jab125.convention.tags.Tag;
 
 import java.util.*;
@@ -15,26 +16,24 @@ public class TagMerger {
 		for (String mergedTag : mergedTags) {
 			Optional<Tag> old = oldList.stream().filter(tag -> tag.getRegistryAndName().equals(mergedTag)).findFirst();
 			Optional<Tag> nyu = newList.stream().filter(tag -> tag.getRegistryAndName().equals(mergedTag)).findFirst();
-			Tag.Method oldFabric = old.map(Tag::fabric).orElse(null);
-			Tag.Method oldNeoForge = old.map(Tag::neoForge).orElse(null);
+			Tag.TagBuilder tagBuilder = nyu.isPresent() ? new Tag.TagBuilder() : null;
+			for (Ecosystem ecosystem : Ecosystem.ECOSYSTEMS_NO_COMMON) {
+				Tag.Method oldField = old.map(a -> a.fields().get(ecosystem)).orElse(null);
+				Tag.Method newField = nyu.map(a -> a.fields().get(ecosystem)).orElse(null);
 
-			Tag.Method newFabric = nyu.map(Tag::fabric).orElse(null);
-			Tag.Method newNeoForge = nyu.map(Tag::neoForge).orElse(null);
-			if (!Objects.equals(oldFabric, newFabric)) {
-				System.out.printf("Fabric %s -> %s%n", oldFabric == null ? null : (oldFabric.method() + " " + mergedTag), newFabric == null ? null : (newFabric.method() + " " + mergedTag));
+				if (!Objects.equals(oldField, newField)) {
+					System.out.printf(ecosystem.serializedName() + " %s -> %s%n", oldField == null ? null : (oldField.method() + " " + mergedTag), newField == null ? null : (newField.method() + " " + mergedTag));
+				}
+				if (nyu.isPresent()) {
+					tagBuilder.field(ecosystem, newField.clazz(), newField.method());
+				}
 			}
 
-			if (!Objects.equals(oldNeoForge, newNeoForge)) {
-				System.out.printf("NeoForge %s -> %s%n", oldNeoForge == null ? null : (oldNeoForge.method() + " " + mergedTag), newNeoForge == null ? null : (newNeoForge.method() + " " + mergedTag));
-			}
 			if (nyu.isPresent()) {
-				Tag.TagBuilder tagBuilder = new Tag.TagBuilder();
 				tagBuilder.name(mergedTag.split("\\|")[0], mergedTag.split("\\|")[1]);
-				if (newFabric != null) tagBuilder.fabric(newFabric.clazz(), newFabric.method());
-				if (newNeoForge != null) tagBuilder.neoforge(newNeoForge.clazz(), newNeoForge.method());
 				if (old.isPresent()) {
 					Tag tag = old.get();
-					if (tag.convention() != null) tagBuilder.convention(tag.convention().clazz(), tag.convention().method());
+					if (tag.fields().get(Ecosystem.COMMON) != null) tagBuilder.field(Ecosystem.COMMON, tag.fields().get(Ecosystem.COMMON).clazz(), tag.fields().get(Ecosystem.COMMON).method());
 					if (tag.comments() != null) {
 						for (String comment : tag.comments()) {
 							tagBuilder.comment(comment);

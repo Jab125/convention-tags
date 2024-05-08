@@ -126,7 +126,7 @@ public class TagGeneration {
 								if (!(cst instanceof String str)) continue;
 								if (!(methodInsnNode.getNext() instanceof FieldInsnNode fieldInsnNode)) continue;
 								String tagName = "c:" + str;
-								getOrCreate(type, tagName).neoforge(classNode.name, fieldInsnNode.name);
+								getOrCreate(type, tagName).field(Ecosystem.NEOFORGE, classNode.name, fieldInsnNode.name);
 							}
 						}
 					}
@@ -164,7 +164,7 @@ public class TagGeneration {
 								if (!(cst instanceof String str)) continue;
 								if (!(methodInsnNode.getNext() instanceof FieldInsnNode fieldInsnNode)) continue;
 								String tagName = "c:" + str;
-								getOrCreate(type, tagName).fabric(classNode.name, fieldInsnNode.name);
+								getOrCreate(type, tagName).field(Ecosystem.FABRIC, classNode.name, fieldInsnNode.name);
 							}
 						}
 					}

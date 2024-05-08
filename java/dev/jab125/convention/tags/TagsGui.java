@@ -75,7 +75,9 @@ public class TagsGui {
 						Map.Entry<String, JsonObject> d = (Map.Entry<String, JsonObject>) (Object) jsonElementEntry;
 						Optional<Tag> first = tags.stream().filter(a -> stringJsonElementEnt.getKey().equals(a.registryKey()) && d.getKey().equals(a.name())).findFirst();
 						Tag tag = first.orElseThrow();
-						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().isBlank() ? new String[0] : d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), tag.fabric(), tag.neoForge(), new Tag.Method(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString())));
+						HashMap<Ecosystem, Tag.Method> newMap = new HashMap<>(tag.fields());
+						newMap.put(Ecosystem.COMMON, new Tag.Method(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString()));
+						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().isBlank() ? new String[0] : d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), newMap));
 					}
 				}
 				Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));
@@ -122,13 +124,12 @@ public class TagsGui {
 		String f = "";
 		for (Tag tag : deserialize) {
 			String g = "";
-			Tag.Method fabric = tag.fabric();
-			if (fabric == null) fabric = new Tag.Method("", "");
-			g += loaderTemplate.formatted("Fabric", prettyClass(fabric.clazz()), fabric.method());
-			Tag.Method neoforge = tag.neoForge();
-			if (neoforge == null) neoforge = new Tag.Method("", "");
-			g += loaderTemplate.formatted("NeoForge", prettyClass(neoforge.clazz()), neoforge.method());
-			Tag.Method convention = tag.convention();
+			for (Ecosystem ecosystem : Ecosystem.ECOSYSTEMS_NO_COMMON) {
+				Tag.Method method = tag.fields().get(ecosystem);
+				if (method == null) method = new Tag.Method("", "");
+				g += loaderTemplate.formatted(ecosystem.name(), prettyClass(method.clazz()), method.method());
+			}
+			Tag.Method convention = tag.fields().get(Ecosystem.COMMON);
 			if (convention == null) convention = new Tag.Method("", "");
 			String cClass = convention.clazz();
 			String cMethod = convention.method();

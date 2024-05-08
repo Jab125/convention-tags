@@ -2,27 +2,27 @@ package dev.jab125.convention.tags;
 
 import java.util.*;
 
-public record Tag(String registryKey, String name, String[] comments, Method fabric, Method neoForge, Method convention) implements Comparable<Tag> {
+public record Tag(String registryKey, String name, String[] comments, Map<Ecosystem, Method> fields) implements Comparable<Tag> {
 	public String serialise() {
 		ArrayList<String> strs = new ArrayList<>();
 		strs.add("TAG\t" + registryKey + "\t" + name);
 		for (String comment : comments) {
 			strs.add("\tCOMMENT\t" + comment);
 		}
-		if (notBlank(fabric)) strs.add("\tFABRIC\t" + fabric);
-		if (notBlank(neoForge)) strs.add("\tNEOFORGE\t" + neoForge);
-		if (notBlank(convention)) strs.add("\tCOMMON\t" + convention);
+		fields.forEach((a, b) -> {
+			if (notBlank(b)) strs.add("\t" + a.serializedName() + "\t" + b);
+		});
 		return String.join("\n", strs);
 	}
 
 	public String serialiseMini() {
-		if (!notBlank(convention)) return null;
+		if (!notBlank(Ecosystem.COMMON)) return null;
 		ArrayList<String> strs = new ArrayList<>();
 		strs.add("TAG\t" + registryKey + "\t" + name);
 		for (String comment : comments) {
 			strs.add("\tCOMMENT\t" + comment);
 		}
-		strs.add("\tCOMMON\t" + convention);
+		strs.add("\tCOMMON\t" + fields.get(Ecosystem.COMMON));
 		return String.join("\n", strs);
 	}
 
@@ -66,34 +66,25 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 		private String name;
 		private String registryKey;
 		private ArrayList<String> comments = new ArrayList<>();
-		private Method fabric;
-		private Method neoforge;
-		private Method convention;
+		private Map<Ecosystem, Method> fieldMap = new HashMap<>();
 
 		public TagBuilder name(String registryKey, String name) {
 			this.registryKey = registryKey;
 			this.name = name;
 			return this;
 		}
-		public TagBuilder fabric(String clazz, String method) {
-			this.fabric = new Method(clazz, method);
+		public TagBuilder field(Ecosystem ecosystem, String clazz, String method) {
+			this.fieldMap.put(ecosystem, new Method(clazz, method));
 			return this;
 		}
-		public TagBuilder neoforge(String clazz, String method) {
-			this.neoforge = new Method(clazz, method);
-			return this;
-		}
-		public TagBuilder convention(String clazz, String method) {
-			this.convention = new Method(clazz, method);
-			return this;
-		}
+
 		public TagBuilder comment(String comment) {
 			this.comments.add(comment);
 			return this;
 		}
 
 		public Tag build() {
-			return new Tag(registryKey, name, comments.toArray(new String[0]), fabric, neoforge, convention);
+			return new Tag(registryKey, name, comments.toArray(new String[0]), fieldMap);
 		}
 
 		public String getName() {
@@ -108,16 +99,8 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 			return comments;
 		}
 
-		public Method getFabric() {
-			return fabric;
-		}
-
-		public Method getNeoForge() {
-			return neoforge;
-		}
-
-		public Method getConvention() {
-			return convention;
+		public Map<Ecosystem, Method> getFieldMap() {
+			return fieldMap;
 		}
 	}
 
@@ -153,9 +136,7 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 			   "registryKey='" + registryKey + '\'' +
 			   ", name='" + name + '\'' +
 			   ", comments=" + Arrays.toString(comments) +
-			   ", fabric=" + fabric +
-			   ", neoForge=" + neoForge +
-			   ", convention=" + convention +
+			   ", fieldMap=" + fields +
 			   '}';
 	}
 
@@ -187,21 +168,15 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 					if (s.startsWith("COMMENT\t")) {
 						s = s.substring(8);
 						tagBuilder.comment(s);
-					} else if (s.startsWith("FABRIC\t")) {
-						s = s.substring(7);
+					} else {
 						int i = s.indexOf("\t");
+						String serializedName = s.substring(0, i);
+						Optional<Ecosystem> ecosystem = Arrays.stream(Ecosystem.ECOSYSTEMS).filter(a -> a.serializedName().equals(serializedName)).findFirst();
+						if (ecosystem.isEmpty()) return;
+						s = s.substring(serializedName.length());
+						i = s.indexOf("\t");
 						if (i == -1) throw new RuntimeException();
-						tagBuilder.fabric(s.substring(0, i), s.substring(i + 1));
-					} else if (s.startsWith("NEOFORGE\t")) {
-						s = s.substring(9);
-						int i = s.indexOf("\t");
-						if (i == -1) throw new RuntimeException();
-						tagBuilder.neoforge(s.substring(0, i), s.substring(i + 1));
-					} else if (s.startsWith("COMMON\t")) {
-						s = s.substring(7);
-						int i = s.indexOf("\t");
-						if (i == -1) throw new RuntimeException();
-						tagBuilder.convention(s.substring(0, i), s.substring(i + 1));
+						tagBuilder.field(ecosystem.get(), s.substring(0, i), s.substring(i + 1));
 					}
 				}
 			});
@@ -209,6 +184,11 @@ public record Tag(String registryKey, String name, String[] comments, Method fab
 			Collections.sort(tags);
 			return tags;
 		}
+	}
+
+	private boolean notBlank(Ecosystem ecosystem) {
+		if (!fields().containsKey(ecosystem)) return false;
+		return notBlank(fields().get(ecosystem));
 	}
 
 	private static boolean notBlank(String str) {

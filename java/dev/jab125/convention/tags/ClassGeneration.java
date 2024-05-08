@@ -41,7 +41,7 @@ public class ClassGeneration {
 		Map<String, String> r = new HashMap<>();
 		for (Tag tag : tags) {
 			r.computeIfAbsent(tag.registryKey(), registryKey -> {
-				String clazz = tag.convention().clazz();
+				String clazz = tag.fields().get(Ecosystem.COMMON).clazz();
 				String p = "package " + clazz.substring(0, clazz.lastIndexOf("/")).replace('/', '.') + ";\n";
 				p += "\n";
 				p += "import net.minecraft.tags.TagKey;\n";
@@ -63,7 +63,7 @@ public class ClassGeneration {
 				}
 				s1 += "\t */\n";
 			}
-			s1 += "\tpublic static final TagKey<" + importedClassName + "> " + tag.convention().method() + " = TagUtils." + typeToMethod.get(tag.registryKey()) + "(\"" + tag.name() + "\");\n";
+			s1 += "\tpublic static final TagKey<" + importedClassName + "> " + tag.fields().get(Ecosystem.COMMON).method() + " = TagUtils." + typeToMethod.get(tag.registryKey()) + "(\"" + tag.name() + "\");\n";
 			r.put(tag.registryKey(), s1);
 		}
 		r.forEach((a, b) -> r.put(a, b + "}"));
@@ -71,7 +71,7 @@ public class ClassGeneration {
 			Path of = Path.of("minecraft/src/main/generated/java/dev/jab125/tags");
 			of.toFile().mkdirs();
 			try {
-				Files.writeString(of.resolve(tags.stream().filter(c -> c.registryKey().equals(a)).findFirst().get().convention().clazz().substring(tags.stream().filter(c -> c.registryKey().equals(a)).findFirst().get().convention().clazz().lastIndexOf("/") + 1) + ".java"), b);
+				Files.writeString(of.resolve(tags.stream().filter(c -> c.registryKey().equals(a)).findFirst().get().fields().get(Ecosystem.COMMON).clazz().substring(tags.stream().filter(c -> c.registryKey().equals(a)).findFirst().get().fields().get(Ecosystem.COMMON).clazz().lastIndexOf("/") + 1) + ".java"), b);
 			} catch (IOException e) {
 				throw new RuntimeException(e);
 			}
