@@ -5,7 +5,7 @@
   "background_color": "#ffffff",
   "display": "fullscreen",
   "scope": "/",
-  "start_url": "http://localhost:1290",
+  "start_url": "http://localhost:1291",
   "icons": [
     {
       "src": "icons/512.png",
