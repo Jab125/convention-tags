@@ -75,8 +75,8 @@ public class TagsGui {
 						Map.Entry<String, JsonObject> d = (Map.Entry<String, JsonObject>) (Object) jsonElementEntry;
 						Optional<Tag> first = tags.stream().filter(a -> stringJsonElementEnt.getKey().equals(a.registryKey()) && d.getKey().equals(a.name())).findFirst();
 						Tag tag = first.orElseThrow();
-						HashMap<Ecosystem, Tag.Method> newMap = new HashMap<>(tag.fields());
-						newMap.put(Ecosystem.COMMON, new Tag.Method(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString()));
+						HashMap<Ecosystem, Tag.Field> newMap = new HashMap<>(tag.fields());
+						newMap.put(Ecosystem.COMMON, new Tag.Field(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString()));
 						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().isBlank() ? new String[0] : d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), newMap));
 					}
 				}
@@ -125,12 +125,12 @@ public class TagsGui {
 		for (Tag tag : deserialize) {
 			String g = "";
 			for (Ecosystem ecosystem : Ecosystem.ECOSYSTEMS_NO_COMMON) {
-				Tag.Method method = tag.fields().get(ecosystem);
-				if (method == null) method = new Tag.Method("", "");
-				g += loaderTemplate.formatted(ecosystem.name(), prettyClass(method.clazz()), method.method());
+				Tag.Field field = tag.fields().get(ecosystem);
+				if (field == null) field = new Tag.Field("", "");
+				g += loaderTemplate.formatted(ecosystem.name(), prettyClass(field.clazz()), field.method());
 			}
-			Tag.Method convention = tag.fields().get(Ecosystem.COMMON);
-			if (convention == null) convention = new Tag.Method("", "");
+			Tag.Field convention = tag.fields().get(Ecosystem.COMMON);
+			if (convention == null) convention = new Tag.Field("", "");
 			String cClass = convention.clazz();
 			String cMethod = convention.method();
 			String selectOptions = "";

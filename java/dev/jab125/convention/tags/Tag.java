@@ -2,7 +2,7 @@ package dev.jab125.convention.tags;
 
 import java.util.*;
 
-public record Tag(String registryKey, String name, String[] comments, Map<Ecosystem, Method> fields) implements Comparable<Tag> {
+public record Tag(String registryKey, String name, String[] comments, Map<Ecosystem, Field> fields) implements Comparable<Tag> {
 	public String serialise() {
 		ArrayList<String> strs = new ArrayList<>();
 		strs.add("TAG\t" + registryKey + "\t" + name);
@@ -30,7 +30,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 		return registryKey + "|" + name;
 	}
 
-	public record Method(String clazz, String method) {
+	public record Field(String clazz, String method) {
 		@Override
 		public String toString() {
 			return clazz + "\t" + method;
@@ -41,10 +41,10 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 			if (this == o) return true;
 			if (o == null || getClass() != o.getClass()) return false;
 
-			Method method1 = (Method) o;
+			Field field1 = (Field) o;
 
-			if (!Objects.equals(clazz, method1.clazz)) return false;
-			return Objects.equals(method, method1.method);
+			if (!Objects.equals(clazz, field1.clazz)) return false;
+			return Objects.equals(method, field1.method);
 		}
 
 		@Override
@@ -66,7 +66,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 		private String name;
 		private String registryKey;
 		private ArrayList<String> comments = new ArrayList<>();
-		private Map<Ecosystem, Method> fieldMap = new HashMap<>();
+		private Map<Ecosystem, Field> fieldMap = new HashMap<>();
 
 		public TagBuilder name(String registryKey, String name) {
 			this.registryKey = registryKey;
@@ -74,7 +74,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 			return this;
 		}
 		public TagBuilder field(Ecosystem ecosystem, String clazz, String method) {
-			this.fieldMap.put(ecosystem, new Method(clazz, method));
+			this.fieldMap.put(ecosystem, new Field(clazz, method));
 			return this;
 		}
 
@@ -99,7 +99,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 			return comments;
 		}
 
-		public Map<Ecosystem, Method> getFieldMap() {
+		public Map<Ecosystem, Field> getFieldMap() {
 			return fieldMap;
 		}
 	}
@@ -195,7 +195,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 		return str != null && !str.isEmpty() && !str.isBlank();
 	}
 
-	private static boolean notBlank(Method method) {
-		return method != null && notBlank(method.clazz) && notBlank(method.method);
+	private static boolean notBlank(Field field) {
+		return field != null && notBlank(field.clazz) && notBlank(field.method);
 	}
 }

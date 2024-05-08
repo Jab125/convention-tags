@@ -18,8 +18,8 @@ public class TagMerger {
 			Optional<Tag> nyu = newList.stream().filter(tag -> tag.getRegistryAndName().equals(mergedTag)).findFirst();
 			Tag.TagBuilder tagBuilder = nyu.isPresent() ? new Tag.TagBuilder() : null;
 			for (Ecosystem ecosystem : Ecosystem.ECOSYSTEMS_NO_COMMON) {
-				Tag.Method oldField = old.map(a -> a.fields().get(ecosystem)).orElse(null);
-				Tag.Method newField = nyu.map(a -> a.fields().get(ecosystem)).orElse(null);
+				Tag.Field oldField = old.map(a -> a.fields().get(ecosystem)).orElse(null);
+				Tag.Field newField = nyu.map(a -> a.fields().get(ecosystem)).orElse(null);
 
 				if (!Objects.equals(oldField, newField)) {
 					System.out.printf(ecosystem.serializedName() + " %s -> %s%n", oldField == null ? null : (oldField.method() + " " + mergedTag), newField == null ? null : (newField.method() + " " + mergedTag));
