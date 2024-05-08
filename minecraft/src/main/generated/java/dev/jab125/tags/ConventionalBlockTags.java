@@ -10,13 +10,22 @@ public class ConventionalBlockTags {
 	public static final TagKey<Block> BARRELS = TagUtils.block("c:barrels");
 	public static final TagKey<Block> WOODEN_BARRELS = TagUtils.block("c:barrels/wooden");
 	public static final TagKey<Block> BOOKSHELVES = TagUtils.block("c:bookshelves");
+	/**
+	 * Blocks similar to {@link net.minecraft.world.level.block.Blocks#BUDDING_AMETHYST} where the budding block produces buds and cluster blocks
+	 */
 	public static final TagKey<Block> BUDDING_BLOCKS = TagUtils.block("c:budding_blocks");
+	/**
+	 * For blocks that are similar to amethyst where they have buddings forming from budding blocks
+	 */
 	public static final TagKey<Block> BUDS = TagUtils.block("c:buds");
 	public static final TagKey<Block> CHAINS = TagUtils.block("c:chains");
 	public static final TagKey<Block> CHESTS = TagUtils.block("c:chests");
 	public static final TagKey<Block> ENDER_CHESTS = TagUtils.block("c:chests/ender");
 	public static final TagKey<Block> TRAPPED_CHESTS = TagUtils.block("c:chests/trapped");
 	public static final TagKey<Block> WOODEN_CHESTS = TagUtils.block("c:chests/wooden");
+	/**
+	 * For blocks that are similar to amethyst where they have clusters forming from budding blocks
+	 */
 	public static final TagKey<Block> CLUSTERS = TagUtils.block("c:clusters");
 	public static final TagKey<Block> COBBLESTONES = TagUtils.block("c:cobblestones");
 	public static final TagKey<Block> DEEPSLATE_COBBLESTONES = TagUtils.block("c:cobblestones/deepslate");
@@ -24,7 +33,7 @@ public class ConventionalBlockTags {
 	public static final TagKey<Block> MOSSY_COBBLESTONES = TagUtils.block("c:cobblestones/mossy");
 	public static final TagKey<Block> NORMAL_COBBLESTONES = TagUtils.block("c:cobblestones/normal");
 	/**
-	 * Contains all other dyed tags.
+	 * Tag that contains all other dye tags.
 	 */
 	public static final TagKey<Block> DYED = TagUtils.block("c:dyed");
 	public static final TagKey<Block> BLACK_DYED = TagUtils.block("c:dyed/black");

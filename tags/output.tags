@@ -5,8 +5,10 @@ TAG	minecraft:block	c:barrels/wooden
 TAG	minecraft:block	c:bookshelves
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BOOKSHELVES
 TAG	minecraft:block	c:budding_blocks
+	COMMENT	Blocks similar to {@link net.minecraft.world.level.block.Blocks#BUDDING_AMETHYST} where the budding block produces buds and cluster blocks
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BUDDING_BLOCKS
 TAG	minecraft:block	c:buds
+	COMMENT	For blocks that are similar to amethyst where they have buddings forming from budding blocks
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BUDS
 TAG	minecraft:block	c:chains
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CHAINS
@@ -19,6 +21,7 @@ TAG	minecraft:block	c:chests/trapped
 TAG	minecraft:block	c:chests/wooden
 	COMMON	dev/jab125/tags/ConventionalBlockTags	WOODEN_CHESTS
 TAG	minecraft:block	c:clusters
+	COMMENT	For blocks that are similar to amethyst where they have clusters forming from budding blocks
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CLUSTERS
 TAG	minecraft:block	c:cobblestones
 	COMMON	dev/jab125/tags/ConventionalBlockTags	COBBLESTONES
@@ -31,7 +34,7 @@ TAG	minecraft:block	c:cobblestones/mossy
 TAG	minecraft:block	c:cobblestones/normal
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NORMAL_COBBLESTONES
 TAG	minecraft:block	c:dyed
-	COMMENT	Contains all other dyed tags.
+	COMMENT	Tag that contains all other dye tags.
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DYED
 TAG	minecraft:block	c:dyed/black
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BLACK_DYED

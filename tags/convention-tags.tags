@@ -14,11 +14,13 @@ TAG	minecraft:block	c:bookshelves
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BOOKSHELVES
 	ENTRY	minecraft:bookshelf	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:budding_blocks
+	COMMENT	Blocks similar to {@link net.minecraft.world.level.block.Blocks#BUDDING_AMETHYST} where the budding block produces buds and cluster blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BUDDING_BLOCKS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BUDDING_BLOCKS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BUDDING_BLOCKS
 	ENTRY	minecraft:budding_amethyst	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:buds
+	COMMENT	For blocks that are similar to amethyst where they have buddings forming from budding blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	BUDS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	BUDS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	BUDS
@@ -53,6 +55,7 @@ TAG	minecraft:block	c:chests/wooden
 	ENTRY	minecraft:chest	false	FABRIC	NEOFORGE
 	ENTRY	minecraft:trapped_chest	false	FABRIC	NEOFORGE
 TAG	minecraft:block	c:clusters
+	COMMENT	For blocks that are similar to amethyst where they have clusters forming from budding blocks
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	CLUSTERS
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	CLUSTERS
 	COMMON	dev/jab125/tags/ConventionalBlockTags	CLUSTERS
@@ -86,7 +89,7 @@ TAG	minecraft:block	c:cobblestones/normal
 	COMMON	dev/jab125/tags/ConventionalBlockTags	NORMAL_COBBLESTONES
 	ENTRY	minecraft:cobblestone	false	NEOFORGE
 TAG	minecraft:block	c:dyed
-	COMMENT	Contains all other dyed tags.
+	COMMENT	Tag that contains all other dye tags.
 	FABRIC	net/fabricmc/fabric/api/tag/convention/v2/ConventionalBlockTags	DYED
 	NEOFORGE	net/neoforged/neoforge/common/Tags$Blocks	DYED
 	COMMON	dev/jab125/tags/ConventionalBlockTags	DYED
