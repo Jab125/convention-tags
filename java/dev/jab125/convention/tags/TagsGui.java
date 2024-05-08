@@ -77,7 +77,7 @@ public class TagsGui {
 						Tag tag = first.orElseThrow();
 						HashMap<Ecosystem, Tag.Field> newMap = new HashMap<>(tag.fields());
 						newMap.put(Ecosystem.COMMON, new Tag.Field(d.getValue().getAsJsonPrimitive("class").getAsString().replaceAll("\\.", "/"), d.getValue().getAsJsonPrimitive("field").getAsString()));
-						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().isBlank() ? new String[0] : d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), newMap));
+						tags.set(tags.indexOf(tag), new Tag(tag.registryKey(), tag.name(), d.getValue().getAsJsonPrimitive("javadoc").getAsString().isBlank() ? new String[0] : d.getValue().getAsJsonPrimitive("javadoc").getAsString().split("\n"), newMap, tag.entries()));
 					}
 				}
 				Files.writeString(Path.of("tags/convention-tags.tags"), Tag.serialize(tags));

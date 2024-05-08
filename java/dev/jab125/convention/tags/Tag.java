@@ -2,7 +2,7 @@ package dev.jab125.convention.tags;
 
 import java.util.*;
 
-public record Tag(String registryKey, String name, String[] comments, Map<Ecosystem, Field> fields) implements Comparable<Tag> {
+public record Tag(String registryKey, String name, String[] comments, Map<Ecosystem, Field> fields, Map<TagEntry, Ecosystem[]> entries) implements Comparable<Tag> {
 	public String serialise() {
 		ArrayList<String> strs = new ArrayList<>();
 		strs.add("TAG\t" + registryKey + "\t" + name);
@@ -11,6 +11,12 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 		}
 		for (Ecosystem ecosystem : Ecosystem.ECOSYSTEMS) {
 			if (notBlank(ecosystem)) strs.add("\t" + ecosystem.serializedName() + "\t" + fields.get(ecosystem));
+		}
+		ArrayList<TagEntry> tagEntries = new ArrayList<>(entries.keySet());
+		Collections.sort(tagEntries);
+		for (TagEntry entry : tagEntries) {
+			Ecosystem[] ecosystems = entries.get(entry);
+			strs.add("\tENTRY\t" + entry.id + "\t" + entry.required() + "\t" + String.join("\t", Arrays.stream(ecosystems).map(Ecosystem::serializedName).toList()));
 		}
 		return String.join("\n", strs);
 	}
@@ -67,6 +73,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 		private String registryKey;
 		private ArrayList<String> comments = new ArrayList<>();
 		private Map<Ecosystem, Field> fieldMap = new HashMap<>();
+		private Map<TagEntry, List<Ecosystem>> entries = new HashMap<>();
 
 		public TagBuilder name(String registryKey, String name) {
 			this.registryKey = registryKey;
@@ -83,8 +90,17 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 			return this;
 		}
 
+		public TagBuilder entry(Ecosystem ecosystem, String name, boolean required) {
+			entries.computeIfAbsent(new TagEntry(name, required), a -> new ArrayList<>()).add(ecosystem);
+			return this;
+		}
+
 		public Tag build() {
-			return new Tag(registryKey, name, comments.toArray(new String[0]), fieldMap);
+			Map<TagEntry, Ecosystem[]> newMap = new HashMap<>();
+			for (Map.Entry<TagEntry, List<Ecosystem>> tagEntryListEntry : entries.entrySet()) {
+				newMap.put(tagEntryListEntry.getKey(), tagEntryListEntry.getValue().toArray(new Ecosystem[0]));
+			}
+			return new Tag(registryKey, name, comments.toArray(new String[0]), fieldMap, newMap);
 		}
 
 		public String getName() {
@@ -137,6 +153,7 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 			   ", name='" + name + '\'' +
 			   ", comments=" + Arrays.toString(comments) +
 			   ", fieldMap=" + fields +
+			   ", entries=" + entries +
 			   '}';
 	}
 
@@ -168,6 +185,23 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 					if (s.startsWith("COMMENT\t")) {
 						s = s.substring(8);
 						tagBuilder.comment(s);
+					} else if (s.startsWith("ENTRY\t")) {
+						s = s.substring(6);
+						int i = s.indexOf("\t");
+						String tagName = s.substring(0, i);
+						s = s.substring(i + 1);
+						i = s.indexOf("\t");
+						boolean optional = Boolean.parseBoolean(s.substring(0, i));
+						s = s.substring(i + 1);
+						while(true) {
+							i = s.indexOf("\t");
+							int d = i;
+							if (i == -1) d = s.length();
+							String ecosystem = s.substring(0, d);
+							if (i != -1) s = s.substring(d + 1);
+							tagBuilder.entry(Arrays.stream(Ecosystem.ECOSYSTEMS).filter(a -> a.serializedName().equals(ecosystem)).findFirst().orElseThrow(), tagName, optional);
+							if (i == -1) return;
+						}
 					} else {
 						int i = s.indexOf("\t");
 						String serializedName = s.substring(0, i);
@@ -197,5 +231,18 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 
 	private static boolean notBlank(Field field) {
 		return field != null && notBlank(field.clazz) && notBlank(field.method);
+	}
+
+	public record TagEntry(String id, boolean required) implements Comparable<TagEntry> {
+		public boolean isTag() {
+			return id.startsWith("#");
+		}
+
+		@Override
+		public int compareTo(TagEntry o) {
+			String id = this.id + "/" + this.id;
+			String otherId = o.id + "/" + o.id;
+			return id.compareTo(otherId);
+		}
 	}
 }

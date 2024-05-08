@@ -1,5 +1,8 @@
 package dev.jab125.convention.tags;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.tree.AbstractInsnNode;
 import org.objectweb.asm.tree.ClassNode;
@@ -12,8 +15,9 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.*;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -30,14 +34,20 @@ public class TagGeneration {
 	private static final Path FABRIC_FILE = GENERATION.resolve("fabric.jar");
 	private static final Path NEOFORGE_DIR = GENERATION.resolve("neoforge");
 	private static final Path FABRIC_DIR = GENERATION.resolve("fabric");
+	private static final Path NEOFORGE_CLASSES_DIR = NEOFORGE_DIR.resolve("classes");
+	private static final Path FABRIC_CLASSES_DIR = FABRIC_DIR.resolve("classes");
+	private static final Path NEOFORGE_DATA_DIR = NEOFORGE_DIR.resolve("data");
+	private static final Path FABRIC_DATA_DIR = FABRIC_DIR.resolve("data");
 
 	@SuppressWarnings({"ResultOfMethodCallIgnored", "unused"})
 	public static void main(String[] args) throws IOException {
 		try (final Stopwatch total = new Stopwatch("Total")) {
 			try (final Stopwatch dirs = new Stopwatch("Create Directories")) {
 				GENERATION.toFile().mkdirs();
-				NEOFORGE_DIR.toFile().mkdirs();
-				FABRIC_DIR.toFile().mkdirs();
+				NEOFORGE_CLASSES_DIR.toFile().mkdirs();
+				FABRIC_CLASSES_DIR.toFile().mkdirs();
+				NEOFORGE_DATA_DIR.toFile().mkdirs();
+				FABRIC_DATA_DIR.toFile().mkdirs();
 			}
 			try (final Stopwatch download = new Stopwatch("Download")) {
 				downloadNeoForge();
@@ -47,9 +57,13 @@ public class TagGeneration {
 				extractNeoForge();
 				extractFabric();
 			}
-			try (final Stopwatch visit = new Stopwatch("Visit")) {
-				visitNeoForge();
-				visitFabric();
+			try (final Stopwatch visit = new Stopwatch("Visit Classes")) {
+				visitNeoForgeClasses();
+				visitFabricClasses();
+			}
+			try (final Stopwatch visit = new Stopwatch("Visit Data")) {
+				visitFabricData(); // we want Fabric first then NeoForge
+				visitNeoForgeData();
 			}
 			try (final Stopwatch generate = new Stopwatch("Generate")) {
 				List<Tag> tags = new ArrayList<>();
@@ -58,6 +72,14 @@ public class TagGeneration {
 				}
 			}
 		}
+	}
+
+	private static void visitFabricData() throws IOException {
+		Files.walkFileTree(FABRIC_DATA_DIR, new DataTagsVisitor(Ecosystem.FABRIC, FABRIC_DATA_DIR));
+	}
+
+	private static void visitNeoForgeData() throws IOException {
+		Files.walkFileTree(NEOFORGE_DATA_DIR, new DataTagsVisitor(Ecosystem.NEOFORGE, NEOFORGE_DATA_DIR));
 	}
 
 	public static void downloadNeoForge() throws IOException {
@@ -80,7 +102,12 @@ public class TagGeneration {
 				if (next.isDirectory()) continue;
 				if (next.getName().startsWith("net/neoforged/neoforge/common/Tags")) {
 					InputStream in = zf.getInputStream(zf.getEntry(next.getName()));
-					Files.write(NEOFORGE_DIR.resolve(next.getName().substring(30)), in.readAllBytes());
+					Files.write(NEOFORGE_CLASSES_DIR.resolve(next.getName().substring(30)), in.readAllBytes());
+				}
+				if (next.getName().startsWith("data/c/tags/")) {
+					InputStream in = zf.getInputStream(zf.getEntry(next.getName()));
+					NEOFORGE_DATA_DIR.resolve(next.getName().substring(12)).getParent().toFile().mkdirs();
+					Files.write(NEOFORGE_DATA_DIR.resolve(next.getName().substring(12)), in.readAllBytes());
 				}
 			}
 		}
@@ -92,15 +119,20 @@ public class TagGeneration {
 				if (next.isDirectory()) continue;
 				if (next.getName().startsWith("net/fabricmc/fabric/api/tag/convention/v2/Conventional")) {
 					InputStream in = zf.getInputStream(zf.getEntry(next.getName()));
-					Files.write(FABRIC_DIR.resolve(next.getName().substring(42)), in.readAllBytes());
+					Files.write(FABRIC_CLASSES_DIR.resolve(next.getName().substring(42)), in.readAllBytes());
+				}
+				if (next.getName().startsWith("data/c/tags/")) {
+					InputStream in = zf.getInputStream(zf.getEntry(next.getName()));
+					FABRIC_DATA_DIR.resolve(next.getName().substring(12)).getParent().toFile().mkdirs();
+					Files.write(FABRIC_DATA_DIR.resolve(next.getName().substring(12)), in.readAllBytes());
 				}
 			}
 		}
 	}
 	@SuppressWarnings("DataFlowIssue")
-	public static void visitNeoForge() throws IOException {
+	public static void visitNeoForgeClasses() throws IOException {
 		//new ClassReader()
-		for (File file : NEOFORGE_DIR.toFile().listFiles()) {
+		for (File file : NEOFORGE_CLASSES_DIR.toFile().listFiles()) {
 			if (!file.getName().endsWith(".class")) continue;
 			String type = switch (file.getName()) {
 				case "Tags$Biomes.class" -> "minecraft:worldgen/biome";
@@ -136,9 +168,9 @@ public class TagGeneration {
 	}
 
 	@SuppressWarnings("DataFlowIssue")
-	public static void visitFabric() throws IOException {
+	public static void visitFabricClasses() throws IOException {
 		//new ClassReader()
-		for (File file : FABRIC_DIR.toFile().listFiles()) {
+		for (File file : FABRIC_CLASSES_DIR.toFile().listFiles()) {
 			if (!file.getName().endsWith(".class")) continue;
 			String type = switch (file.getName()) {
 				case "ConventionalBiomeTags.class" -> "minecraft:worldgen/biome";
@@ -185,5 +217,62 @@ public class TagGeneration {
 		byte[] bytes = inputStream.readAllBytes();
 		inputStream.close();
 		return bytes;
+	}
+
+	private static class DataTagsVisitor extends SimpleFileVisitor<Path> {
+
+		private final Path dir;
+		private final Ecosystem ecosystem;
+
+		public DataTagsVisitor(Ecosystem ecosystem, Path dir) {
+			this.ecosystem = ecosystem;
+			this.dir = dir;
+		}
+		@Override
+		public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+			Path relativePath = dir.relativize(file);
+			int count = 0;
+			String type = "";
+			String tagName = "c:";
+			for (Iterator<Path> it = relativePath.iterator(); it.hasNext(); ) {
+				Path next = it.next();
+				if (count == 0) {
+					type = "minecraft:" + next.toString();
+				} else if (count == 1 && type.equals("minecraft:worldgen")) {
+					type += "/" + next.toString();
+				} else {
+					tagName += next.toString() + "/";
+				}
+				count++;
+			}
+			type = fix(type);
+			tagName = tagName.substring(0, tagName.length() - 6);
+			JsonObject object = new Gson().fromJson(Files.readString(file, StandardCharsets.UTF_8), JsonObject.class);
+			for (JsonElement value : object.getAsJsonArray("values")) {
+				if (value.isJsonPrimitive()) {
+					getOrCreate(type, tagName).entry(ecosystem, value.getAsString(), false);
+				} else if (value.isJsonObject()) {
+					String name = value.getAsJsonObject().getAsJsonPrimitive("id").getAsString();
+					boolean required = value.getAsJsonObject().getAsJsonPrimitive("required") != null && value.getAsJsonObject().getAsJsonPrimitive("required").getAsBoolean();
+					if (!required) {
+						if (name.startsWith("#")) name = name.substring(1);
+						if (name.startsWith("c:") || name.startsWith("forge:")) continue; // these are probably legacy tags
+					}
+					getOrCreate(type, tagName).entry(ecosystem, name, required);
+				} else {
+					throw new RuntimeException();
+				}
+			}
+			return super.visitFile(file, attrs);
+		}
+
+		private String fix(String type) {
+			if (type.equals("minecraft:blocks")) return "minecraft:block";
+			if (type.equals("minecraft:fluids")) return "minecraft:fluid";
+			if (type.equals("minecraft:items")) return "minecraft:item";
+			if (type.equals("minecraft:entity_types")) return "minecraft:entity_type";
+			if (type.equals("minecraft:game_events")) return "minecraft:game_event";
+			return type;
+		}
 	}
 }

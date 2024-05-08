@@ -30,6 +30,11 @@ public class TagMerger {
 			}
 
 			if (nyu.isPresent()) {
+				nyu.get().entries().forEach((a,b) -> {
+					for (Ecosystem ecosystem : b) {
+						tagBuilder.entry(ecosystem, a.id(), a.required());
+					}
+				});
 				tagBuilder.name(mergedTag.split("\\|")[0], mergedTag.split("\\|")[1]);
 				if (old.isPresent()) {
 					Tag tag = old.get();
