@@ -27,6 +27,7 @@ public class TagsGui {
 		server.start();
 		String indexTemplate = new String(TagsGui.class.getResourceAsStream("/index-template.html").readAllBytes());
 		String tagTemplate = new String(TagsGui.class.getResourceAsStream("/tag-template.html").readAllBytes());
+		String entryTemplate = new String(TagsGui.class.getResourceAsStream("/entry-template.html").readAllBytes());
 		String loaderTemplate = new String(TagsGui.class.getResourceAsStream("/loader-template.html").readAllBytes());
 		String conventionTemplate = new String(TagsGui.class.getResourceAsStream("/convention-template.html").readAllBytes());
 		String script = new String(TagsGui.class.getResourceAsStream("/index.js").readAllBytes());
@@ -89,7 +90,7 @@ public class TagsGui {
 		server.createContext("/", exchange -> {
 			String string = null;
 			try {
-				string = indexHtml(tags, indexTemplate, tagTemplate, loaderTemplate, conventionTemplate);
+				string = indexHtml(tags, indexTemplate, tagTemplate, entryTemplate, loaderTemplate, conventionTemplate);
 			} catch (Exception e) {
 				e.printStackTrace();
 				string = "<h1>Internal Server Error</h1>";
@@ -110,7 +111,7 @@ public class TagsGui {
 		System.out.println("Server started at http://localhost:1291");
 	}
 
-	private static String indexHtml(List<Tag> deserialize, String indexTemplate, String tagTemplate, String loaderTemplate, String conventionTemplate) {
+	private static String indexHtml(List<Tag> deserialize, String indexTemplate, String tagTemplate, String entryTemplate, String loaderTemplate, String conventionTemplate) {
 		String[] conventionClasses = new String[]{
 				"dev.jab125.tags.ConventionalBiomeTags",
 				"dev.jab125.tags.ConventionalBlockTags",
@@ -148,10 +149,17 @@ public class TagsGui {
 				selectOptions += "<option disabled hidden selected></option>";
 			}
 			g += conventionTemplate.formatted(selectOptions, cMethod);
+			String h = "";
+			for (Map.Entry<Tag.TagEntry, Ecosystem[]> tagEntryEntry : tag.entries().entrySet()) {
+				String key = tagEntryEntry.getKey().id();
+				String loaders = String.join("", Arrays.stream(tagEntryEntry.getValue()).map(ecosystem -> "<td>" + ecosystem.name() + "</td>").toList());
+				h += entryTemplate.formatted(key, loaders);
+			}
 			f += tagTemplate.formatted(
 					(tag.registryKey() + "-" + tag.name()).replaceAll("/", "-").replaceAll(":", "-"),
 					tag.name(), tag.registryKey(),
 					tag.registryKey() + ": " + tag.name(),
+					h,
 					g,
 					String.join("\n", tag.comments())
 			);
