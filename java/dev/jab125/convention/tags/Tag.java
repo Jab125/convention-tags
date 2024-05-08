@@ -9,9 +9,9 @@ public record Tag(String registryKey, String name, String[] comments, Map<Ecosys
 		for (String comment : comments) {
 			strs.add("\tCOMMENT\t" + comment);
 		}
-		fields.forEach((a, b) -> {
-			if (notBlank(b)) strs.add("\t" + a.serializedName() + "\t" + b);
-		});
+		for (Ecosystem ecosystem : Ecosystem.ECOSYSTEMS) {
+			if (notBlank(ecosystem)) strs.add("\t" + ecosystem.serializedName() + "\t" + fields.get(ecosystem));
+		}
 		return String.join("\n", strs);
 	}
 
