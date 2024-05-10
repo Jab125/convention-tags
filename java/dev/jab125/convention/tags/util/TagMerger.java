@@ -6,7 +6,7 @@ import dev.jab125.convention.tags.Tag;
 import java.util.*;
 
 public class TagMerger {
-	public static List<Tag> merge(Collection<Tag> newList, Collection<Tag> oldList) {
+	public static List<Tag> merge(Collection<Tag> newList, Collection<Tag> oldList, boolean dropOrphans) {
 		List<Tag.TagBuilder> combinedTagBuilders = new ArrayList<>();
 		List<String> newTags = newList.stream().map(a -> a.registryKey() + "|" + a.name()).toList();
 		List<String> oldTags = oldList.stream().map(a -> a.registryKey() + "|" + a.name()).toList();
@@ -16,7 +16,7 @@ public class TagMerger {
 		for (String mergedTag : mergedTags) {
 			Optional<Tag> old = oldList.stream().filter(tag -> tag.getRegistryAndName().equals(mergedTag)).findFirst();
 			Optional<Tag> nyu = newList.stream().filter(tag -> tag.getRegistryAndName().equals(mergedTag)).findFirst();
-			Tag.TagBuilder tagBuilder = nyu.isPresent() ? new Tag.TagBuilder() : null;
+			Tag.TagBuilder tagBuilder = !dropOrphans || nyu.isPresent() ? new Tag.TagBuilder() : null;
 			for (Ecosystem ecosystem : Ecosystem.ECOSYSTEMS_NO_COMMON) {
 				Tag.Field oldField = old.map(a -> a.fields().get(ecosystem)).orElse(null);
 				Tag.Field newField = nyu.map(a -> a.fields().get(ecosystem)).orElse(null);
@@ -29,12 +29,12 @@ public class TagMerger {
 				}
 			}
 
-			if (nyu.isPresent()) {
-				nyu.get().entries().forEach((a,b) -> {
+			if (!dropOrphans || nyu.isPresent()) {
+				nyu.ifPresent(tag -> tag.entries().forEach((a, b) -> {
 					for (Ecosystem ecosystem : b) {
 						tagBuilder.entry(ecosystem, a.id(), a.required());
 					}
-				});
+				}));
 				tagBuilder.name(mergedTag.split("\\|")[0], mergedTag.split("\\|")[1]);
 				if (old.isPresent()) {
 					Tag tag = old.get();

@@ -21,7 +21,7 @@ public class TagsGui {
 		//cGen();
 		String s = Files.readString(Path.of("tags/convention-tags.tags"));
 		TagsGui.tags = Tag.deserialize(s);
-		//TagGeneration.main(args);tags = TagMerger.merge(TagGeneration.mutableTags.stream().map(a -> a.build()).toList(), tags);
+		//TagGeneration.main(args);tags = TagMerger.merge(TagGeneration.mutableTags.stream().map(a -> a.build()).toList(), tags, true);
 		HttpServer server = HttpServer.create();
 		server.bind(new InetSocketAddress(1291), 0);
 		server.start();
