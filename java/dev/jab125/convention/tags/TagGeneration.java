@@ -26,6 +26,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 public class TagGeneration {
+	public static final boolean legacyNames = true; // Set to false in 24w19a+
 	public static final String FABRIC_CONVENTION_TAGS_VERSION = "2.0.0+2b43c5c8ff";
 	public static final String NEOFORGE_VERSION = "20.6.48-beta";
 	public static final Path GENERATION = Path.of("generation");
@@ -267,6 +268,7 @@ public class TagGeneration {
 		}
 
 		private String fix(String type) {
+			if (!legacyNames) return type;
 			if (type.equals("minecraft:blocks")) return "minecraft:block";
 			if (type.equals("minecraft:fluids")) return "minecraft:fluid";
 			if (type.equals("minecraft:items")) return "minecraft:item";
