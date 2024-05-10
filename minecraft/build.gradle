@@ -16,7 +16,7 @@ version  = rootProject.version
 
 Setup.setup();
 minecraft {
-    version("1.20.6")
+    version("24w19a")
     platform(org.spongepowered.gradle.vanilla.repository.MinecraftPlatform.JOINED)
     runs {
         server()

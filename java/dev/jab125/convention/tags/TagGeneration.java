@@ -27,8 +27,8 @@ import java.util.zip.ZipFile;
 
 public class TagGeneration {
 	public static final boolean legacyNames = true; // Set to false in 24w19a+
-	public static final String FABRIC_CONVENTION_TAGS_VERSION = "2.0.0+2b43c5c8ff";
-	public static final String NEOFORGE_VERSION = "20.6.48-beta";
+	public static final String FABRIC_CONVENTION_TAGS_VERSION = "2.1.0+619abec268";
+	public static final String NEOFORGE_VERSION = null;
 	public static final Path GENERATION = Path.of("generation");
 	public static final List<Tag.TagBuilder> mutableTags = new ArrayList<>();
 	private static final Path NEOFORGE_FILE = GENERATION.resolve("neoforge.jar");
