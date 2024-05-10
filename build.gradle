@@ -8,7 +8,7 @@ allprojects {
 }
 
 group 'dev.jab125'
-version "${properties.version}+${properties.minecraftVersion}"
+version "${properties.version}+${properties.minecraftSuffix}"
 
 repositories {
     mavenCentral()
