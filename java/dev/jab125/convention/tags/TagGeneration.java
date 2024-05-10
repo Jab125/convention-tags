@@ -51,20 +51,20 @@ public class TagGeneration {
 				FABRIC_DATA_DIR.toFile().mkdirs();
 			}
 			try (final Stopwatch download = new Stopwatch("Download")) {
-				downloadNeoForge();
-				downloadFabric();
+				if (NEOFORGE_VERSION != null) downloadNeoForge();
+				if (FABRIC_CONVENTION_TAGS_VERSION != null) downloadFabric();
 			}
 			try (final Stopwatch extract = new Stopwatch("ZIP Extract")) {
-				extractNeoForge();
-				extractFabric();
+				if (NEOFORGE_VERSION != null) extractNeoForge();
+				if (FABRIC_CONVENTION_TAGS_VERSION != null) extractFabric();
 			}
 			try (final Stopwatch visit = new Stopwatch("Visit Classes")) {
-				visitNeoForgeClasses();
-				visitFabricClasses();
+				if (NEOFORGE_VERSION != null) visitNeoForgeClasses();
+				if (FABRIC_CONVENTION_TAGS_VERSION != null) visitFabricClasses();
 			}
 			try (final Stopwatch visit = new Stopwatch("Visit Data")) {
-				visitFabricData(); // we want Fabric first then NeoForge
-				visitNeoForgeData();
+				if (FABRIC_CONVENTION_TAGS_VERSION != null) visitFabricData(); // we want Fabric first then NeoForge
+				if (NEOFORGE_VERSION != null) visitNeoForgeData();
 			}
 			try (final Stopwatch generate = new Stopwatch("Generate")) {
 				List<Tag> tags = new ArrayList<>();
